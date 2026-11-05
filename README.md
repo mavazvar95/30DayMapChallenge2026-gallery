@@ -12,6 +12,8 @@ Ventanas exploratorias de Barcelona; no describen barrios completos ni acceso p�
 ## Día 01 · Points
 
 - [Barcelona, árbol a árbol · imagen para LinkedIn](day-01-points/barcelona-arboles-linkedin-night.jpg), 3200 × 3600 px, menos de 5 MB.
+- [Lámina en papel · JPG para LinkedIn](day-01-points/barcelona-arboles-linkedin-paper.jpg).
+- [Lámina nocturna · PDF vectorial de 32,8 MB](day-01-points/barcelona-arboles-detalle-night.pdf), para consultar y ampliar.
 
 Fuentes: Ajuntament de Barcelona, ICGC y OpenStreetMap; atribuciones completas en la lámina. Variante pública sin el inventario municipal restringido de L’Hospitalet.
 
