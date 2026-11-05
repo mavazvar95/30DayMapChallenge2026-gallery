@@ -4,8 +4,8 @@ Autor: Miguel Ángel Vázquez Varela.
 
 ## Día 03 · Polygons
 
-- [Atlas interactivo](index.html): geometrías y datos incluidos, sin servicios externos.
-- [Demostración del HTML · MP4 de 50 segundos](atlas-demo.mp4).
+- [Abrir atlas interactivo](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/): geometrías y datos incluidos, sin servicios externos.
+- [Demostración del HTML · MP4 de 50 segundos](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/atlas-demo.mp4).
 - [Captura 1 · comparación](day-03-polygons/01-comparacion.png).
 - [Captura 2 · selección y zoom](day-03-polygons/02-seleccion-y-zoom.png).
 
@@ -25,4 +25,4 @@ Análisis y cartografía realizados con Python/GIS y asistencia de IA. Solo se i
 
 ## Hosting
 
-Activar Settings → Pages → Deploy from a branch → main → /(root). Esta galería es una publicación estática de los archivos, no una cesión de derechos sobre las fuentes ni una licencia única para todos los contenidos.
+Publicado en https://mavazvar95.github.io/30DayMapChallenge2026-gallery/ mediante GitHub Pages, desde main y /(root). Esta galería es una publicación estática de los archivos, no una cesión de derechos sobre las fuentes ni una licencia única para todos los contenidos.
