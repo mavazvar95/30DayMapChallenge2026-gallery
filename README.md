@@ -6,6 +6,8 @@ Autor: Miguel Ángel Vázquez Varela.
 
 - [Atlas interactivo](index.html): geometrías y datos incluidos, sin servicios externos.
 - [Demostración del HTML · MP4 de 50 segundos](atlas-demo.mp4).
+- [Captura 1 · comparación](day-03-polygons/01-comparacion.png).
+- [Captura 2 · selección y zoom](day-03-polygons/02-seleccion-y-zoom.png).
 
 Ventanas exploratorias de Barcelona; no describen barrios completos ni acceso público. Fuentes: Ajuntament de Barcelona (CartoBCN, 31/10/2026) y Dirección General del Catastro (21/08/2026). La condición específica municipal sigue documentada como pendiente en el proyecto de trabajo; alojar los archivos no constituye una validación de licencias.
 
