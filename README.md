@@ -19,7 +19,7 @@ Ventanas exploratorias de Barcelona; no describen barrios completos ni acceso p�
 
 Fuentes: Ajuntament de Barcelona, ICGC y OpenStreetMap; atribuciones completas en la lámina. Variante pública sin el inventario municipal restringido de L’Hospitalet.
 
-## Día 04 · Clusters
+## Día 04 · Clusters — Los archipiélagos de la recarga
 
 - [Abrir el explorador de recarga eléctrica](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-04-clusters/).
 - [Lámina para LinkedIn](day-04-clusters/04-clusters-linkedin.jpg), 3200 × 4000 px, menos de 5 MB.
