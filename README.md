@@ -19,9 +19,20 @@ Ventanas exploratorias de Barcelona; no describen barrios completos ni acceso p�
 
 Fuentes: Ajuntament de Barcelona, ICGC y OpenStreetMap; atribuciones completas en la lámina. Variante pública sin el inventario municipal restringido de L’Hospitalet.
 
+## Día 04 · Clusters
+
+- [Abrir el explorador de recarga eléctrica](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-04-clusters/).
+- [Lámina para LinkedIn](day-04-clusters/04-clusters-linkedin.jpg), 3200 × 4000 px, menos de 5 MB.
+- [Demostración del HTML · MP4](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-04-clusters/04-clusters-demo.mp4).
+- [PDF vectorial](day-04-clusters/04-clusters.pdf).
+
+Captura del 04/11/2026: polos completos fijos al filtrar ≥150 kW. Madrid y entorno: 139 de 1.314; Barcelona y entorno: 63 de 1.235. Se compara potencia nominal declarada, no demanda ni disponibilidad real.
+
+Fuentes: MITECO · Geoportal; HERMES · Ministerio de Transportes; IGN/SCNE; GISCO 2024 / © EuroGeographics (uso no comercial). No se atribuye licencia única al conjunto. El servicio HERMES no declara una licencia específica en su campo de derechos; se conserva esa incertidumbre en la documentación de trabajo.
+
 ## Procedencia
 
-Análisis y cartografía realizados con Python/GIS y asistencia de IA. Solo se incluyen los productos de publicación: no hay datasets originales, entornos virtuales ni historial del repositorio de trabajo TEST.
+Análisis y cartografía realizados con Python/GIS. Solo se incluyen los productos de publicación: no hay datasets originales, entornos virtuales ni historial del repositorio de trabajo TEST.
 
 ## Hosting
 
