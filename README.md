@@ -26,7 +26,7 @@ Fuentes: Ajuntament de Barcelona, ICGC y OpenStreetMap; atribuciones completas e
 - [Demostración del HTML · MP4](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-04-clusters/04-clusters-demo.mp4).
 - [PDF vectorial](day-04-clusters/04-clusters.pdf).
 
-Captura del 04/11/2026: polos completos fijos al filtrar ≥150 kW. Madrid y entorno: 139 de 1.314; Barcelona y entorno: 63 de 1.235. Se compara potencia nominal declarada, no demanda ni disponibilidad real.
+¿La alta potencia se concentra en los mismos polos que toda la recarga? Los diez mayores polos por número total de instalaciones reúnen el 38,5 % del inventario nacional, pero el 31,6 % de aquellas con algún conector ≥150 kW. El 68,4 % de estas últimas queda en polos menores o sin agrupación: los grandes núcleos no resumen esa oferta. Madrid y Barcelona son ejemplos de composición. Captura del 04/11/2026, grupos fijos al filtrar; no se mide accesibilidad, uso ni causas de adopción.
 
 Fuentes: MITECO · Geoportal; HERMES · Ministerio de Transportes; IGN/SCNE; GISCO 2024 / © EuroGeographics (uso no comercial). No se atribuye licencia única al conjunto. El servicio HERMES no declara una licencia específica en su campo de derechos; se conserva esa incertidumbre en la documentación de trabajo.
 
