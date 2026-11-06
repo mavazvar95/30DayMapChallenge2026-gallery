@@ -21,14 +21,24 @@ Fuentes: Ajuntament de Barcelona, ICGC y OpenStreetMap; atribuciones completas e
 
 ## Día 04 · Clusters — Los archipiélagos de la recarga
 
-- [Abrir el explorador de recarga eléctrica](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-04-clusters/).
-- [Lámina para LinkedIn](day-04-clusters/04-clusters-linkedin.jpg), 3200 × 4000 px, menos de 5 MB.
-- [Demostración del HTML · MP4](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-04-clusters/04-clusters-demo.mp4).
+- [Explorar autonomía, potencia y etapas por carretera](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-04-clusters/).
+- [Lámina para LinkedIn](day-04-clusters/04-clusters-linkedin.jpg), 3200 × 4000 px.
+- [Demostración real del HTML · MP4](day-04-clusters/04-clusters-demo.mp4), 33 segundos.
 - [PDF vectorial](day-04-clusters/04-clusters.pdf).
+- [Resultados CSV](day-04-clusters/results.csv) y [datos del modelo](day-04-clusters/analysis.json).
+- [Metodología](day-04-clusters/methodology.md) e [inventario descriptivo anterior](day-04-clusters/inventory.html).
 
-¿La alta potencia se concentra en los mismos polos que toda la recarga? Los diez mayores polos por número total de instalaciones reúnen el 38,5 % del inventario nacional, pero el 31,6 % de aquellas con algún conector ≥150 kW. El 68,4 % de estas últimas queda en polos menores o sin agrupación: los grandes núcleos no resumen esa oferta. Madrid y Barcelona son ejemplos de composición. Captura del 04/11/2026, grupos fijos al filtrar; no se mide accesibilidad, uso ni causas de adopción.
+Estudios de A Coruña–Almería, Barcelona–Cádiz y Bilbao–València. Con 150 km útiles,
+se encuentran cadenas ≥50 kW en los tres casos y ≥150 kW en dos. Se comprueban
+etapas dirigidas por carretera, hasta un 15 % de distancia adicional y alternativas.
+La autonomía ya descuenta reserva; no se certifican acceso, operatividad u ocupación
+ni se estiman tiempos de carga. Una cadena no encontrada no prueba ausencia de recarga.
 
-Fuentes: MITECO · Geoportal; HERMES · Ministerio de Transportes; IGN/SCNE; GISCO 2024 / © EuroGeographics (uso no comercial). No se atribuye licencia única al conjunto. El servicio HERMES no declara una licencia específica en su campo de derechos; se conserva esa incertidumbre en la documentación de trabajo.
+Fuentes: MITECO (consulta 04/11/2026); OSRM / © OpenStreetMap contributors (ODbL,
+datos derivados de enrutamiento); HERMES / Ministerio de Transportes (contexto
+oficial tipificado); GISCO 2024 / © EuroGeographics (uso no comercial). No se
+asigna una licencia única a todas las fuentes. HERMES no confirma licencia
+específica en sus metadatos; se conserva esa incertidumbre en la documentación.
 
 ## Procedencia
 
