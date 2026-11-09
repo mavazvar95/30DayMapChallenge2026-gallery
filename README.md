@@ -19,20 +19,28 @@ Ventanas exploratorias de Barcelona; no describen barrios completos ni acceso p�
 
 Fuentes: Ajuntament de Barcelona, ICGC y OpenStreetMap; atribuciones completas en la lámina. Variante pública sin el inventario municipal restringido de L’Hospitalet.
 
-## Día 04 · Clusters — Los archipiélagos de la recarga
+## Día 04 · Clusters — Los núcleos de la recarga
 
-- [Explorar autonomía, potencia y etapas por carretera](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-04-clusters/).
+- [Explorar el atlas nacional](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-04-clusters/).
 - [Lámina para LinkedIn](day-04-clusters/04-clusters-linkedin.jpg), 3200 × 4000 px.
-- [Demostración real del HTML · MP4](day-04-clusters/04-clusters-demo.mp4), 33 segundos.
-- [PDF vectorial](day-04-clusters/04-clusters.pdf).
-- [Resultados CSV](day-04-clusters/results.csv) y [datos del modelo](day-04-clusters/analysis.json).
-- [Metodología](day-04-clusters/methodology.md) e [inventario descriptivo anterior](day-04-clusters/inventory.html).
+- [Demostración real del HTML · MP4](day-04-clusters/04-clusters-demo.mp4), 30 segundos.
+- [PDF vectorial](day-04-clusters/04-clusters.pdf) y [texto del post](day-04-clusters/post-linkedin.md).
+- [Agrupaciones CSV](day-04-clusters/groups.csv), [paradas del ejemplo](day-04-clusters/journey-stops.csv)
+  y [datos del atlas](day-04-clusters/analysis.json).
+- [Método y límites](day-04-clusters/methodology.md).
+- Antecedentes: [modelo vial de tres corredores](day-04-clusters/journeys/)
+  e [inventario descriptivo](day-04-clusters/inventory.html).
 
-Estudios de A Coruña–Almería, Barcelona–Cádiz y Bilbao–València. Con 150 km útiles,
-se encuentran cadenas ≥50 kW en los tres casos y ≥150 kW en dos. Se comprueban
-etapas dirigidas por carretera, hasta un 15 % de distancia adicional y alternativas.
-La autonomía ya descuenta reserva; no se certifican acceso, operatividad u ocupación
-ni se estiman tiempos de carga. Una cadena no encontrada no prueba ausencia de recarga.
+De 1.091 instalaciones ≥150 kW de la captura, 553 forman 48 agrupaciones por
+proximidad y 538 quedan fuera. Las cuatro paradas de una cadena A Coruña–Almería
+con 250 km útiles están fuera de esas agrupaciones. **Concentración local y
+continuidad de un viaje miden cosas distintas.** El interactivo permite explorar
+los grupos y cambiar el escenario vial sin redefinir la clasificación geográfica.
+
+Es una cadena teórica dentro de los candidatos del modelo, no la única posible.
+No se certifican acceso, operatividad, ocupación ni tiempos de carga. Una cadena
+no encontrada no prueba ausencia de recarga. No se acredita cobertura nacional
+ni se explica la adopción del vehículo eléctrico.
 
 Fuentes: MITECO (consulta 04/11/2026); OSRM / © OpenStreetMap contributors (ODbL,
 datos derivados de enrutamiento); HERMES / Ministerio de Transportes (contexto
