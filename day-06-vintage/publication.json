@@ -13,6 +13,11 @@
       "sha256": "fa916a3ebe7ed4f4bde47faa4f73c13334ea838c6eb59d235bf2670042e833eb"
     },
     {
+      "path": "06-vintage-linkedin-pack.zip",
+      "bytes": 5207502,
+      "sha256": "215e6f6cacc458bd2c97a4150b46caa7cb50b5b0667b34d6d0a620879d4fc814"
+    },
+    {
       "path": "06-vintage-linkedin.jpg",
       "bytes": 3297918,
       "sha256": "1ccda303cbbd84a68938d9372322d4d85857c27571f97023049dc6446da64380"
@@ -21,6 +26,11 @@
       "path": "06-vintage-preview.png",
       "bytes": 1280587,
       "sha256": "d4c11711408f565b01e635bbe7047327512fdae34b60e2f98be1dcc2d1b3a72b"
+    },
+    {
+      "path": "README-publicacion.md",
+      "bytes": 3280,
+      "sha256": "b70b452fedd5bb1cdbb9c21abdaa97cf089f48bbc8c2097591ac78c583617960"
     },
     {
       "path": "assets/atlas.json",
@@ -108,6 +118,11 @@
       "sha256": "6a372680a6b4d08445a817fc248b1c59ec744e480604cef1dbdd0a8fc4fc6a76"
     },
     {
+      "path": "comentario-linkedin.md",
+      "bytes": 416,
+      "sha256": "c736dc3fa663804d1c1f0b45ee9255d9300af2e01786231eca68eba67679c7f5"
+    },
+    {
       "path": "fonts/LibreCaslonDisplay-OFL.txt",
       "bytes": 4402,
       "sha256": "78c9f56e0d8a7ad7b9d26842a8eae728337a8671d8ddc6e889fa10645935dc7b"
@@ -156,6 +171,12 @@
       "path": "methodology.md",
       "bytes": 11397,
       "sha256": "63493dc9c92fe0405b3ecdaa96b0da4d7bd00816ab4d31591616df67df2c3093"
+    },
+    {
+      "path": "post-linkedin.md",
+      "bytes": 1409,
+      "sha256": "35336aa6643e14913fdff91d14a0f1d86b32a561c0295bc863911490a460b294"
     }
-  ]
+  ],
+  "publication_text_source_commit": "be118eafa29c965d5e61f9605cb5a43c1f8ac573"
 }

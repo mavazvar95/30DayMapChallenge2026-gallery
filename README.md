@@ -74,6 +74,9 @@ conservadas en la aplicación y sus archivos.
 
 ## Día 06 · Vintage — La Coruña: una ciudad sobre otra
 
+- [Paquete para LinkedIn · ZIP](day-06-vintage/06-vintage-linkedin-pack.zip): vídeo, JPG, texto y notas.
+- [Texto del post](day-06-vintage/post-linkedin.md) y [qué adjuntar](day-06-vintage/README-publicacion.md).
+
 - [Abrir la cronología interactiva](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-06-vintage/).
 - [Ver la lámina](day-06-vintage/06-vintage-preview.png).
 - [Imagen para LinkedIn](day-06-vintage/06-vintage-linkedin.jpg), 3200 × 4000 px.
