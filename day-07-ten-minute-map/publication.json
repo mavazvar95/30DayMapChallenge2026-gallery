@@ -1,0 +1,48 @@
+{
+  "title": "España entre raíles",
+  "source_commit": "0d04baee751dfbae8ccede2a0c3164303a5fc562",
+  "timed_export_seconds": 570.162158,
+  "timed_visual_review_seconds": 575,
+  "corrected_after_deadline": true,
+  "ten_minute_claim_for_this_revision": false,
+  "source": "IGN IGR-RT raster export; Natural Earth context",
+  "crs": "EPSG:25830",
+  "files": [
+    {
+      "path": "methodology.md",
+      "sha256": "8f6b3162eda121564919e8a706f7dda219ab740a4272394abfe88425da4e6f4c"
+    },
+    {
+      "path": "07-rail-gauges-linkedin.jpg",
+      "sha256": "1d19f4180a5f863882332baf6b370d566fd345002ded250d6c49c94a4ea8823a"
+    },
+    {
+      "path": "07-rail-gauges-corrected.svg",
+      "sha256": "42d68b3135e728b011459a56203433323d7371afc858e4331ab41d6d66fbf75c"
+    },
+    {
+      "path": "07-rail-gauges-preview.png",
+      "sha256": "fe5aaee727cfe54f446615a7efd2cc6b28c093a5af9b480e2aeb4c86f9224e1f"
+    },
+    {
+      "path": "index.html",
+      "sha256": "51b27133bc39fd2a423b151541524a9d5ccea40abad049f68be067917f1105f1"
+    },
+    {
+      "path": "licenses/UnifrakturMaguntia-OFL.txt",
+      "sha256": "1e5de646779ca42d5566b691c24e9ccb5690f01e5f4ceb575e585d709aeb3178"
+    },
+    {
+      "path": "licenses/LibreCaslonDisplay-OFL.txt",
+      "sha256": "78c9f56e0d8a7ad7b9d26842a8eae728337a8671d8ddc6e889fa10645935dc7b"
+    },
+    {
+      "path": "licenses/LibreCaslonText-OFL.txt",
+      "sha256": "92483eac22aa610aeb83ee246c22a1040f8ce4bdd7e68273fd89a2b06ba04338"
+    },
+    {
+      "path": "licenses/Manrope-OFL.txt",
+      "sha256": "d6a309fcfb963d329a93baf9df66fa5f3c23a4be2b5f67edf24d6cafecde12ac"
+    }
+  ]
+}

@@ -98,6 +98,20 @@ Service, CC BY 4.0. Historia: Concello, Instituto José Cornide, BOE, Adif,
 CSIC, CIAG / USC e investigación y prensa local enlazadas en cada ficha.
 Tipografías locales con sus licencias SIL OFL. No requiere cuenta ni claves.
 
+## Día 07 · 10 minute map — España entre raíles
+
+- [Ver la lámina ilustrada](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-07-ten-minute-map/).
+- [JPG de 3200 × 4000 px](day-07-ten-minute-map/07-rail-gauges-linkedin.jpg).
+- [Proceso, fuentes y registro temporal](day-07-ten-minute-map/methodology.md).
+
+Red peninsular de trenes declarados en servicio, coloreada por ancho de vía,
+con leyenda ilustrada de raíles y traviesas. Fuente: render oficial IGN IGR-RT,
+CC BY 4.0; contexto Natural Earth, dominio público. La edición aquí mostrada
+corrige el encuadre después del intento cronometrado. El intento original se
+exportó en 9 min 30 s y se conserva sin alteraciones; **la revisión corregida
+no se presenta como realizada en diez minutos**. Sin modelo de frecuencias,
+transbordos o compatibilidad de vehículos.
+
 ## Procedencia
 
 Análisis y cartografía realizados con Python/GIS. Solo se incluyen los productos de publicación: no hay datasets originales, entornos virtuales ni historial del repositorio de trabajo TEST.
