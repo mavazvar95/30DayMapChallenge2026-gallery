@@ -1,0 +1,45 @@
+{
+  "source_commit": "f1e29f15e90cb17c2b2d3702a52ccb0efb527951",
+  "days": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "already_posted_days_reported_by_author": [
+    1,
+    2,
+    3
+  ],
+  "maps_and_media_unchanged": true,
+  "files": [
+    {
+      "path": "04-clusters.md",
+      "sha256": "55796df973b70751b9df86590dd99f31b6be2baf15a9ec7ad2e105b63594ad89"
+    },
+    {
+      "path": "05-sight.md",
+      "sha256": "301d3bfca65b94dde9419cb022a25b41dcb2d69095f6e0ae3ee4ab781a7dc13c"
+    },
+    {
+      "path": "06-vintage.md",
+      "sha256": "652955beb9e0b02b895f72070d536b07df1959be5bc1b515f83bec2c2d817330"
+    },
+    {
+      "path": "07-rail-gauges.md",
+      "sha256": "c4a1906c17ba3833b2e6de1d3798f3b8c16f6f456c04fb7ec993cef1e84c12a7"
+    },
+    {
+      "path": "README.md",
+      "sha256": "8ce614dff1a7ec52d5ec178b67a2f5b7808cb0bd633f605b0d06ef8232b396c0"
+    },
+    {
+      "path": "index.html",
+      "sha256": "131724f993869f477a16d5bed2e0f39b8dcd55c99fb0259832645c691bae3f88"
+    },
+    {
+      "path": "textos-linkedin-04-07.zip",
+      "sha256": "21a7d3c7da08ae4941b3784e1a960ab176291f9fe18552140c3da46229efa9a3"
+    }
+  ]
+}
