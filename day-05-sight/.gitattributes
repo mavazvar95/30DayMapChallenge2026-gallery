@@ -1,0 +1,3 @@
+# Preserve upstream libraries and licence text byte for byte.
+vendor/* -whitespace
+fonts/*-OFL.txt -text -whitespace

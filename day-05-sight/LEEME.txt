@@ -1,0 +1,11 @@
+A Coruña: la ciudad corta la luz
+
+Extrae el ZIP y sirve esta carpeta por HTTP(S), por ejemplo:
+python -m http.server 8000
+Abre http://localhost:8000/ en un navegador actual con WebGL.
+Abrir index.html directamente con file:// no carga los módulos.
+
+También puede alojarse en GitHub Pages u otro hosting estático.
+Datos, motor y tipografías incluidos; no requiere cuenta ni API.
+Fuentes, fechas y limitaciones: methodology.md y diálogo de la aplicación.
+Conservar las atribuciones y las licencias de vendor/ y fonts/.

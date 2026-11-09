@@ -48,6 +48,27 @@ oficial tipificado); GISCO 2024 / © EuroGeographics (uso no comercial). No se
 asigna una licencia única a todas las fuentes. HERMES no confirma licencia
 específica en sus metadatos; se conserva esa incertidumbre en la documentación.
 
+## Día 05 · Senses: Sight — A Coruña: la ciudad corta la luz
+
+- [Abrir la experiencia 3D](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-05-sight/).
+- [Descargar la aplicación completa · ZIP](day-05-sight/05-sight-coruna.zip).
+- [Vista de la maqueta](day-05-sight/01-maqueta-territorial.png),
+  [al pie de la Torre](day-05-sight/02-al-pie-de-la-torre.png)
+  y [comparación simultánea](day-05-sight/03-comparar-miradas.png).
+- [Fuentes, método y límites](day-05-sight/methodology.md).
+
+Relieve IGN/PNOA-LiDAR y huellas de Catastro, sin exageración vertical.
+Dos posiciones terrestres para explorar qué cambia al mover la mirada y qué
+cambia al mover el sol. Incluye controles de fecha, hora, giro, comparación,
+animación del día y sombras. Los datos, el motor y las tipografías están incluidos;
+no se necesita cuenta. Requiere un navegador actual con WebGL.
+
+Catastro: edición 21/08/2026. IGN: primera cobertura PNOA-LiDAR (2008–2015),
+consulta 04/11/2026. Cubiertas simplificadas y polígonos sin altura suficiente
+señalados como tales. No es una certificación de soleamiento o visibilidad actual.
+Atribuciones de Catastro e IGN y licencias de Three.js, SunCalc y tipografías
+conservadas en la aplicación y sus archivos.
+
 ## Procedencia
 
 Análisis y cartografía realizados con Python/GIS. Solo se incluyen los productos de publicación: no hay datasets originales, entornos virtuales ni historial del repositorio de trabajo TEST.
