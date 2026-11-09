@@ -51,6 +51,9 @@ específica en sus metadatos; se conserva esa incertidumbre en la documentación
 ## Día 05 · Senses: Sight — A Coruña: la ciudad corta la luz
 
 - [Abrir la experiencia 3D](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-05-sight/).
+- [Vídeo de demostración · MP4 de 28 segundos](day-05-sight/05-sight-demo.mp4).
+- [Lámina para LinkedIn · JPG](day-05-sight/05-sight-linkedin.jpg), 3200 × 4000 px, menos de 5 MB.
+- [Texto del post](day-05-sight/post-linkedin.md).
 - [Descargar la aplicación completa · ZIP](day-05-sight/05-sight-coruna.zip).
 - [Vista de la maqueta](day-05-sight/01-maqueta-territorial.png),
   [al pie de la Torre](day-05-sight/02-al-pie-de-la-torre.png)
