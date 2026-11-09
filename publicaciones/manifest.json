@@ -1,45 +1,140 @@
 {
-  "source_commit": "f1e29f15e90cb17c2b2d3702a52ccb0efb527951",
+  "source_commit": "ebd90488690d47ec4969358b7f5fce58e456fc6b",
   "days": [
     4,
     5,
     6,
     7
   ],
-  "already_posted_days_reported_by_author": [
-    1,
-    2,
-    3
+  "main_images": 4,
+  "additional_screenshots": 4,
+  "videos": 3,
+  "videos_days": [
+    4,
+    5,
+    6
   ],
   "maps_and_media_unchanged": true,
   "files": [
     {
       "path": "04-clusters.md",
+      "bytes": 1448,
       "sha256": "55796df973b70751b9df86590dd99f31b6be2baf15a9ec7ad2e105b63594ad89"
     },
     {
       "path": "05-sight.md",
+      "bytes": 1223,
       "sha256": "301d3bfca65b94dde9419cb022a25b41dcb2d69095f6e0ae3ee4ab781a7dc13c"
     },
     {
       "path": "06-vintage.md",
+      "bytes": 1317,
       "sha256": "652955beb9e0b02b895f72070d536b07df1959be5bc1b515f83bec2c2d817330"
     },
     {
       "path": "07-rail-gauges.md",
+      "bytes": 1253,
       "sha256": "c4a1906c17ba3833b2e6de1d3798f3b8c16f6f456c04fb7ec993cef1e84c12a7"
     },
     {
+      "path": "IMAGENES-LEEME.md",
+      "bytes": 1218,
+      "sha256": "d5039a964bdd6e79727687b8bd3afb05de688265f7c6333c3d48353a3fddd343"
+    },
+    {
+      "path": "MATERIAL-LEEME.md",
+      "bytes": 1464,
+      "sha256": "cdf9671900d4c1a0db18b96df371fdb5f57e195e45521e8c67df83892a3b3bcd"
+    },
+    {
       "path": "README.md",
-      "sha256": "8ce614dff1a7ec52d5ec178b67a2f5b7808cb0bd633f605b0d06ef8232b396c0"
+      "bytes": 4147,
+      "sha256": "65fc5fe1480ae2fe4595b98b37a3057975bec9558edb064e71503a010d1605e9"
+    },
+    {
+      "path": "imagenes/04-clusters-01-lamina.jpg",
+      "bytes": 1259894,
+      "sha256": "25d0ff0446e072afb71dcf7170652ab38c04e702420d92cee30841d10e14ef9d"
+    },
+    {
+      "path": "imagenes/04-clusters-02-madrid.png",
+      "bytes": 175516,
+      "sha256": "c5eb2c8aed1ee4cf6a227c5283554339231153a8ad9fae77c28b476a6d7d9826"
+    },
+    {
+      "path": "imagenes/04-clusters-03-cuatro-paradas.png",
+      "bytes": 163183,
+      "sha256": "e145c1f5d2deb9835b0b6a4ae8feaa53c9f1bbe751efd12cf1d8de86765de0d1"
+    },
+    {
+      "path": "imagenes/05-sight-01-lamina.jpg",
+      "bytes": 1957310,
+      "sha256": "8454802f0963f1151d83d059da4ac19e344124429e4a50ff113f8f578d980753"
+    },
+    {
+      "path": "imagenes/05-sight-02-comparacion.png",
+      "bytes": 290945,
+      "sha256": "276b4f1d0ca3c9d1ad86ab0807b1dc981c5291ca939b36e45b860b0bac559c0f"
+    },
+    {
+      "path": "imagenes/06-vintage-01-lamina.jpg",
+      "bytes": 3297918,
+      "sha256": "1ccda303cbbd84a68938d9372322d4d85857c27571f97023049dc6446da64380"
+    },
+    {
+      "path": "imagenes/06-vintage-02-cronologia-1869.png",
+      "bytes": 1209089,
+      "sha256": "ff61d0f466823d7b69329ee3d5f82d681c4ac434268906f39e03f36f650aadf0"
+    },
+    {
+      "path": "imagenes/07-rail-gauges-01-lamina-corregida.jpg",
+      "bytes": 1501232,
+      "sha256": "1d19f4180a5f863882332baf6b370d566fd345002ded250d6c49c94a4ea8823a"
+    },
+    {
+      "path": "imagenes-manifest.json",
+      "bytes": 3128,
+      "sha256": "84faa11fcce1ed175a32acef071c2e1d76ce70a540841d13154726095986dffc"
+    },
+    {
+      "path": "imagenes-y-textos-04-07.zip",
+      "bytes": 8844461,
+      "sha256": "2f77fe98bfcf275a1fa056e9afbd51560b1db2615c1d69ab928a68e5762e487b"
     },
     {
       "path": "index.html",
-      "sha256": "131724f993869f477a16d5bed2e0f39b8dcd55c99fb0259832645c691bae3f88"
+      "bytes": 10438,
+      "sha256": "a332d4ab8f54fbde24f3ad8d508ab99895e91c7a9e80873c09527bfa275d2382"
+    },
+    {
+      "path": "material-completo-linkedin-04-07.zip",
+      "bytes": 19398298,
+      "sha256": "d874997ca3bf48b93fb04eaec69000aa566d1e87d6e9706ace59a91cda941fc9"
+    },
+    {
+      "path": "media-manifest.json",
+      "bytes": 4130,
+      "sha256": "8b12b03928d85bba037115f3d086d39056a833c3adeefb2cb74661219d80cac5"
     },
     {
       "path": "textos-linkedin-04-07.zip",
+      "bytes": 5382,
       "sha256": "21a7d3c7da08ae4941b3784e1a960ab176291f9fe18552140c3da46229efa9a3"
+    },
+    {
+      "path": "videos/04-clusters-demo.mp4",
+      "bytes": 4889986,
+      "sha256": "e0e7b8d13587f96ca3d7b303865e3f0fa364ec39704f14072064ba3ad40165bc"
+    },
+    {
+      "path": "videos/05-sight-demo.mp4",
+      "bytes": 3622432,
+      "sha256": "c4aeb15aeb6129c612584f8b39fcda48637050182016d7913bbd3604b33e136b"
+    },
+    {
+      "path": "videos/06-vintage-demo.mp4",
+      "bytes": 2111729,
+      "sha256": "fa916a3ebe7ed4f4bde47faa4f73c13334ea838c6eb59d235bf2670042e833eb"
     }
   ]
 }

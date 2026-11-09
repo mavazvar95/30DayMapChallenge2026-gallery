@@ -1,0 +1,85 @@
+{
+  "maps_regenerated": false,
+  "images": [
+    {
+      "file": "imagenes/04-clusters-01-lamina.jpg",
+      "archive_path": "04-clusters/01-lamina.jpg",
+      "source": "/workspace/30DayMapChallenge2026-gallery/day-04-clusters/04-clusters-linkedin.jpg",
+      "primary": true,
+      "width": 3200,
+      "height": 4000,
+      "bytes": 1259894,
+      "sha256": "25d0ff0446e072afb71dcf7170652ab38c04e702420d92cee30841d10e14ef9d"
+    },
+    {
+      "file": "imagenes/04-clusters-02-madrid.png",
+      "archive_path": "04-clusters/02-madrid.png",
+      "source": "days/day-04-clusters/atlas/publication/01-agrupacion-madrid.png",
+      "primary": false,
+      "width": 1440,
+      "height": 1080,
+      "bytes": 175516,
+      "sha256": "c5eb2c8aed1ee4cf6a227c5283554339231153a8ad9fae77c28b476a6d7d9826"
+    },
+    {
+      "file": "imagenes/04-clusters-03-cuatro-paradas.png",
+      "archive_path": "04-clusters/03-cuatro-paradas.png",
+      "source": "days/day-04-clusters/atlas/publication/02-cuatro-paradas.png",
+      "primary": false,
+      "width": 1440,
+      "height": 1080,
+      "bytes": 163183,
+      "sha256": "e145c1f5d2deb9835b0b6a4ae8feaa53c9f1bbe751efd12cf1d8de86765de0d1"
+    },
+    {
+      "file": "imagenes/05-sight-01-lamina.jpg",
+      "archive_path": "05-sight/01-lamina.jpg",
+      "source": "/workspace/30DayMapChallenge2026-gallery/day-05-sight/05-sight-linkedin.jpg",
+      "primary": true,
+      "width": 3200,
+      "height": 4000,
+      "bytes": 1957310,
+      "sha256": "8454802f0963f1151d83d059da4ac19e344124429e4a50ff113f8f578d980753"
+    },
+    {
+      "file": "imagenes/05-sight-02-comparacion.png",
+      "archive_path": "05-sight/02-comparacion.png",
+      "source": "days/day-05-sight/publication/03-comparar-miradas.png",
+      "primary": false,
+      "width": 1440,
+      "height": 1080,
+      "bytes": 290945,
+      "sha256": "276b4f1d0ca3c9d1ad86ab0807b1dc981c5291ca939b36e45b860b0bac559c0f"
+    },
+    {
+      "file": "imagenes/06-vintage-01-lamina.jpg",
+      "archive_path": "06-vintage/01-lamina.jpg",
+      "source": "/workspace/30DayMapChallenge2026-gallery/day-06-vintage/06-vintage-linkedin.jpg",
+      "primary": true,
+      "width": 3200,
+      "height": 4000,
+      "bytes": 3297918,
+      "sha256": "1ccda303cbbd84a68938d9372322d4d85857c27571f97023049dc6446da64380"
+    },
+    {
+      "file": "imagenes/06-vintage-02-cronologia-1869.png",
+      "archive_path": "06-vintage/02-cronologia-1869.png",
+      "source": "days/day-06-vintage/publication/chronicle-1869.png",
+      "primary": false,
+      "width": 1500,
+      "height": 1350,
+      "bytes": 1209089,
+      "sha256": "ff61d0f466823d7b69329ee3d5f82d681c4ac434268906f39e03f36f650aadf0"
+    },
+    {
+      "file": "imagenes/07-rail-gauges-01-lamina-corregida.jpg",
+      "archive_path": "07-rail-gauges/01-lamina-corregida.jpg",
+      "source": "/workspace/30DayMapChallenge2026-gallery/day-07-ten-minute-map/07-rail-gauges-linkedin.jpg",
+      "primary": true,
+      "width": 3200,
+      "height": 4000,
+      "bytes": 1501232,
+      "sha256": "1d19f4180a5f863882332baf6b370d566fd345002ded250d6c49c94a4ea8823a"
+    }
+  ]
+}

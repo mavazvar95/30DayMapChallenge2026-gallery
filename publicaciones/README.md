@@ -10,6 +10,18 @@ estructura narrativa, sin copiar la historia del café, sus cifras, sus frases
 ni el algoritmo de otra persona. Textos listos para copiar, con tono cercano,
 emojis contenidos y el formato de nombres de la serie.
 
+## Paquete completo
+
+[Descargar imágenes, vídeos y textos · ZIP](material-completo-linkedin-04-07.zip):
+8 imágenes, 3 vídeos MP4 y los 4 textos, organizados por día.
+[Contenido y orden de publicación](MATERIAL-LEEME.md).
+
+## Imágenes listas para adjuntar
+
+[Descargar imágenes y textos · ZIP](imagenes-y-textos-04-07.zip): cuatro
+láminas JPG de 3200 × 4000 y cuatro capturas adicionales de los interactivos.
+[Orden y contenido de las imágenes](IMAGENES-LEEME.md).
+
 ## Qué adjuntar
 
 | Día | Texto | Archivo principal | Dónde explorar o ampliar |

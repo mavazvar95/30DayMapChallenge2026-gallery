@@ -2,9 +2,9 @@
 
 Autor: Miguel Ángel Vázquez Varela.
 
-## Textos para las próximas publicaciones
+## Material para las próximas publicaciones
 
-[Copiar los textos de los días 04–07](publicaciones/) · [Descargar textos y enlaces de medios · ZIP](publicaciones/textos-linkedin-04-07.zip). Nueva redacción narrativa solicitada por el autor; los modelos y medios se conservan.
+[Descargar imágenes, vídeos y textos · ZIP](publicaciones/material-completo-linkedin-04-07.zip) · [Copiar los textos de los días 04–07](publicaciones/) · [Descargar textos y enlaces de medios · ZIP](publicaciones/textos-linkedin-04-07.zip). Nueva redacción narrativa solicitada por el autor; los modelos y medios se conservan.
 
 
 ## Día 03 · Polygons
