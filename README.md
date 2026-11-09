@@ -72,6 +72,29 @@ señalados como tales. No es una certificación de soleamiento o visibilidad act
 Atribuciones de Catastro e IGN y licencias de Three.js, SunCalc y tipografías
 conservadas en la aplicación y sus archivos.
 
+## Día 06 · Vintage — La Coruña: una ciudad sobre otra
+
+- [Abrir la cronología interactiva](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-06-vintage/).
+- [Ver la lámina](day-06-vintage/06-vintage-preview.png).
+- [Imagen para LinkedIn](day-06-vintage/06-vintage-linkedin.jpg), 3200 × 4000 px.
+- [Demostración real del HTML · MP4 de 25 segundos](day-06-vintage/06-vintage-demo.mp4).
+- [Fuentes, método y límites](day-06-vintage/methodology.md).
+
+Cronología de 25 episodios en 17 lugares de A Coruña, entre 1588 y 1999:
+construcción/apertura, pérdida/traslado y transformación. Selector de año,
+capítulos y reproducción, con archivo fotográfico secundario. Versión de
+contenido en revisión por el autor.
+
+El fondo es actual: los episodios no constituyen una reconstrucción completa
+de la ciudad en cada fecha. Los contornos actuales sirven como referencias de
+localización; no certifican plantas históricas. Los trazados de murallas y
+los polígonos históricos de relleno siguen pendientes de restitución.
+
+Fuentes espaciales: © OpenStreetMap contributors, ODbL; IGN / PNOA / Army Map
+Service, CC BY 4.0. Historia: Concello, Instituto José Cornide, BOE, Adif,
+CSIC, CIAG / USC e investigación y prensa local enlazadas en cada ficha.
+Tipografías locales con sus licencias SIL OFL. No requiere cuenta ni claves.
+
 ## Procedencia
 
 Análisis y cartografía realizados con Python/GIS. Solo se incluyen los productos de publicación: no hay datasets originales, entornos virtuales ni historial del repositorio de trabajo TEST.

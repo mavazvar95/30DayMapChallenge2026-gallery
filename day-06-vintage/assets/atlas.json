@@ -1,0 +1,268 @@
+{
+  "extent": {
+    "crs": "EPSG:25829",
+    "bbox": [
+      547013.24,
+      4801183.1,
+      548913.24,
+      4802743.1
+    ],
+    "width": 2400,
+    "height": 1971
+  },
+  "cases": [
+    {
+      "id": "muralla",
+      "number": "01",
+      "title": "El frente de tierra",
+      "short": "La barrera se abre",
+      "event": "Desde 1869",
+      "period": "Derribo del frente de tierra",
+      "kind": "Apertura",
+      "osm_way": 636037696,
+      "location_note": "Punto de referencia en la actual Juana de Vega. Localiza el entorno, no el trazado ni una puerta histórica.",
+      "before": "Fortificación que cerraba el istmo por tierra.",
+      "after": "Entorno de Juana de Vega y conexiones hacia el Ensanche.",
+      "story": "El derribo del frente de tierra comenzó en 1869. La apertura comunicó espacios antes separados por la defensa. No corresponde al mismo episodio que la retirada de las murallas entre Ciudad Vieja y Pescadería.",
+      "reading": "Una barrera desaparece; el espacio se incorpora a las conexiones urbanas.",
+      "photo_note": "La muralla ya había sido derribada cuando se tomó el vuelo de 1956–1957. Las dos fotografías muestran etapas posteriores, no un antes y después del derribo.",
+      "sources": [
+        {
+          "label": "Cornide n.º 4 · Garás, p. 288",
+          "url": "https://www.coruna.gal/descarga/1453840520283/Revista-Instituto-Cornide-n-4.pdf"
+        },
+        {
+          "label": "Carlos Fernández · El derribo de las murallas, 2007",
+          "url": "https://www.lavozdegalicia.es/noticia/coruna/coruna/2007/11/11/derribo-murallas/0003_6309121.htm"
+        }
+      ],
+      "confidence": "Cronología contrastada en fuentes secundarias. Localización orientativa; trazado no reconstruido.",
+      "radius_m": 190,
+      "xy": [
+        548120.1487792353,
+        4801779.106163755
+      ],
+      "lonlat": [
+        -8.406079582321567,
+        43.36733326201427
+      ],
+      "pixel": [
+        1398.2005632446196,
+        1217.9691354090025
+      ]
+    },
+    {
+      "id": "mercado",
+      "number": "02",
+      "title": "El Mercado da Guarda",
+      "short": "El mercado cambia de piel",
+      "event": "1958 · años sesenta",
+      "period": "Sustitución por fases",
+      "kind": "Misma función",
+      "osm_way": 800317432,
+      "location_note": "Referencia: centro del edificio actual de la plaza de Lugo según OSM. No representa la planta del mercado histórico.",
+      "before": "Mercado de hierro inaugurado el 9 de abril de 1910.",
+      "after": "La plaza de Lugo conserva un mercado; su arquitectura ha cambiado.",
+      "story": "La renovación fue gradual. La nueva nave central abrió a finales de 1958; los cuerpos norte y sur se sustituyeron en los años sesenta. No se atribuye al conjunto un único día de demolición.",
+      "reading": "La actividad continúa en el lugar, aunque desaparezca su arquitectura anterior.",
+      "photo_note": "El vuelo de 1956–1957 permite ver el conjunto anterior a la sustitución central. La fotografía de 2023 muestra una etapa posterior.",
+      "sources": [
+        {
+          "label": "Concello da Coruña · Historia del mercado",
+          "url": "https://www.coruna.gal/mercados/es/mercados/detalle/mercado-municipal-de-eusebio-da-guarda/entidad/1144274727110?argIdioma=es"
+        },
+        {
+          "label": "Teijeiro Mosquera y Fuentes Valcárcel · ICOMOS 2025",
+          "url": "https://doi.org/10.4995/icomos2025.2025.21013"
+        }
+      ],
+      "confidence": "Historia institucional contrastada con investigación publicada. El punto identifica el lugar, no una huella histórica exacta.",
+      "radius_m": 140,
+      "xy": [
+        548079.2590307678,
+        4801650.041821792
+      ],
+      "lonlat": [
+        -8.406595563841352,
+        43.36617378276676
+      ],
+      "pixel": [
+        1346.5503546541165,
+        1381.0369674664403
+      ]
+    },
+    {
+      "id": "toros",
+      "number": "03",
+      "title": "La plaza de toros",
+      "short": "El círculo deja una pista",
+      "event": "1967",
+      "period": "Derribo",
+      "kind": "Traza urbana",
+      "image_pixel": [
+        980,
+        1480
+      ],
+      "location_note": "Centro visual del ruedo interpretado en la ortofoto oficial de 1956–1957. Aproximación cartográfica, no levantamiento topográfico.",
+      "before": "Plaza de toros inaugurada en 1885, visible en el vuelo histórico.",
+      "after": "Viviendas y calles; la curva de Magistrado Manuel Artime conserva una pista del recinto.",
+      "story": "La plaza comenzó a demolerse en 1967. Al comparar las fotografías se reconoce el cambio del recinto circular a la edificación residencial. La prensa histórica local relaciona la curva de Magistrado Manuel Artime con la antigua plaza.",
+      "reading": "El edificio se pierde, pero una parte de su forma puede seguir leyéndose en la calle.",
+      "photo_note": "Contorno visible de cubierta interpretado manualmente en el vuelo de 1956–1957. No es una huella catastral y puede incluir desplazamiento de cubierta.",
+      "sources": [
+        {
+          "label": "Doda Vázquez · La calle redonda, 2025",
+          "url": "https://www.elidealgallego.com/articulo/a-coruna/coruna-insolita-calle-redonda-evidencia-huellas-antigua-plaza-toros-5260784"
+        },
+        {
+          "label": "IGN · Vuelo Americano Serie B",
+          "url": "https://www.ign.es/wms/pnoa-historico?service=WMS&request=GetCapabilities"
+        }
+      ],
+      "confidence": "Recinto comprobado visualmente en la ortofoto. Cronología y relación con la calle: fuente secundaria local.",
+      "radius_m": 150,
+      "xy": [
+        547789.0733333334,
+        4801571.714916286
+      ],
+      "lonlat": [
+        -8.410183743716532,
+        43.36548705073846
+      ],
+      "pixel": [
+        980.000000000049,
+        1479.9999999996435
+      ]
+    },
+    {
+      "id": "hotel",
+      "number": "04",
+      "title": "El Hotel Atlantic",
+      "short": "Un hotel sustituye a otro",
+      "event": "1967",
+      "period": "Derribo del edificio de 1923",
+      "kind": "Misma función",
+      "osm_way": 132917826,
+      "location_note": "Referencia: edificio hotelero actual según OSM. Su centro no se usa como planta ni centro exacto del hotel de 1923.",
+      "before": "Hotel Atlantic de 1923, junto a Méndez Núñez.",
+      "after": "Otro edificio hotelero en el mismo entorno de los jardines.",
+      "story": "El edificio original fue derribado en 1967 y sustituido por un establecimiento de mayor tamaño. El uso hotelero permanece, mientras cambia la presencia arquitectónica junto a los jardines.",
+      "reading": "Conservar el uso de un lugar no implica conservar el edificio que lo identificaba.",
+      "photo_note": "Las cubiertas visibles no coinciden necesariamente con la planta sobre el suelo. La comparación muestra la transformación, sin medir superficies o alturas.",
+      "sources": [
+        {
+          "label": "CIAG / proyecto de investigación USC · Hotel Atlantic",
+          "url": "https://ciagalicia.com/proxectos/hotel-atlantic-de-a-coruna/"
+        },
+        {
+          "label": "La Voz de Galicia · Demolición del Hotel Atlántico, 2007",
+          "url": "https://www.lavozdegalicia.es/noticia/coruna/2007/07/10/demolicion-hotel-atlantico/0003_5971628.htm"
+        }
+      ],
+      "confidence": "Cronología coincidente en dos fuentes. No se reproduce la reconstrucción virtual de terceros.",
+      "radius_m": 150,
+      "xy": [
+        548546.9866981539,
+        4801889.786079844
+      ],
+      "lonlat": [
+        -8.40080182948569,
+        43.368302347296826
+      ],
+      "pixel": [
+        1937.364250299668,
+        1078.1293183498944
+      ]
+    }
+  ],
+  "roof_pixels": [
+    [
+      980,
+      1409
+    ],
+    [
+      1004,
+      1410
+    ],
+    [
+      1028,
+      1420
+    ],
+    [
+      1046,
+      1435
+    ],
+    [
+      1056,
+      1455
+    ],
+    [
+      1060,
+      1480
+    ],
+    [
+      1053,
+      1506
+    ],
+    [
+      1039,
+      1526
+    ],
+    [
+      1018,
+      1543
+    ],
+    [
+      993,
+      1551
+    ],
+    [
+      968,
+      1551
+    ],
+    [
+      943,
+      1542
+    ],
+    [
+      922,
+      1526
+    ],
+    [
+      907,
+      1504
+    ],
+    [
+      901,
+      1480
+    ],
+    [
+      907,
+      1453
+    ],
+    [
+      922,
+      1431
+    ],
+    [
+      944,
+      1416
+    ],
+    [
+      965,
+      1410
+    ],
+    [
+      980,
+      1409
+    ]
+  ],
+  "default_view": [
+    550,
+    600,
+    1750,
+    1250
+  ],
+  "consulted": "2026-11-09",
+  "crs": "EPSG:25829"
+}

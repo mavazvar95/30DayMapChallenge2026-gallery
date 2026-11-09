@@ -1,0 +1,654 @@
+{
+  "title": "Una ciudad sobre otra",
+  "period": [
+    1588,
+    1999
+  ],
+  "sources": {
+    "anton": {
+      "label": "Concello · Sistema defensivo",
+      "url": "https://www.coruna.gal/castroelvina/es/castro-habitado/objetos/detalle/el-sistema-defensivo-de-la-ciudad/contenido/1453612623664?argIdioma=es"
+    },
+    "torre": {
+      "label": "Soraluce Blond · Informes de la Construcción / CSIC, 1993",
+      "url": "https://doi.org/10.3989/ic.1993.v45.i427.1176"
+    },
+    "carlos": {
+      "label": "Concello · Jardín de San Carlos",
+      "url": "https://www.coruna.gal/tourism/en/what-to-do-in-a-coruna/art-and-culture/tour-of-ciudad-vieja/detalle-ruta-ciudad-vieja/jardin-de-san-carlos/entidad/1149055933418?argIdioma=en"
+    },
+    "teatro": {
+      "label": "Concello · Historia del Teatro Rosalía",
+      "url": "https://www.coruna.gal/web/es/temas/sociedad-y-bienestar/ocio-y-cultura/equipamientos-de-ocio/equipamiento/teatro-rosalia-de-castro/entidad/1150819583294?argIdioma=es"
+    },
+    "jardines": {
+      "label": "Concello · Jardines de Méndez Núñez",
+      "url": "https://www.coruna.gal/web/es/actualidad/agenda/agenda-eventos/evento/jardines-de-mendez-nunez/entidad/1149055915904"
+    },
+    "muralla": {
+      "label": "Instituto José Cornide · Garás, n.º 4, p. 288",
+      "url": "https://www.coruna.gal/descarga/1453840520283/Revista-Instituto-Cornide-n-4.pdf"
+    },
+    "toros": {
+      "label": "Doda Vázquez · La calle redonda, 2025",
+      "url": "https://www.elidealgallego.com/articulo/a-coruna/coruna-insolita-calle-redonda-evidencia-huellas-antigua-plaza-toros-5260784"
+    },
+    "obelisco": {
+      "label": "Concello · A Coruña en tres días",
+      "url": "https://www.coruna.gal/tourism/en/what-to-do-in-a-coruna/a-coruna-in-3-days?argIdioma=es"
+    },
+    "mercado": {
+      "label": "Concello · Mercado Eusebio da Guarda",
+      "url": "https://www.coruna.gal/mercados/es/mercados/detalle/mercado-municipal-de-eusebio-da-guarda/entidad/1144274727110?argIdioma=es"
+    },
+    "terraza": {
+      "label": "BOE · Expediente BIC de La Terraza de Sada, 2018",
+      "url": "https://boe.es/diario_boe/txt.php?id=BOE-A-2018-6649"
+    },
+    "hotel": {
+      "label": "CIAG / investigación USC · Hotel Atlantic",
+      "url": "https://ciagalicia.com/proxectos/hotel-atlantic-de-a-coruna/"
+    },
+    "agustin": {
+      "label": "Concello · Guía de los mercados municipales, p. 9",
+      "url": "https://www.coruna.gal/descarga/1453910572647/Guia-de-boas-practicas-nos-Mercados-Municipais-da-Coruna.pdf"
+    },
+    "estacion": {
+      "label": "Adif · Historia de la estación de A Coruña",
+      "url": "https://www.adif.es/w/a-coruna"
+    },
+    "riazor": {
+      "label": "Concello · Historia de Riazor",
+      "url": "https://www.coruna.gal/web/gl/actualidade/novas/nova/rey-destaca-que-o-estadio-de-riazor-forma-parte-da-nosa-identidade/suceso/1453735312950?argIdioma=gl"
+    },
+    "domus": {
+      "label": "Concello · Inauguración de la Domus en 1995",
+      "url": "https://www.coruna.gal/web/gl/actualidade/novas/nova/o-museo-cientifico-da-domus-actualiza-o-video-do-parto-despois-de-27-anos/suceso/1453806134856?argIdioma=gl"
+    },
+    "aquarium": {
+      "label": "Concello · Aquarium Finisterrae",
+      "url": "https://www.coruna.gal/mc2/es/aquarium-finisterrae?argIdioma=es"
+    }
+  },
+  "places": [
+    {
+      "id": "anton",
+      "name": "San Antón",
+      "number": "01",
+      "osm": "relation/10430576",
+      "geometry_note": "Perímetro actual de la fortaleza; no restituye su fase de 1588.",
+      "geometry_role": "current_outline_reference",
+      "xy": [
+        3509.5,
+        2391.42
+      ],
+      "d": "M3506.69,2405.22L3468.81,2391.15L3466.53,2392.62L3465.89,2395.77L3444.45,2391.29L3448.11,2386.98L3452.93,2381.33L3453.63,2377.36L3454.14,2374.55L3454.31,2373.58L3451.67,2366.43L3449.81,2361.43L3449.42,2361.3L3449.16,2361.0L3449.06,2360.69L3449.07,2360.38L3449.19,2360.11L3449.37,2359.9L3449.73,2359.75L3450.17,2359.78L3450.45,2359.94L3450.67,2360.26L3450.72,2360.68L3455.56,2361.85L3455.62,2361.63L3457.61,2362.15L3457.57,2362.35L3471.23,2365.69L3471.14,2371.11L3513.78,2375.45L3521.5,2367.67L3532.56,2381.27L3546.48,2380.59L3546.51,2380.33L3546.65,2380.03L3546.83,2379.87L3547.15,2379.69L3547.63,2379.67L3548.0,2379.85L3548.27,2380.22L3548.38,2380.53L3548.32,2380.89L3548.14,2381.21L3547.79,2381.48L3552.03,2390.12L3568.66,2395.78L3562.58,2403.9L3564.69,2414.67L3548.39,2413.85L3533.46,2424.02L3533.63,2424.41L3533.56,2424.82L3533.42,2425.03L3533.25,2425.2L3532.98,2425.32L3532.7,2425.3L3532.37,2425.19L3532.09,2424.92L3531.99,2424.59L3532.06,2424.19L3532.25,2423.94L3520.73,2411.75L3511.59,2414.37L3506.69,2405.22Z",
+      "lonlat": [
+        -8.387713825147365,
+        43.36570091287949
+      ]
+    },
+    {
+      "id": "torre",
+      "name": "Torre de Hércules",
+      "number": "02",
+      "osm": "way/255916025",
+      "geometry_note": "Edificio actual de referencia. La reforma no equivale a la construcción del faro romano.",
+      "geometry_role": "current_outline_reference",
+      "xy": [
+        1969.43,
+        154.58
+      ],
+      "d": "M1960.68,152.47L1971.52,145.86L1972.85,148.03L1976.35,153.72L1978.17,156.69L1967.34,163.29L1960.68,152.47Z",
+      "lonlat": [
+        -8.406524140674547,
+        43.38594165511585
+      ]
+    },
+    {
+      "id": "carlos",
+      "name": "San Carlos",
+      "number": "03",
+      "osm": "way/75260465",
+      "geometry_note": "Borde exterior actual del jardín; no certifica los parterres de 1834.",
+      "geometry_role": "current_outline_reference",
+      "xy": [
+        3262.03,
+        2055.93
+      ],
+      "d": "M3261.5,2015.95L3263.5,2018.86L3264.32,2018.56L3265.21,2018.66L3265.71,2018.83L3279.7,2031.18L3291.69,2042.65L3293.7,2045.0L3296.28,2049.21L3298.4,2053.5L3299.76,2056.95L3300.64,2060.01L3301.25,2062.54L3301.37,2064.67L3301.19,2067.29L3300.04,2070.95L3298.71,2073.5L3296.59,2075.91L3294.73,2077.46L3288.08,2083.67L3283.92,2086.79L3281.5,2088.15L3277.88,2089.47L3274.01,2090.26L3270.58,2090.52L3266.91,2090.15L3263.92,2089.37L3261.91,2088.81L3260.15,2088.03L3230.88,2072.4L3230.55,2072.07L3229.88,2072.18L3227.9,2071.6L3226.81,2070.74L3225.98,2069.33L3225.79,2067.82L3226.02,2066.13L3226.59,2065.27L3226.91,2064.81L3227.9,2063.68L3228.49,2063.25L3229.41,2062.6L3217.67,2044.91L3219.3,2043.83L3239.88,2030.14L3240.38,2030.9L3243.15,2028.93L3244.31,2028.12L3245.77,2027.08L3246.76,2026.37L3251.31,2023.15L3258.76,2017.88L3261.5,2015.95Z",
+      "lonlat": [
+        -8.390737755466114,
+        43.36873796632931
+      ]
+    },
+    {
+      "id": "teatro",
+      "name": "Teatro Rosalía",
+      "number": "04",
+      "osm": "way/793774306",
+      "geometry_note": "Edificio actual de referencia; se distinguen apertura, incendio y reconstrucción.",
+      "geometry_role": "current_outline_reference",
+      "xy": [
+        2630.2,
+        1892.34
+      ],
+      "d": "M2644.56,1872.65L2654.95,1908.06L2653.02,1908.63L2636.36,1913.55L2619.93,1918.42L2618.01,1918.98L2607.42,1883.67L2605.64,1877.71L2605.35,1876.72L2612.93,1874.46L2624.0,1871.18L2642.52,1865.69L2644.56,1872.65Z",
+      "lonlat": [
+        -8.398521229384038,
+        43.37025225241366
+      ]
+    },
+    {
+      "id": "jardines",
+      "name": "Méndez Núñez",
+      "number": "05",
+      "osm": "way/40104674",
+      "geometry_note": "Recinto actual del jardín. No delimita el relleno histórico ni fecha la totalidad del terreno ganado al mar.",
+      "geometry_role": "current_outline_reference",
+      "xy": [
+        2273.35,
+        2242.98
+      ],
+      "d": "M2314.91,2122.63L2312.45,2128.25L2278.69,2152.17L2274.15,2152.45L2262.24,2163.05L2257.2,2167.83L2236.45,2190.3L2152.53,2315.41L2142.45,2342.43L2141.47,2346.63L2138.12,2362.81L2127.11,2424.37L2125.84,2431.9L2129.39,2432.37L2125.12,2458.59L2126.43,2461.79L2131.69,2465.62L2136.18,2466.31L2184.34,2462.24L2188.48,2459.87L2192.66,2455.64L2193.51,2452.87L2197.7,2439.38L2198.96,2435.4L2204.68,2417.31L2206.37,2411.95L2213.96,2387.99L2215.53,2383.0L2217.61,2380.56L2221.52,2376.87L2224.27,2363.06L2229.23,2348.85L2236.43,2335.72L2244.83,2324.92L2269.21,2294.56L2309.08,2246.54L2311.0,2244.26L2355.92,2191.23L2363.52,2181.51L2368.18,2178.73L2372.93,2175.51L2366.76,2167.36L2368.34,2166.16L2384.79,2153.78L2386.83,2152.24L2388.46,2151.02L2404.98,2138.57L2406.5,2137.43L2412.68,2145.58L2415.53,2143.49L2421.7,2138.75L2412.52,2126.53L2472.23,2081.64L2481.44,2093.87L2486.89,2090.02L2494.98,2083.33L2490.84,2082.71L2478.23,2065.46L2477.6,2065.99L2476.53,2064.54L2470.22,2056.01L2469.11,2054.52L2469.76,2054.04L2457.18,2037.47L2458.08,2033.78L2453.2,2027.0L2444.72,2032.57L2314.91,2122.63Z",
+      "lonlat": [
+        -8.402956530005396,
+        43.36711814534563
+      ]
+    },
+    {
+      "id": "muralla",
+      "name": "Frente de tierra",
+      "number": "06",
+      "legacy_case": "muralla",
+      "geometry_note": "Punto en la Juana de Vega actual. No se ha reconstruido el trazado de la muralla.",
+      "geometry_role": "current_location",
+      "xy": [
+        2020.15,
+        2220.89
+      ],
+      "d": "",
+      "lonlat": [
+        -8.406079582321567,
+        43.36733326201427
+      ]
+    },
+    {
+      "id": "toros",
+      "name": "Plaza de toros",
+      "number": "07",
+      "legacy_case": "toros",
+      "geometry_note": "Cubierta visible interpretada del vuelo IGN 1956–1957; contorno aproximado, no huella catastral.",
+      "geometry_role": "historic_roof_interpretation_1956_1957",
+      "xy": [
+        1689.91,
+        2427.53
+      ],
+      "d": "M1689.07,2372.09L1708.07,2372.88L1727.07,2380.8L1741.32,2392.67L1749.24,2408.5L1752.41,2428.29L1746.86,2448.86L1735.78,2464.69L1719.16,2478.15L1699.36,2484.48L1679.57,2484.48L1659.78,2477.36L1643.16,2464.69L1631.28,2447.28L1626.53,2428.29L1631.28,2406.92L1643.16,2389.5L1660.57,2377.63L1677.2,2372.88L1689.07,2372.09Z",
+      "lonlat": [
+        -8.410173367916826,
+        43.36549380636411
+      ]
+    },
+    {
+      "id": "obelisco",
+      "name": "Obelisco",
+      "number": "08",
+      "osm": "node/1659229170",
+      "geometry_note": "Punto del monumento actual según OSM.",
+      "geometry_role": "current_location",
+      "xy": [
+        2333.33,
+        2071.55
+      ],
+      "d": "",
+      "lonlat": [
+        -8.4022012,
+        43.368657799999994
+      ]
+    },
+    {
+      "id": "mercado",
+      "name": "Mercado da Guarda",
+      "number": "09",
+      "legacy_case": "mercado",
+      "geometry_note": "Punto del mercado actual; no planta del edificio de hierro ni de sus fases de sustitución.",
+      "geometry_role": "current_location",
+      "xy": [
+        1979.26,
+        2349.96
+      ],
+      "d": "",
+      "lonlat": [
+        -8.406595563841352,
+        43.36617378276676
+      ]
+    },
+    {
+      "id": "terraza",
+      "name": "La Terraza",
+      "number": "10",
+      "osm": "way/794434953",
+      "geometry_note": "Edificio actual para el episodio de 1922. Los episodios del pabellón de madera se localizan solo con un punto en el entorno, sin asignarles esta planta.",
+      "geometry_role": "current_outline_reference",
+      "xy": [
+        2334.01,
+        2195.01
+      ],
+      "d": "M2309.48,2210.08L2308.57,2208.87L2310.35,2207.53L2320.96,2199.57L2321.27,2199.97L2328.67,2194.43L2327.0,2192.18L2331.81,2188.51L2336.97,2184.59L2338.7,2186.9L2346.11,2181.32L2345.82,2180.92L2353.68,2175.0L2356.04,2173.23L2360.86,2179.7L2358.67,2181.41L2350.74,2187.59L2351.37,2188.43L2343.9,2193.94L2333.97,2201.45L2326.54,2207.05L2325.9,2206.17L2315.26,2214.12L2313.48,2215.43L2312.93,2214.69L2311.99,2215.39L2311.44,2215.71L2310.86,2215.9L2310.56,2215.95L2309.96,2215.96L2309.37,2215.83L2309.1,2215.73L2308.58,2215.42L2308.13,2215.01L2307.77,2214.54L2307.64,2214.26L2307.45,2213.72L2307.38,2213.12L2307.44,2212.52L2307.52,2212.23L2307.75,2211.67L2308.11,2211.18L2308.56,2210.78L2309.48,2210.08Z",
+      "lonlat": [
+        -8.4022036985402,
+        43.367546144648784
+      ]
+    },
+    {
+      "id": "kiosco",
+      "name": "Quiosco Alfonso",
+      "number": "11",
+      "osm": "way/132917856",
+      "geometry_note": "Edificio actual de referencia; la fecha municipal se refiere al edificio, no se presenta como día de inauguración.",
+      "geometry_role": "current_outline_reference",
+      "xy": [
+        2389.72,
+        2156.47
+      ],
+      "d": "M2366.76,2167.36L2372.93,2175.51L2412.68,2145.58L2406.5,2137.43L2404.98,2138.57L2388.46,2151.02L2386.83,2152.24L2384.79,2153.78L2368.34,2166.16L2366.76,2167.36Z",
+      "lonlat": [
+        -8.401512759460259,
+        43.36788954755117
+      ]
+    },
+    {
+      "id": "hotel",
+      "name": "Hotel Atlantic",
+      "number": "12",
+      "legacy_case": "hotel",
+      "geometry_note": "Punto del hotel actual. No se atribuye su planta al edificio de 1923.",
+      "geometry_role": "current_location",
+      "xy": [
+        2446.99,
+        2110.21
+      ],
+      "d": "",
+      "lonlat": [
+        -8.40080182948569,
+        43.368302347296826
+      ]
+    },
+    {
+      "id": "agustin",
+      "name": "Mercado de San Agustín",
+      "number": "13",
+      "osm": "way/71415530",
+      "geometry_note": "Edificio actual de referencia; no medición de la cubierta histórica.",
+      "geometry_role": "current_outline_reference",
+      "xy": [
+        2673.95,
+        1682.65
+      ],
+      "d": "M2653.34,1653.34L2653.63,1656.26L2650.62,1656.57L2655.64,1705.74L2658.64,1705.43L2658.95,1708.54L2665.28,1707.89L2666.16,1716.52L2667.91,1716.35L2668.23,1719.42L2677.13,1718.53L2686.59,1717.57L2686.27,1714.46L2688.17,1714.27L2688.12,1713.77L2690.05,1713.58L2689.21,1705.28L2693.77,1704.82L2693.47,1701.83L2696.38,1701.54L2694.16,1679.51L2691.42,1652.44L2688.47,1652.73L2688.16,1649.81L2653.34,1653.34Z",
+      "lonlat": [
+        -8.397962625621435,
+        43.37213738756379
+      ]
+    },
+    {
+      "id": "estacion",
+      "name": "San Cristóbal",
+      "number": "14",
+      "osm": "way/27817228",
+      "geometry_note": "Edificio actual de viajeros, con reformas posteriores. No representa la estación completa de 1935 ni el primer ferrocarril de la ciudad.",
+      "geometry_role": "current_outline_reference",
+      "xy": [
+        1718.97,
+        3871.66
+      ],
+      "d": "M1762.67,3846.75L1769.03,3852.73L1769.59,3852.13L1774.9,3857.03L1769.68,3862.65L1768.98,3862.0L1746.92,3885.34L1748.16,3886.52L1742.34,3892.66L1736.51,3898.81L1735.1,3897.48L1712.55,3921.3L1713.18,3921.89L1708.04,3927.33L1702.7,3922.31L1703.43,3921.54L1697.24,3915.72L1694.15,3918.98L1691.44,3917.76L1687.52,3914.07L1686.13,3912.76L1683.3,3910.09L1681.75,3908.63L1677.98,3905.08L1676.33,3903.53L1673.74,3901.08L1672.07,3899.51L1669.79,3895.63L1661.44,3889.06L1725.03,3822.4L1726.5,3823.84L1732.36,3817.76L1738.17,3823.53L1741.92,3820.08L1766.18,3842.71L1762.67,3846.75Z",
+      "lonlat": [
+        -8.409940676640032,
+        43.35248897135531
+      ]
+    },
+    {
+      "id": "riazor",
+      "name": "Estadio de Riazor",
+      "number": "15",
+      "osm": "way/34237293",
+      "geometry_note": "Recinto actual del estadio; incluye reformas posteriores y no se presenta como perímetro de 1944.",
+      "geometry_role": "current_outline_reference",
+      "xy": [
+        1093.48,
+        2078.22
+      ],
+      "d": "M1019.4,2142.33L1015.25,2124.73L1014.1,2124.84L1012.8,2124.64L1011.55,2124.1L1010.49,2123.21L1009.75,2122.13L1009.32,2120.98L997.07,2068.53L996.94,2067.32L997.13,2066.01L997.69,2064.76L998.57,2063.72L999.65,2062.97L1000.59,2062.58L998.68,2054.47L998.03,2050.15L998.1,2045.54L999.01,2040.82L1000.79,2036.24L1003.4,2032.02L1006.02,2029.14L1006.7,2028.38L1010.51,2025.46L1014.6,2023.33L1018.76,2021.99L1134.99,1994.53L1139.41,1993.85L1144.02,1993.92L1148.73,1994.83L1153.31,1996.61L1157.53,1999.22L1161.18,2002.53L1164.09,2006.34L1166.22,2010.43L1167.56,2014.59L1169.61,2023.33L1170.59,2023.11L1171.81,2022.97L1173.11,2023.17L1174.36,2023.72L1175.42,2024.6L1176.17,2025.68L1176.6,2026.83L1188.9,2079.26L1189.03,2080.46L1188.84,2081.78L1188.28,2083.04L1187.41,2084.07L1186.33,2084.83L1185.18,2085.26L1184.2,2085.49L1184.67,2087.48L1183.4,2087.77L1185.9,2098.51L1188.63,2110.07L1183.44,2111.3L1185.82,2121.21L1183.49,2124.98L1180.12,2128.67L1176.37,2131.54L1172.28,2133.67L1168.12,2135.01L1055.72,2161.52L1051.87,2162.42L1047.55,2163.07L1042.94,2163.0L1038.23,2162.09L1033.65,2160.31L1029.43,2157.7L1025.79,2154.39L1022.87,2150.58L1020.74,2146.49L1019.4,2142.33Z",
+      "lonlat": [
+        -8.417504086844707,
+        43.368676681777124
+      ]
+    },
+    {
+      "id": "domus",
+      "name": "Domus",
+      "number": "16",
+      "osm": "way/150639198",
+      "geometry_note": "Edificio actual de referencia.",
+      "geometry_role": "current_outline_reference",
+      "xy": [
+        1977.23,
+        1078.11
+      ],
+      "d": "M2003.85,1098.78L2000.24,1113.81L1999.06,1115.6L1994.43,1112.39L1991.46,1110.33L1987.52,1107.36L1984.9,1105.14L1983.96,1104.33L1981.55,1102.3L1975.98,1097.07L1972.84,1093.46L1971.97,1092.37L1965.57,1084.39L1963.12,1081.09L1961.85,1079.16L1957.51,1072.6L1952.01,1061.75L1949.63,1056.09L1947.9,1051.24L1945.6,1043.71L1962.37,1043.72L1965.35,1047.36L1971.85,1049.61L1969.93,1055.38L1975.9,1057.1L1977.34,1061.9L1974.32,1066.22L1980.25,1066.72L1980.01,1074.56L1988.45,1068.67L1989.19,1077.69L1991.47,1077.87L1998.65,1077.52L1999.84,1077.46L2000.1,1085.85L2007.98,1091.81L2003.85,1098.78Z",
+      "lonlat": [
+        -8.406508965049847,
+        43.37762564518495
+      ]
+    },
+    {
+      "id": "aquarium",
+      "name": "Aquarium Finisterrae",
+      "number": "17",
+      "osm": "way/792230459",
+      "geometry_note": "Edificio principal actual; no delimita todas las instalaciones del Aquarium.",
+      "geometry_role": "current_outline_reference",
+      "xy": [
+        1704.03,
+        371.02
+      ],
+      "d": "M1724.58,394.95L1726.06,392.63L1736.24,399.05L1734.75,401.4L1737.26,403.43L1732.29,411.26L1729.6,409.56L1723.18,419.68L1719.22,417.19L1712.99,413.25L1719.45,403.09L1668.67,371.07L1670.37,368.4L1649.76,355.41L1656.27,345.15L1667.29,352.11L1676.85,358.15L1673.85,362.88L1681.21,367.52L1691.72,350.99L1702.06,334.7L1738.17,357.48L1717.28,390.35L1724.58,394.95Z",
+      "lonlat": [
+        -8.409819526625014,
+        43.384009775933066
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "anton-1588",
+      "place": "anton",
+      "begin": 1588,
+      "end": 1588,
+      "date": "Desde 1588",
+      "action": "build",
+      "title": "La defensa sale al mar",
+      "text": "Comienzan las obras del castillo de San Antón en una isla de la bahía. Se fecha el inicio de la obra, no la finalización de toda la fortaleza.",
+      "source": "anton"
+    },
+    {
+      "id": "torre-1791",
+      "place": "torre",
+      "begin": 1791,
+      "end": 1791,
+      "date": "1791",
+      "action": "change",
+      "title": "El faro se reviste",
+      "text": "La rehabilitación de finales del XVIII recupera el faro con una envolvente de sillería. La investigación del CSIC sitúa la reconstrucción en 1791; no es la fecha de origen de la torre romana.",
+      "source": "torre"
+    },
+    {
+      "id": "carlos-1834",
+      "place": "carlos",
+      "begin": 1834,
+      "end": 1834,
+      "date": "1834",
+      "action": "change",
+      "title": "De recinto defensivo a jardín",
+      "text": "Francisco de Mazarredo transforma el recinto de San Carlos en el jardín romántico. Se reutiliza un enclave de la defensa de la ciudad.",
+      "source": "carlos"
+    },
+    {
+      "id": "teatro-1841",
+      "place": "teatro",
+      "begin": 1841,
+      "end": 1841,
+      "date": "1841",
+      "action": "build",
+      "title": "La ciudad levanta un teatro",
+      "text": "Se termina el Teatro Nuevo o Principal, hoy Rosalía de Castro, sobre el solar que el Ayuntamiento había adquirido en 1838.",
+      "source": "teatro"
+    },
+    {
+      "id": "teatro-1867",
+      "place": "teatro",
+      "begin": 1867,
+      "end": 1867,
+      "date": "1867",
+      "action": "remove",
+      "title": "El fuego destruye el teatro",
+      "text": "Un incendio destruye el teatro. Es una pérdida por fuego, no un derribo urbanístico; el episodio se distingue de su reconstrucción posterior.",
+      "source": "teatro"
+    },
+    {
+      "id": "teatro-1868",
+      "place": "teatro",
+      "begin": 1868,
+      "end": 1868,
+      "date": "1868",
+      "action": "change",
+      "title": "El teatro vuelve al mismo lugar",
+      "text": "Se reconstruye el teatro tras el incendio del año anterior. La continuidad del lugar no implica que toda su arquitectura permanezca intacta.",
+      "source": "teatro"
+    },
+    {
+      "id": "jardines-1868",
+      "place": "jardines",
+      "begin": 1868,
+      "end": 1868,
+      "date": "1868",
+      "action": "build",
+      "title": "Un jardín donde antes había mar",
+      "text": "Se inauguran los Jardines del Ensanche, después Méndez Núñez, sobre terreno ganado al mar. La fecha corresponde al jardín: no fecha todo el proceso de relleno.",
+      "source": "jardines"
+    },
+    {
+      "id": "muralla-1869",
+      "place": "muralla",
+      "begin": 1869,
+      "end": 1869,
+      "date": "Desde 1869",
+      "action": "remove",
+      "title": "El istmo deja de estar cerrado",
+      "text": "Comienza el derribo del frente de tierra. El entorno de Juana de Vega pasa de barrera defensiva a conexión con la ciudad que se expande. No es el mismo episodio que la muralla entre Ciudad Vieja y Pescadería.",
+      "source": "muralla"
+    },
+    {
+      "id": "toros-1885",
+      "place": "toros",
+      "begin": 1885,
+      "end": 1885,
+      "date": "1885",
+      "action": "build",
+      "title": "Aparece un recinto circular",
+      "text": "Se inaugura la plaza de toros. Su geometría todavía se reconoce en el vuelo de 1956–1957, antes del derribo.",
+      "source": "toros"
+    },
+    {
+      "id": "obelisco-1895",
+      "place": "obelisco",
+      "begin": 1895,
+      "end": 1895,
+      "date": "1895",
+      "action": "build",
+      "title": "Un reloj como referencia urbana",
+      "text": "Se construye el Obelisco, una columna con reloj y veleta que fija un nuevo punto de encuentro junto a los Cantones.",
+      "source": "obelisco"
+    },
+    {
+      "id": "mercado-1910",
+      "place": "mercado",
+      "begin": 1910,
+      "end": 1910,
+      "date": "1910",
+      "action": "build",
+      "title": "El mercado se hace de hierro",
+      "text": "Abre el Mercado Eusebio da Guarda en la plaza de Lugo. La actividad comercial seguirá en este lugar con arquitecturas distintas.",
+      "source": "mercado"
+    },
+    {
+      "id": "terraza-1912",
+      "place": "terraza",
+      "begin": 1912,
+      "end": 1912,
+      "date": "Desde 1912",
+      "action": "build",
+      "title": "Un pabellón desmontable en el relleno",
+      "text": "Comienza la construcción de La Terraza de madera y vidrio en Méndez Núñez. Este pabellón será trasladado a Sada; no es el edificio de hormigón que permanece en A Coruña.",
+      "source": "terraza",
+      "point_only": true
+    },
+    {
+      "id": "kiosco-1912",
+      "place": "kiosco",
+      "begin": 1912,
+      "end": 1912,
+      "date": "1912",
+      "action": "build",
+      "title": "El paseo suma el Quiosco Alfonso",
+      "text": "El Concello fecha en 1912 el edificio modernista del Quiosco Alfonso. Se usa como fecha del edificio, sin convertirla en una fecha exacta de inauguración.",
+      "source": "jardines"
+    },
+    {
+      "id": "terraza-1920",
+      "place": "terraza",
+      "begin": 1919,
+      "end": 1920,
+      "date": "1919–1920",
+      "action": "remove",
+      "title": "La Terraza se marcha a Sada",
+      "text": "El pabellón de madera se desmonta y traslada a Sada. Desaparece de este lugar, pero no se destruye: el BOE documenta su traslado entre 1919 y 1920.",
+      "source": "terraza",
+      "point_only": true
+    },
+    {
+      "id": "terraza-1922",
+      "place": "terraza",
+      "begin": 1922,
+      "end": 1922,
+      "date": "1922",
+      "action": "build",
+      "title": "Otra Terraza ocupa el paseo",
+      "text": "La nueva Terraza de hormigón sustituye al pabellón trasladado. Comparte el nombre y el entorno, no la arquitectura desmontable.",
+      "source": "jardines"
+    },
+    {
+      "id": "hotel-1923",
+      "place": "hotel",
+      "begin": 1923,
+      "end": 1923,
+      "date": "1923",
+      "action": "build",
+      "title": "El Atlantic se asoma al jardín",
+      "text": "Se levanta el Hotel Atlantic original junto a Méndez Núñez. La localización se refiere al entorno del hotel actual, no a una planta histórica reconstruida.",
+      "source": "hotel"
+    },
+    {
+      "id": "agustin-1932",
+      "place": "agustin",
+      "begin": 1932,
+      "end": 1932,
+      "date": "1932",
+      "action": "build",
+      "title": "El mercado ensaya otra cubierta",
+      "text": "Abre San Agustín, obra de Santiago Rey Pedreira y Antonio Tenreiro. Su cubierta parabólica de hormigón y vidrio introduce otra arquitectura de mercado.",
+      "source": "agustin"
+    },
+    {
+      "id": "estacion-1935",
+      "place": "estacion",
+      "begin": 1935,
+      "end": 1935,
+      "date": "1935",
+      "action": "build",
+      "title": "El ferrocarril estrena edificio",
+      "text": "Adif fecha en 1935 la conclusión del edificio de San Cristóbal. Este hito corresponde al edificio de viajeros, no a la llegada del primer tren a A Coruña.",
+      "source": "estacion"
+    },
+    {
+      "id": "riazor-1944",
+      "place": "riazor",
+      "begin": 1944,
+      "end": 1944,
+      "date": "1944",
+      "action": "build",
+      "title": "Riazor inaugura su estadio",
+      "text": "El estadio se inaugura con el partido Deportivo–Valencia. El recinto ha cambiado después; el contorno actual sirve para localizarlo, no para restituir sus gradas originales.",
+      "source": "riazor"
+    },
+    {
+      "id": "mercado-1958",
+      "place": "mercado",
+      "begin": 1958,
+      "end": 1958,
+      "date": "1958",
+      "action": "change",
+      "title": "El mercado cambia por partes",
+      "text": "Abre la nueva nave central de la plaza de Lugo. La sustitución del mercado de hierro no ocurre de una vez: quedan fases posteriores en los cuerpos laterales.",
+      "source": "mercado"
+    },
+    {
+      "id": "mercado-1960",
+      "place": "mercado",
+      "begin": 1960,
+      "end": 1969,
+      "date": "Años sesenta",
+      "action": "change",
+      "title": "Se sustituyen los cuerpos laterales",
+      "text": "Los cuerpos norte y sur del mercado se sustituyen durante los sesenta. La fuente municipal no permite asignar un año exacto a todo el conjunto; se conserva la década como intervalo.",
+      "source": "mercado"
+    },
+    {
+      "id": "toros-1967",
+      "place": "toros",
+      "begin": 1967,
+      "end": 1967,
+      "date": "Desde 1967",
+      "action": "remove",
+      "title": "El círculo da paso a viviendas",
+      "text": "Comienza el derribo de la plaza de toros. El recinto desaparece, mientras la curva de Magistrado Manuel Artime conserva una pista de su forma.",
+      "source": "toros"
+    },
+    {
+      "id": "hotel-1967",
+      "place": "hotel",
+      "begin": 1967,
+      "end": 1967,
+      "date": "1967",
+      "action": "remove",
+      "title": "El Atlantic deja sitio a otro hotel",
+      "text": "Se derriba el edificio de 1923 y se sustituye por otro establecimiento de mayor tamaño. La función continúa junto a los jardines; la arquitectura cambia.",
+      "source": "hotel"
+    },
+    {
+      "id": "domus-1995",
+      "place": "domus",
+      "begin": 1995,
+      "end": 1995,
+      "date": "1995",
+      "action": "build",
+      "title": "La ciencia gana fachada al mar",
+      "text": "Se inaugura la Domus. Un nuevo edificio cultural se incorpora al borde marítimo de la península.",
+      "source": "domus"
+    },
+    {
+      "id": "aquarium-1999",
+      "place": "aquarium",
+      "begin": 1999,
+      "end": 1999,
+      "date": "1999",
+      "action": "build",
+      "title": "La Casa de los Peces abre sus puertas",
+      "text": "El Aquarium Finisterrae abre el 5 de junio de 1999. Junto con la Domus, incorpora nuevos destinos culturales al borde norte de la ciudad.",
+      "source": "aquarium"
+    }
+  ],
+  "extent": {
+    "crs": "EPSG:25829",
+    "bbox": [
+      546100,
+      4799200,
+      550000,
+      4804000
+    ],
+    "width": 3900,
+    "height": 4800
+  }
+}

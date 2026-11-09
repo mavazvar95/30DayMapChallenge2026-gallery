@@ -1,0 +1,161 @@
+{
+  "title": "La Coruña · Una ciudad sobre otra",
+  "day": 6,
+  "theme": "Vintage",
+  "source_commit": "1cc7ff9155810b1b4a54ca0bc5b18b9848635739",
+  "url": "https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-06-vintage/",
+  "content_approval": "PENDING",
+  "publication_purpose": "Online preview for author review",
+  "files": [
+    {
+      "path": "06-vintage-demo.mp4",
+      "bytes": 2111729,
+      "sha256": "fa916a3ebe7ed4f4bde47faa4f73c13334ea838c6eb59d235bf2670042e833eb"
+    },
+    {
+      "path": "06-vintage-linkedin.jpg",
+      "bytes": 3297918,
+      "sha256": "1ccda303cbbd84a68938d9372322d4d85857c27571f97023049dc6446da64380"
+    },
+    {
+      "path": "06-vintage-preview.png",
+      "bytes": 1280587,
+      "sha256": "d4c11711408f565b01e635bbe7047327512fdae34b60e2f98be1dcc2d1b3a72b"
+    },
+    {
+      "path": "assets/atlas.json",
+      "bytes": 8610,
+      "sha256": "9832cc7455cec1d18342bf964e000c4fd276171600332488d64c18991f1564f7"
+    },
+    {
+      "path": "assets/chronicle-context.svg",
+      "bytes": 3920054,
+      "sha256": "747f02872969cffa9b546e37aeb69c8bc3d97d8443d8c0ba077fe71a836670b1"
+    },
+    {
+      "path": "assets/chronicle-geometry.geojson",
+      "bytes": 49957,
+      "sha256": "33b0c03d713897d66cb7a6ec41ffb97eb5d7c249f7eca9c96764791a17bb8752"
+    },
+    {
+      "path": "assets/chronicle.json",
+      "bytes": 28401,
+      "sha256": "42a5f31a269a8b476f009f47c420c8316b751c640a393ad2f06d56ddb26c9c05"
+    },
+    {
+      "path": "assets/context.geojson",
+      "bytes": 1952948,
+      "sha256": "221581f32597b6ca1c8dfc7a10b491da3ae768d2d17db393085e106ead7bb54e"
+    },
+    {
+      "path": "assets/context.svg",
+      "bytes": 1143445,
+      "sha256": "d72f11482d8e971c8d4112b53eb6a5d9c7158d5e534fef6cc8db9bf84ecf1053"
+    },
+    {
+      "path": "assets/hotel-ortho1956.jpg",
+      "bytes": 87151,
+      "sha256": "55e24cafa9171068b11a070040d0792101b69f092e322c61d6b57bbaf93099cf"
+    },
+    {
+      "path": "assets/hotel-ortho2023.jpg",
+      "bytes": 149503,
+      "sha256": "4e772db0437b89311a0f18e88b9a55c2a6869763e4a34273bfbd29d4aca5211f"
+    },
+    {
+      "path": "assets/mercado-ortho1956.jpg",
+      "bytes": 104843,
+      "sha256": "fecd632c2c8a0ae74cf6f389c61e08a537b1948a55ee24964191c5014704d7e2"
+    },
+    {
+      "path": "assets/mercado-ortho2023.jpg",
+      "bytes": 177304,
+      "sha256": "700761d36836f7ad833565d8e5fbb510a284abfb654853d07ba03546c1634ea8"
+    },
+    {
+      "path": "assets/muralla-ortho1956.jpg",
+      "bytes": 124577,
+      "sha256": "0574c8b6eb2db0b3053c517171203a7e9a73cea1f67c60d83702067c2ca26f4d"
+    },
+    {
+      "path": "assets/muralla-ortho2023.jpg",
+      "bytes": 210401,
+      "sha256": "f5a96a9ead9798cf55623d6522bcca0b7a4352695d9785038a2912a784d8cc83"
+    },
+    {
+      "path": "assets/ortho1956.jpg",
+      "bytes": 1484057,
+      "sha256": "fe1f33425997683193d706e84db59b01a7205de568e871e73454e39df0f84a51"
+    },
+    {
+      "path": "assets/ortho2023.jpg",
+      "bytes": 2381162,
+      "sha256": "a5d36214a22877a53190d17870536dfe26b136fceb0e6d74953be17c58d4ac76"
+    },
+    {
+      "path": "assets/parchment.svg",
+      "bytes": 553,
+      "sha256": "348a087dd573216059648110a37bb3241e6497862abd4f4903c5c7ab70fe4880"
+    },
+    {
+      "path": "assets/toros-ortho1956.jpg",
+      "bytes": 104330,
+      "sha256": "7ff742cf2c7be6fa364e1a78b9cf8d444a849ad966e2594805be9c8ecb3d7847"
+    },
+    {
+      "path": "assets/toros-ortho2023.jpg",
+      "bytes": 175771,
+      "sha256": "6a372680a6b4d08445a817fc248b1c59ec744e480604cef1dbdd0a8fc4fc6a76"
+    },
+    {
+      "path": "fonts/LibreCaslonDisplay-OFL.txt",
+      "bytes": 4402,
+      "sha256": "78c9f56e0d8a7ad7b9d26842a8eae728337a8671d8ddc6e889fa10645935dc7b"
+    },
+    {
+      "path": "fonts/LibreCaslonDisplay-Regular.ttf",
+      "bytes": 101384,
+      "sha256": "2340c497181e9446fcbb235e1c3780558dc62879ffe0ef47906d3f7f35cf5f35"
+    },
+    {
+      "path": "fonts/LibreCaslonText-OFL.txt",
+      "bytes": 4403,
+      "sha256": "92483eac22aa610aeb83ee246c22a1040f8ce4bdd7e68273fd89a2b06ba04338"
+    },
+    {
+      "path": "fonts/LibreCaslonText.ttf",
+      "bytes": 126876,
+      "sha256": "c11809dbfd5445886293d89b32bfc2584075c80e77750cf1c284113e36b8b3f4"
+    },
+    {
+      "path": "fonts/Manrope-OFL.txt",
+      "bytes": 4386,
+      "sha256": "d6a309fcfb963d329a93baf9df66fa5f3c23a4be2b5f67edf24d6cafecde12ac"
+    },
+    {
+      "path": "fonts/Manrope.ttf",
+      "bytes": 164700,
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "path": "fonts/UnifrakturMaguntia-OFL.txt",
+      "bytes": 4416,
+      "sha256": "1e5de646779ca42d5566b691c24e9ccb5690f01e5f4ceb575e585d709aeb3178"
+    },
+    {
+      "path": "fonts/UnifrakturMaguntia-Regular.ttf",
+      "bytes": 88508,
+      "sha256": "d64afc0547059dd2e4a78da48bda0aba0a9901be58c7f8c201a8b2b6b4492cc8"
+    },
+    {
+      "path": "index.html",
+      "bytes": 74831,
+      "sha256": "ed5d7530fda89e6c589a49dabfc43eef07a522f0ab5de5a0fd1760f5ab552967"
+    },
+    {
+      "path": "methodology.md",
+      "bytes": 11397,
+      "sha256": "63493dc9c92fe0405b3ecdaa96b0da4d7bd00816ab4d31591616df67df2c3093"
+    }
+  ]
+}
