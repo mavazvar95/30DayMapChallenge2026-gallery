@@ -1,0 +1,72 @@
+{
+  "day": 8,
+  "title": "Galicia, a tiempo de conectar",
+  "edition": "2026-11-11",
+  "files": [
+    {
+      "file": "index.html",
+      "bytes": 12620,
+      "sha256": "0b2a07b46ff302dfa3a9ba95359cdc2eace674f62ef6b5b4bab74993d4d61d7f"
+    },
+    {
+      "file": "style.css",
+      "bytes": 16446,
+      "sha256": "aa094f9bf1df15a50f2f960f7cf624c9a2637527f10b8fc1d99674338b132a87"
+    },
+    {
+      "file": "app.js",
+      "bytes": 11861,
+      "sha256": "28e21cf48e189b46c5b803c38886f652ea0e0433a0336d0cf0631dbceacb38a7"
+    },
+    {
+      "file": "data.json",
+      "bytes": 801983,
+      "sha256": "7316d91c6307bd9e8f6e2eef5c0d954a28fbe90a3bb45a907f54fafb769dab87"
+    },
+    {
+      "file": "methodology.md",
+      "bytes": 8413,
+      "sha256": "15f3e9538aa6cd3a6d69ca943d2234eebf86f22a28569be0431b45d8750b058e"
+    },
+    {
+      "file": "qa.json",
+      "bytes": 1711,
+      "sha256": "ae396f6ae211a16abfafabce55403d2cd9a6efddd1c24bb21eba5b7ae31a7459"
+    },
+    {
+      "file": "post-linkedin.md",
+      "bytes": 1688,
+      "sha256": "4117e459c064099f24ad6e967be7c1e1f0e2ce0aa4e9f214370462158a380c7d"
+    },
+    {
+      "file": "brand/compas.svg",
+      "bytes": 448,
+      "sha256": "0dc8459531ad9ccd131164b9fbcc92de554692907876c2791bf9ee806e67a6ab"
+    },
+    {
+      "file": "publication/08-utopia-linkedin.jpg",
+      "bytes": 974839,
+      "sha256": "ef3ded6183b0116e3966650dafa8d41251b23a359b4abf64f1a88c2cd8bb2916"
+    },
+    {
+      "file": "publication/08-utopia.pdf",
+      "bytes": 69902,
+      "sha256": "d06ef0f5f62235748c85832a092db3b29ba799818099f61c261803abc1a84a4c"
+    },
+    {
+      "file": "publication/08-utopia-demo.mp4",
+      "bytes": 3372784,
+      "sha256": "9e2074956761842e00fc5bfe7bad7b687eef1ac67a497fdc31bdd6a94542ce1d"
+    },
+    {
+      "file": "publication/08-utopia-comparacion.png",
+      "bytes": 129701,
+      "sha256": "f30a5b01ebfc1b320f83b1486b088da29dc4f46483b76840853f911dc8c18326"
+    },
+    {
+      "file": "publication/08-utopia-conexion-perdida.png",
+      "bytes": 126891,
+      "sha256": "4a0beb0dac352f8bbed1a695b58f1cfd15d9c5092c0ff8f5b7921eb01329eb99"
+    }
+  ]
+}

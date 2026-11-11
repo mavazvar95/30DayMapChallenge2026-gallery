@@ -135,3 +135,17 @@ Análisis y cartografía realizados con Python/GIS. Solo se incluyen los product
 ## Hosting
 
 Publicado en https://mavazvar95.github.io/30DayMapChallenge2026-gallery/ mediante GitHub Pages, desde main y /(root). Esta galería es una publicación estática de los archivos, no una cesión de derechos sobre las fuentes ni una licencia única para todos los contenidos.
+
+## Día 08 · Utopia — COMPÁS Atlántico
+
+- [Abrir el interactivo](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-08-utopia/).
+- [Lámina JPG · 3200 × 4000](day-08-utopia/publication/08-utopia-linkedin.jpg).
+- [Demostración del HTML · MP4](day-08-utopia/publication/08-utopia-demo.mp4).
+- [PDF](day-08-utopia/publication/08-utopia.pdf) · [Texto del post](day-08-utopia/post-linkedin.md).
+- [Método, fuentes y límites](day-08-utopia/methodology.md).
+
+Escenario exploratorio de una expedición adicional Ferrol–A Coruña, con horarios
+GTFS Renfe (CC BY 4.0, captura 10/11/2026). La llegada calculada del ejemplo
+Ferrol–Vigo-Urzáiz pasa de 21:29 a 19:26. No es un servicio comercial ni un plan
+operativo validado. Todos los supuestos, consultas perjudicadas del ajuste
+descartado y recursos pendientes aparecen en el interactivo.
