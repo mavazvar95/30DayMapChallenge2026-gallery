@@ -117,6 +117,17 @@ exportó en 9 min 30 s y se conserva sin alteraciones; **la revisión corregida
 no se presenta como realizada en diez minutos**. Sin modelo de frecuencias,
 transbordos o compatibilidad de vehículos.
 
+## Día 09 · Urban-rural — La mitad de los lugares
+
+- [Lámina para LinkedIn · JPG de 3200 × 4000 px](day-09-urban-rural/09-urban-rural-linkedin.jpg) · [SVG](day-09-urban-rural/09-urban-rural-map.svg).
+- [Texto del post](day-09-urban-rural/post-linkedin.md) · [método y límites](day-09-urban-rural/methodology.md).
+
+Galicia reúne 30.312 de las 61.862 entidades singulares de población de España
+(49,0 %) y el 5,8 % de sus habitantes. Relieve de densidad de lugares, ciudad y
+campo a la misma escala y reparto de lugares y habitantes por tamaño. Fuente:
+IGN–CNIG, NGMEP edición 2017 (CC BY 4.0), con población INE a 1/1/2016; contexto
+Natural Earth, dominio público. Contar lugares no mide despoblación.
+
 ## Procedencia
 
 Análisis y cartografía realizados con Python/GIS. Solo se incluyen los productos de publicación: no hay datasets originales, entornos virtuales ni historial del repositorio de trabajo TEST.
