@@ -1,22 +1,26 @@
-08/30 · Utopia — Galicia, a tiempo de conectar 🚆🌊
+¿Y si pudieras moverte por Galicia con una red de trenes que encajase con tu día? 🚆
 
-Son las 15:30. Estás en Ferrol y quieres ir a Vigo en tren.
+08/30 · Utopia 🗺️
 
-En el ejemplo que he calculado para el 12 de noviembre, llegarías a Vigo-Urzáiz a las 21:29. Antes de subir al primer tren ya habrías esperado 2 horas y 11 minutos.
+Para esta entrega me he inventado una compañía ferroviaria: COMPÁS Atlántico. Y me he puesto a pensar qué servicios debería ofrecer.
 
-Ahí empieza mi utopía para este día del reto: COMPÁS Atlántico, una compañía ferroviaria imaginada para explorar cómo conectar mejor Galicia. Ferrol tenía que estar dentro. 🗺️
+🚉 Cercanías entre A Coruña y Ferrol, por Betanzos; entre Vigo y Pontevedra; en el entorno de Santiago y hacia O Porriño y Guillarei.
 
-Primero probé a mover media hora un servicio existente. Mejoraban algunos viajes, pero se estropeaban otras conexiones. Así que planteé otro escenario: conservar los trenes actuales y añadir una expedición Ferrol–A Coruña a las 15:45.
+🚆 Regionales que conecten también Lugo, el valle del Miño y Valdeorras. Y continuidad por la costa hacia Asturias, con la red de vía métrica.
 
-Con ese refuerzo y los enlaces que ya aparecen en los horarios, la llegada del ejemplo pasaría a las 19:26. Dos horas y tres minutos antes.
+⏱️ Horarios pensados para enlazar, porque llegar cinco minutos después de que salga tu siguiente tren también es un problema de diseño de la red.
 
-Lo que más cambia es la espera en Ferrol: baja de 131 a 15 minutos. El intervalo entre trenes también forma parte de la duración de un viaje. 🕒
+El ejemplo Ferrol–Lugo lo resume bastante bien. Para salir a partir de las 08:00 del día de referencia, los refuerzos propuestos reducen el tiempo calculado de 6 h 12 a 2 h 38. Manteniendo los tiempos de marcha publicados, pero añadiendo oferta y coordinando el enlace en Betanzos.
 
-El interactivo permite cambiar origen, destino, fecha y hora, y comparar tanto el refuerzo como el ajuste que descarté. Los cálculos parten de horarios de Renfe; la expedición adicional es una propuesta. Haría falta comprobar capacidad de vía, material, personal y demanda para saber si puede ponerse en marcha.
+Y hay un detalle que me gusta: poner Cercanías cada media hora no adelanta más esa llegada. El siguiente regional sigue saliendo a la misma hora. La frecuencia y las conexiones hay que pensarlas juntas.
 
-Y ya que estábamos imaginando una compañía, le di nombre, colores y su propio tren. COMPÁS viene del ritmo compartido entre llegadas y salidas.
+He preparado un mapa con los trenes en movimiento, las mallas horarias y un comparador de viajes para probarlo. También aparece el corredor de Cerdedo, separado de las vías existentes y sin asignarle tiempos futuros inventados.
 
-Aquí puedes explorarla:
+Es una propuesta de planificación: faltaría contrastarla con demanda, capacidad, material y costes. Los trenes añadidos necesitan recursos; eso también aparece en el panel.
+
+🔎 Puedes explorarla aquí:
 https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-08-utopia/
 
-#30DaysMapChallenge2026 #30DayMapChallenge #Galicia #Ferrocarril #AnálisisDeTransporte #Cartografía
+¿Qué conexión mejorarías primero?
+
+#30DaysMapChallenge2026 #TransporteFerroviario #Galicia #Movilidad #GIS

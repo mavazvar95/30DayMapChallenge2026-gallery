@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "python_js_cases": 15,
+  "checks": [
+    "three scenario controls",
+    "mouse and keyboard selection in coastal timetable",
+    "animation advances clock",
+    "Ourense–Vigo query",
+    "Miño timetable",
+    "no desktop/mobile horizontal overflow"
+  ],
+  "date": "2026-11-11T23:46:24.202Z"
+}

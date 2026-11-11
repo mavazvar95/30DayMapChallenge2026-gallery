@@ -1,50 +1,30 @@
 {
-  "source_sha256": "64eba25b729ef32fb6ea3d4328a694c2406fb936c806948a4a52e9c46a346f96",
-  "queries_per_day": 2790,
-  "checks": [
-    {
-      "status": "PASS",
-      "check": "Frozen source SHA-256 matches manifest; agency timezone Europe/Madrid"
+  "date": "2026-11-12",
+  "rail_features": 9375,
+  "stations": 48,
+  "missing_cartographic_paths": [],
+  "source_trip_count": 156,
+  "counts": {
+    "published": 156,
+    "coordinated": 440,
+    "direct": 568
+  },
+  "crs": "EPSG:25829",
+  "source_checks": "PASS: ZIP CRC, GTFS calendars/timezone, monotonic calls, IGN count and unique IDs",
+  "capacity": "NOT_CHECKED",
+  "demand": "NOT_AVAILABLE",
+  "global_optimum": "NOT_CLAIMED",
+  "executed_checks": {
+    "unit_tests_passed": 10,
+    "python_browser_route_cases_passed": 15,
+    "browser": "PASS",
+    "geometry": {
+      "area_geometries_valid": true,
+      "rail_geometries_valid": true,
+      "coordinates_finite": true,
+      "paths_have_at_least_two_vertices": true,
+      "source": "Final data.json"
     },
-    {
-      "status": "PASS",
-      "check": "ZIP CRC, unique stop/trip/route IDs, stop-time foreign keys"
-    },
-    {
-      "status": "PASS",
-      "check": "Station coordinates within Galicia bounds, WGS84 degrees"
-    },
-    {
-      "status": "PASS",
-      "check": "Calendar exceptions, sequence/time monotonicity and boarding restrictions"
-    },
-    {
-      "status": "PASS",
-      "check": "All published itineraries match active legs, 10-minute transfers and time balances"
-    },
-    {
-      "status": "PASS",
-      "check": "Additional train preserves every baseline service and template running/dwell times"
-    },
-    {
-      "status": "PASS",
-      "check": "Baseline/proposal/rejected case compared on all 90 OD pairs × 31 ready-times × 3 dates"
-    },
-    {
-      "status": "WARNING",
-      "check": "Only 10 stations allowed as interchanges; no walking between Vigo stations, FEVE, other operators or next-service-day departures"
-    },
-    {
-      "status": "WARNING",
-      "check": "Uniform queries are not passengers. All 3 dates used in candidate selection, not independent validation"
-    },
-    {
-      "status": "WARNING",
-      "check": "No baseline worsening follows from assuming all existing services unchanged; conflicts not modelled"
-    },
-    {
-      "status": "NOT_CHECKED",
-      "check": "Capacity, single-track crossings, fleet/staff cycles, costs, demand, fares, seat availability and actual reliability"
-    }
-  ]
+    "validation_queries": 168
+  }
 }

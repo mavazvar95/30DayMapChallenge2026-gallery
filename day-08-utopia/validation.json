@@ -1,0 +1,26 @@
+{
+  "design_queries": 48,
+  "validation_queries": 168,
+  "population": "7 ciudades × 6 destinos × 4 horas no usadas para ajustar fases",
+  "weights": "Cada consulta vale 1; no son viajeros",
+  "comparisons": {
+    "coordinated": {
+      "improved": 127,
+      "worsened": 0,
+      "unchanged": 30,
+      "gained": 11,
+      "lost": 0,
+      "unreachable_both": 0,
+      "median_minutes_saved_comparable": 47.0
+    },
+    "direct": {
+      "improved": 128,
+      "worsened": 0,
+      "unchanged": 29,
+      "gained": 11,
+      "lost": 0,
+      "unreachable_both": 0,
+      "median_minutes_saved_comparable": 61.0
+    }
+  }
+}

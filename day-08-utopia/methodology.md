@@ -1,155 +1,168 @@
-# 08/30 · Utopia — COMPÁS Atlántico
+# COMPÁS Atlántico · red territorial y servicios de proximidad
 
-Autor: Miguel Ángel Vázquez Varela. Edición: 11/11/2026.
+Edición revisada el 12/11/2026. Tema oficial: **08 · Utopia**. Una propuesta
+exploratoria de servicio ferroviario, no un plan aprobado ni un horario comercial.
 
-## Pregunta y conclusión
+## Pregunta y criterio de diseño
 
-¿Cómo cambia un viaje desde Ferrol si se añade una expedición que permite
-aprovechar servicios posteriores del eje atlántico?
+¿Cómo articular movilidad cotidiana, conexiones regionales y enlaces de larga
+distancia sobre la geografía real de Galicia, manteniendo la continuidad de la
+costa cantábrica hacia Asturias?
 
-Para estar disponible en Ferrol desde las **15:30 del 12/11/2026**, el modelo
-encuentra llegada a **Vigo-Urzáiz a las 21:29** con el horario publicado. Con
-la expedición hipotética **C01, Ferrol 15:45–A Coruña 17:02**, encuentra llegada
-a **19:26**. La diferencia es **123 minutos**. El viaje del escenario pasa por
-A Coruña: conexión con el MD 09183 de las 18:00, con 58 minutos de transbordo.
+La red propuesta distingue funciones, no solo colores. C2 conecta A Coruña y
+Ferrol **por Betanzos y las vías existentes**, con paradas intermedias. C3 sirve
+Vigo–Pontevedra; C4, Santiago–Vilagarcía; C5, Vigo–Guillarei por O Porriño. C1
+conserva el corredor métrico Ferrol–Ortigueira. M1 sirve el Eixo Atlántico; M2 el
+interior por Lugo; M3 la conexión Avant A Coruña–Ourense; M4 el Miño; M5 Monforte–
+Valdeorras y M6 las paradas locales A Coruña–Santiago. R1 mantiene Ferrol–Oviedo.
 
-La espera en origen pasa de 131 a 15 minutos; el tiempo en tren de 168 a 163;
-la espera de transbordo de 60 a 58. **116 de los 123 minutos de diferencia
-proceden de esperar menos antes del primer tren.** Es un ejemplo definido por
-origen, destino, fecha y hora disponible, no un ahorro general para todo viajero.
+Estas funciones son hipótesis de planificación. No se ha calculado demanda,
+actividad laboral, población captada ni conveniencia económica de las frecuencias.
+«Cercanías» indica el servicio propuesto, no una categoría comercial existente.
 
-El refuerzo conserva el horario de todos los trenes existentes. Ese supuesto
-explica que el enrutamiento no empeore: no se han simulado conflictos en la vía.
-El resultado cuantifica un beneficio potencial y no demuestra viabilidad ni
-rentabilidad. No es un servicio comercial ni una recomendación para reservar.
+## Tres escenarios
 
-## Fuente y captura
+1. **Publicado:** horarios del 12/11/2026, estaciones seleccionadas. Incluye
+   productos MD/LD/AV, regionales métricos y C1. No representa circulación real.
+2. **Cadenciado:** conserva toda la oferta anterior y añade patrones de 60 o
+   120 minutos. No elimina una conexión publicada para mejorar el promedio.
+3. **Proximidad cada 30 minutos:** conserva el patrón anterior e intercala
+   expediciones C2–C5 a los 30 minutos. No acelera los trenes ni desplaza las
+   salidas existentes del escenario 02.
 
-- Renfe Data: [horarios AV, LD y MD](https://data.renfe.com/es/dataset/horarios-de-alta-velocidad-larga-distancia-y-media-distancia).
-- [ZIP GTFS oficial](https://ssl.renfe.com/gtransit/Fichero_AV_LD/google_transit.zip).
-- Descarga conservada: **10/11/2026**, sin refrescar al cambiar de día.
-- Licencia declarada por el catálogo: **Creative Commons Attribution 4.0**.
-- SHA-256: `64eba25b729ef32fb6ea3d4328a694c2406fb936c806948a4a52e9c46a346f96`.
-- El fichero excluye Cercanías y FEVE. No incluye otros operadores.
-- Fechas de estudio: **11, 12 y 14/11/2026**, hora de agencia Europe/Madrid.
-- La captura incluye los calendarios que cubren esas fechas; no son mediciones
-  de circulación real, puntualidad u ocupación.
+Los escenarios 02 y 03 cuestan más oferta que la referencia. No se presentan
+como una mejora gratuita. La comparación a recursos constantes se limita al
+ajuste de fases del escenario 02: los mismos trenes, frecuencias y duraciones
+antes y después de buscar mejores enlaces.
 
-El original se conserva en el repositorio de trabajo. Se recortan espacios de
-cabeceras y valores al leer el CSV, sin reescribir ni reparar el ZIP.
+## Tiempos y optimización
 
-## Universo de consultas
+Los patrones conservan diferencias de llegada y salida de trenes publicados,
+identificados en `data.json → lines → template`. Se retienen las paradas del
+ámbito que realiza cada tren de referencia. El tiempo entre ellas incluye las
+paradas intermedias no mostradas; no se inventan tiempos de marcha más rápidos.
+El patrón puede ser asimétrico entre sentidos, como lo es su referencia.
 
-Diez estaciones: Ferrol, Betanzos-Infesta, A Coruña, Santiago de Compostela-Daniel
-Castelao, Pontevedra, Vigo-Urzáiz, Vigo-Guixar, Ourense, Lugo y Monforte de Lemos.
-Se mantienen los identificadores GTFS; Vigo-Guixar y Vigo-Urzáiz nunca se fusionan.
+Se buscan fases de salida cada 10 minutos, en dos barridos de descenso por
+coordenadas. Objetivo: minimizar el tiempo total, espera inicial incluida, de
+48 consultas (12 pares dirigidos, horas 07:00, 10:00, 14:00 y 17:00), todas con
+peso uno. Una consulta sin solución recibe una penalización hasta las 30:00.
+Esto **no demuestra un óptimo global**, no usa demanda observada y no incorpora
+capacidad de vía, andenes, conflictos, disponibilidad de material o costes.
 
-90 pares dirigidos distintos × 31 horas de disponibilidad (05:00–20:00, cada
-media hora) = **2.790 consultas por fecha**, 8.370 en total. Cada consulta recibe
-el mismo peso. No hay matriz de demanda, pasajeros, demanda inducida o cuotas modales.
+`validation.json` evalúa por separado 168 consultas: siete ciudades, seis
+destinos y cuatro horas no usadas en el ajuste (08:15, 11:45, 15:15, 18:45).
+Se muestran también empeoramientos y consultas sin solución; no solo mejoras.
+No son viajes de personas observadas ni ahorro de horas de viajeros.
 
-Los trenes se construyen con sus paradas completas; los cambios de tren y los
-orígenes/destinos se limitan a esas diez estaciones. Las estaciones intermedias
-no incluidas no forman parte del balance de consultas. No hay enlaces a pie,
-autobuses, tarifas, billetes, distancias de acceso o garantía de plazas.
+El encaminamiento minimiza llegada, después transbordos y, para empates de estado,
+tiempo a bordo. Admite hasta tres trenes, con al menos diez minutos para cambiar
+en la misma estación. No conecta las dos estaciones de Vigo a pie ni presupone
+transbordos entre estaciones distintas. No hay trenes continuos entre anchos
+incompatibles. Se aceptan horas GTFS superiores a 24:00; límite de llegada 30:00.
+No se cargan nuevas salidas del siguiente día de servicio.
 
-## Enrutamiento
+## Geografía y costa
 
-Se aplican `calendar.txt` y las altas/bajas de `calendar_dates.txt`, los horarios
-ordenados de `stop_times.txt`, y las restricciones de subida/bajada. Se excluyen
-las restricciones de reserva telefónica/acuerdo previo (tipos 2/3), de forma
-conservadora. Solo se incluyen rutas de tipo ferroviario 2.
+- Estaciones: coordenadas WGS84 del GTFS de Renfe.
+- Vías: IGN IGR-RT, capa «Ancho de vía», elementos en servicio dentro de
+  `[-9.5, 41.7, -5.4, 43.9]`. Consulta paginada por OBJECTID, total contrastado
+  con `returnCountOnly`: 9.375 elementos, sin truncamiento ni IDs duplicados.
+- CRS de análisis y representación: **ETRS89 / UTM zona 29N, EPSG:25829**.
+  La transformación usa `always_xy=True`; la escala es isótropa en ambos ejes.
+- Tierra y límites provinciales: Natural Earth 1:10m, recortados y simplificados
+  a 150 m para esta escala. No es cartografía costera de proyecto constructivo.
+- Las vías tienen mayor peso y contraste que los límites administrativos.
 
-El algoritmo busca la **primera llegada** a partir de la hora de disponibilidad.
-Incluye la espera inicial, admite hasta tres trenes (dos transbordos) y exige
-10 minutos entre llegada y salida en la misma estación. No cuenta como transbordo
-continuar en un mismo tren: se generan todas las etapas directas posibles entre
-sus estaciones seleccionadas.
+Las posiciones animadas se interpolan sobre caminos de la red cartográfica,
+separando el ancho métrico del resto. Se densifican los segmentos originales a
+un máximo de 100 m; los puntos siguen exactamente sus segmentos, no crean vías.
+Se unen vértices por redondeo a 1 m y se buscan accesos próximos a cada estación.
+Los caminos minimizan longitud cartográfica entre paradas seleccionadas; **no
+son surcos certificados ni trazados operativos validados para cada material**.
+No se interpreta la velocidad de los símbolos como velocidad real instantánea.
+Las horas de las paradas, malla y cálculo de viajes proceden del mismo horario.
 
-Admite las horas GTFS superiores a 24:00 y llegadas anteriores a 30:00 del mismo
-día de servicio. No carga las nuevas salidas del siguiente día de servicio.
-Una consulta sin resultado no prueba que no exista un viaje fuera de ese ámbito.
+Se retiró la recta A Coruña–Ferrol sobre el mar y el objetivo no sustentado de
+35 minutos. Ningún escenario depende de ese cruce ni de ese tiempo.
 
-## Escenarios
+### Cerdedo y Ourense–Vigo
 
-### Expedición adicional C01
+Ourense–Vigo por el Miño se incorpora con tiempos de servicios reales y función
+territorial, distinta de la conexión por Santiago. La variante de Cerdedo está
+documentada en el [BOE ferroviario de 2010](https://www.boe.es/boe/dias/2010/03/15/pdfs/BOE-A-2010-4359.pdf)
+y en la información sobre el estudio complementario de 2025 publicada por
+[G24](https://www.g24.gal/-/transportes-adxudica-estudo-informativo-para-a-variante-do-ave-por-cerdedo).
 
-Se replica el patrón de paradas y tiempos del MD 12683, Ferrol–A Coruña,
-conservando tiempos de marcha y parada en las trece estaciones. Se añade un
-nuevo servicio hipotético, identificado como **C01**, sin sustituir el original.
-Las trece estaciones y sus horas aparecen en el panel.
+El trazo coral entre O Carballiño y Portela es **un esquema de relación territorial**
+entre estaciones de coordenadas verificadas, no una digitalización del eje
+proyectado. Se comprueba que queda sobre tierra en la cartografía de contexto.
+No se incorpora al cálculo de tiempos ni se afirma que tenga aprobación vigente,
+fecha de apertura o solución constructiva. A esta escala, el esquema sirve para
+identificar una alternativa de infraestructura sin confundirla con la red actual.
 
-Se prueban nueve salidas de 15:00 a 17:00, cada 15 minutos. El criterio selecciona
-la que maximiza el **menor saldo de minutos ganados entre las tres fechas**, en
-consultas con itinerario en ambos escenarios. Los nuevos itinerarios se cuentan
-por separado y no reciben un valor temporal ficticio. Desempate: suma de saldos
-y, después, salida más temprana. La seleccionada es **15:45**, llegada **17:02**.
+## Indicadores
 
-Este es el mejor candidato de ese conjunto y criterio, no una optimización
-continua ni de toda la red. Las tres fechas se utilizan para seleccionar, por
-lo que ninguna se presenta como validación independiente.
+- Tiempo total desde disponibilidad = espera inicial + tiempo a bordo + enlaces.
+- Alcance 60/90/120 minutos: número de las otras 47 estaciones del ámbito
+  alcanzables; incluye espera inicial. No mide población ni superficie cubierta.
+- Último regreso: última salida modelada que permite regresar antes de las
+  01:00. No constituye garantía de viaje comercial.
+- Robustez +5/+10: prueba aislada sobre el margen de cada enlace; no propaga
+  retrasos por la red ni estima probabilidades de puntualidad.
+- Horas-tren: suma de duración de expediciones **propuestas**, solo en el ámbito.
+- Flota: suma, para líneas con flotas separadas, de `ceil((ida + vuelta + 30) /
+  intervalo)`, suponiendo 15 minutos en cada cabecera. Es una cota de ciclo,
+  no un gráfico de material. Excluye reservas, vacíos, mantenimiento y personal.
+- No se publican tren-km operativos: la geometría de animación no acredita
+  itinerarios explotables y no debe convertirse en kilometraje de producción.
 
-| Fecha | Llegan antes | Llegan después | Misma llegada | Nuevo itinerario | Sin itinerario en ambos |
-|---|---:|---:|---:|---:|---:|
-| 11/11/2026 | 39 | 0 | 2.578 | 6 | 167 |
-| 12/11/2026 | 45 | 0 | 2.645 | 0 | 100 |
-| 14/11/2026 | 45 | 0 | 2.512 | 0 | 233 |
+## Fuentes, congelación y licencias
 
-No se pierde ningún itinerario en este escenario. El cero empeoramientos es
-condicional a mantener todos los servicios existentes sin alterar sus tiempos.
-Cada fila suma 2.790, incluyendo los casos sin itinerario.
+- Renfe MD/LD/AV: `https://ssl.renfe.com/gtransit/Fichero_AV_LD/google_transit.zip`,
+  captura 10/11/2026, CC BY 4.0, SHA256 original verificado por `analyze.load_feed`.
+- Renfe Cercanías: `https://ssl.renfe.com/ftransit/Fichero_CER_FOMENTO/fomento_transit.zip`,
+  captura 11/11/2026, CC BY 4.0 según catálogo de datos abiertos Renfe.
+- Renfe RAM: consulta pública `/ServiciosWebHorarios/Service.asmx/GetTrenesFecha`
+  para 12/11/2026, contrastada con GTFS. **Prevalece GTFS**: hay discrepancias de
+  algunos minutos de parada y no se suman ambas fuentes como trenes diferentes.
+  Las respuestas RAM no se redistribuyen en la galería; la licencia específica
+  del endpoint no se ha verificado. Los datos publicados del modelo son GTFS.
+- IGN: `https://serviciosgis.ign.es/servicios/rest/services/RT/igr_rt_ferrocarril/MapServer/4`,
+  captura 11/11/2026, condiciones de reutilización IGN, CC BY 4.0.
+- Natural Earth: `ne_10m_admin_1_states_provinces`, captura 11/11/2026,
+  dominio público. Coordenadas originales EPSG:4326.
 
-**Recursos adicionales:** una expedición en un sentido, 77 minutos entre salida
-y llegada, incluidas paradas. No equivale al coste total ni al ciclo de un tren:
-faltan posicionamiento, retorno del material, reserva, mantenimiento y personal.
-No se calculan tren-kilómetro sin un trazado y medición verificados.
+`sources-manifest.json` conserva tamaños y hashes. Los feeds cambian diariamente:
+una descarga actual no reproduce por sí sola la fotografía congelada. Conservar
+los originales locales. El JSON publicado permite reproducir las consultas de
+esta edición sin acceder a endpoints vivos.
 
-### Ajuste de horario descartado
+## Reproducción y estado
 
-Desplazar todo el tren 12683 de 14:15 a 14:45 conserva su duración, pero cambia
-las conexiones. El 12/11 mejora 15 consultas y empeora 115 (de 2.790).
-Por ejemplo, disponible en Ferrol desde las 14:00 hacia Vigo-Guixar, la llegada
-pasa de 18:18 a 21:33: **195 minutos después**. Se pierde el enlace de las 16:00
-en A Coruña, porque el tren desplazado llegaría a las 16:02.
+Entorno utilizado: Python 3.12, pyproj, Shapely, SciPy; Chromium y Playwright para
+verificación y exportación; FFmpeg para codificar la grabación del HTML.
 
-Se conserva como comparación explicativa; no se recomienda como ajuste general.
-Los resultados de la exploración anterior quedan archivados en `research/`.
+```sh
+python days/day-08-utopia/v2/build.py
+python days/day-08-utopia/v2/evaluate.py
+python -m unittest discover -s days/day-08-utopia/v2 -p test_model.py -v
+python -m http.server 8088 --directory .
+node days/day-08-utopia/v2/check.cjs
+```
 
-## Sensibilidad y calidad
+Ejecutado: integridad ZIP, calendario y zona horaria; monotonicidad de horarios;
+recuento/IDs de IGN; caminos disponibles; control terrestre del esquema de
+Cerdedo; pruebas de transbordos y conservación de tiempos; pruebas de navegador.
+Inspección visual: composición, costa, jerarquía de vías y límites, tamaños de
+pantalla y exportaciones. No comprobado: capacidad ni viabilidad operativa,
+demanda, costes, proyecto constructivo, accesibilidad de todas las estaciones,
+compatibilidad del material con todas las rutas. El estado es **propuesta
+exploratoria revisable**, no aprobación profesional de explotación.
 
-El balance del refuerzo se repite con márgenes mínimos de 5, 10, 15 y 20 minutos.
-La tabla del HTML muestra cada fecha y margen. Un margen no es una garantía:
-no hay distribución de retrasos ni comprobación de andenes o accesibilidad.
-
-`qa.json` recoge comprobaciones ejecutadas, advertencias y comprobaciones no
-realizadas. Se verifican integridad ZIP, claves, coordenadas, calendarios,
-secuencias temporales, itinerarios contra sus etapas activas, márgenes de cambio,
-balance de tiempos y conservación de los servicios actuales. Pruebas unitarias
-cubren medianoche, restricciones, cambio de estación y cálculo de transbordos.
-
-## Cartografía y diseño
-
-El diagrama representa **enlaces de servicios**, derivados de las secuencias de
-paradas GTFS entre las estaciones seleccionadas. Los nodos se colocan
-esquemáticamente para leer las conexiones; no hay escala ni nuevos trazados
-ferroviarios. Las coordenadas originales del GTFS están en WGS84 (EPSG:4326),
-conservadas como referencia; no se usan grados para medir distancias.
-
-Turquesa: itinerario del escenario. Discontinuo: expedición propuesta. Amarillo:
-estaciones del itinerario. Azul: tiempo en tren. Gris: espera inicial. Amarillo
-en las barras: espera de transbordo. Las barras comparten escala desde la hora
-de disponibilidad; el espacio restante hasta la llegada más tardía no es viaje.
-
-La animación es esquemática: usa horas de salida/llegada y muestra el avance
-ilustrativo entre nodos, no posiciones observadas ni velocidades reales.
-
-La identidad COMPÁS Atlántico es conceptual. Logotipo y componentes SVG/HTML
-originales; el tren ilustrado no corresponde a material homologado. Las imágenes
-conceptuales de la conversación orientaron el desarrollo con Codex; la
-implementación final y el cálculo son reproducibles en los archivos del proyecto.
-
-## Pendiente para una propuesta operativa
-
-Surcos, cruces en vía única, capacidad de estaciones, material disponible,
-ciclos y personal, coste, demanda, ocupación, tarifas y disponibilidad real de
-billetes. La expedición no se ha solicitado ni acordado con ningún operador.
+Detalle cartográfico de Betanzos: se descargaron adicionalmente 24 elementos
+IGN sin simplificación en el entorno de la estación. Para la animación se
+incluyen allí las geometrías oficiales de playa de vías, cuyo atributo de ancho
+es «No aplicable», junto a las líneas ibéricas. No se aplica esta excepción a
+Ferrol ni a la red métrica y no se dibuja ningún empalme sintético. Es un ajuste
+del grafo cartográfico, no validación de aparatos de vía ni itinerarios reales.
