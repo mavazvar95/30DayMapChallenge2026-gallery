@@ -5,8 +5,8 @@
   "files": [
     {
       "file": "index.html",
-      "sha256": "6d19c33f151684f47cf063004c3712ec3e977dd05107dfb8725fd9584c9c431e",
-      "bytes": 9358
+      "sha256": "c23392b3ceb7c04017ef78e4743728ccf67a28b0729d517cd32f136e3285cb5e",
+      "bytes": 9396
     },
     {
       "file": "style.css",
@@ -15,8 +15,8 @@
     },
     {
       "file": "app.js",
-      "sha256": "1534e9c1c100ee06f41d3464cdbc78681ccad9c617d87ee47fa9fc6b8dbd222c",
-      "bytes": 21078
+      "sha256": "33e22a73030d2fbbcdfff7cd792f4247bd742823223f61d98329540b3aba1383",
+      "bytes": 21097
     },
     {
       "file": "data.json",
@@ -25,8 +25,8 @@
     },
     {
       "file": "methodology.md",
-      "sha256": "799acab831963cb0b91b3d68211fb5916322228d4506a9d3bfbf904ed01ed56e",
-      "bytes": 10078
+      "sha256": "10a21c0a9e73525b054f8fb55dff5da2b7fbc5d2dd6bfa348bcf26e4b74d70f6",
+      "bytes": 10198
     },
     {
       "file": "qa.json",

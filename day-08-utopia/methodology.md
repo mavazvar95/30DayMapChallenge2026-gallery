@@ -149,6 +149,9 @@ python days/day-08-utopia/v2/evaluate.py
 python -m unittest discover -s days/day-08-utopia/v2 -p test_model.py -v
 python -m http.server 8088 --directory .
 node days/day-08-utopia/v2/check.cjs
+node days/day-08-utopia/v2/media.cjs
+node days/day-08-utopia/v2/record.cjs
+python days/day-08-utopia/v2/export_video.py
 ```
 
 Ejecutado: integridad ZIP, calendario y zona horaria; monotonicidad de horarios;
