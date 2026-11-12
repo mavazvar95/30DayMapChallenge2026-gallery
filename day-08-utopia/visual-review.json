@@ -1,0 +1,22 @@
+{
+  "inspected": true,
+  "date": "2026-11-12",
+  "artifacts": [
+    "plate-preview.png",
+    "map-preview.png",
+    "lugo-preview.png",
+    "journey-preview.png"
+  ],
+  "observations": [
+    "Official IGN coastline resolves ría detail",
+    "Rail hierarchy stronger than province boundaries",
+    "Consistent service colors and rectangular animated trains",
+    "Zoom labels remain readable; some station text can overlap vehicles at dense junctions",
+    "Plate includes scale, source credits and conditional target times"
+  ],
+  "limitations": [
+    "Conceptual corridor bands follow existing territorial reference, not engineered alignments",
+    "Transport feasibility not validated"
+  ],
+  "author_approval": "Not claimed"
+}

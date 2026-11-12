@@ -1,14 +1,18 @@
 {
   "status": "PASS",
   "errors": [],
-  "python_js_cases": 15,
+  "python_js_cases": 36,
   "checks": [
-    "three scenario controls",
-    "mouse and keyboard selection in coastal timetable",
-    "animation advances clock",
-    "Ourense–Vigo query",
-    "Miño timetable",
-    "no desktop/mobile horizontal overflow"
+    "scenario selectors",
+    "seven city line selectors",
+    "AV infrastructure condition",
+    "zoom/reset",
+    "infrastructure layer",
+    "animated train rectangles",
+    "time decomposition",
+    "keyboard timetable",
+    "Celta excluded from reference routing",
+    "desktop/mobile no overflow"
   ],
-  "date": "2026-11-11T23:46:24.202Z"
+  "date": "2026-11-12T10:36:52.587Z"
 }

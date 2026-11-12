@@ -1,26 +1,103 @@
 {
-  "design_queries": 48,
-  "validation_queries": 168,
-  "population": "7 ciudades × 6 destinos × 4 horas no usadas para ajustar fases",
-  "weights": "Cada consulta vale 1; no son viajeros",
-  "comparisons": {
-    "coordinated": {
-      "improved": 127,
-      "worsened": 0,
-      "unchanged": 30,
-      "gained": 11,
-      "lost": 0,
-      "unreachable_both": 0,
-      "median_minutes_saved_comparable": 47.0
+  "status": "WARNING",
+  "checks": [
+    {
+      "check": "Chronology and station references",
+      "status": "PASS",
+      "evidence": []
     },
-    "direct": {
-      "improved": 128,
-      "worsened": 0,
-      "unchanged": 29,
-      "gained": 11,
-      "lost": 0,
-      "unreachable_both": 0,
-      "median_minutes_saved_comparable": 61.0
+    {
+      "check": "Future works absent from reference timetable",
+      "status": "PASS",
+      "evidence": "No corridor-tagged trips in published scenario"
+    },
+    {
+      "check": "Proposed AV requires identified infrastructure",
+      "status": "PASS",
+      "evidence": "96 future AV departures linked to infrastructure conditions"
+    },
+    {
+      "check": "Cercanías in seven cities",
+      "status": "PASS",
+      "evidence": [
+        "20309",
+        "21010",
+        "22100",
+        "22308",
+        "23004",
+        "31400",
+        "31412"
+      ]
+    },
+    {
+      "check": "CP replacement bus notice",
+      "status": "PASS",
+      "evidence": "4 Celta GTFS records flagged; browser test checks exclusion from routing"
+    },
+    {
+      "check": "Time zones",
+      "status": "PASS",
+      "evidence": "GTFS Madrid clock retained; Portugal local time one hour earlier on reference date"
+    },
+    {
+      "check": "Context geometries",
+      "status": "PASS",
+      "evidence": "IGN province polygons and remaining Natural Earth context valid; EPSG:25829, metric coordinates"
+    },
+    {
+      "check": "Ferrol: no invented cross-ría shortcut",
+      "status": "PASS",
+      "evidence": "Every future corridor reference uses the existing rail geometry; terrestrial variants not located as engineering alignments"
+    },
+    {
+      "check": "Coast screening",
+      "status": "PASS",
+      "evidence": [
+        {
+          "corridor": "P-FE",
+          "max_length_outside_coarse_land_250m_buffer": 0
+        },
+        {
+          "corridor": "P-LU",
+          "max_length_outside_coarse_land_250m_buffer": 0
+        },
+        {
+          "corridor": "P-CE",
+          "max_length_outside_coarse_land_250m_buffer": 0
+        },
+        {
+          "corridor": "P-PT",
+          "max_length_outside_coarse_land_250m_buffer": 0
+        }
+      ]
+    },
+    {
+      "check": "Cartographic paths",
+      "status": "PASS",
+      "evidence": {
+        "missing": [],
+        "action": "No line or moving train drawn across these gaps; timetable calculation remains independent of cartography"
+      }
+    },
+    {
+      "check": "Authorized speeds, gradients, capacity, vehicle compatibility and demand",
+      "status": "NOT_CHECKED",
+      "evidence": "No engineering or operations simulation; future runtimes are assumptions"
+    },
+    {
+      "check": "Global timetable optimality",
+      "status": "NOT_CHECKED",
+      "evidence": "Limited departure-phase search, if present, does not certify capacity or global optimum"
+    },
+    {
+      "check": "Departure-phase coordination at fixed supply",
+      "status": "PASS",
+      "evidence": {
+        "before": 32581.0,
+        "after": 28326.0,
+        "holdout_worsened": 31
+      }
     }
-  }
+  ],
+  "publication_scope": "Illustrative future network, not an operating timetable or investment recommendation"
 }

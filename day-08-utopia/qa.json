@@ -1,30 +1,32 @@
 {
-  "date": "2026-11-12",
-  "rail_features": 9375,
-  "stations": 48,
-  "missing_cartographic_paths": [],
-  "source_trip_count": 156,
+  "stations": 60,
+  "rail_features": 11162,
+  "missing_paths": [],
+  "unverified_infrastructure": [
+    "alineamientos nuevos",
+    "velocidades autorizadas por tramo",
+    "material por expedición",
+    "capacidad"
+  ],
   "counts": {
-    "published": 156,
-    "coordinated": 440,
-    "direct": 568
+    "published": 160,
+    "coordinated": 556,
+    "direct": 812
   },
-  "crs": "EPSG:25829",
-  "source_checks": "PASS: ZIP CRC, GTFS calendars/timezone, monotonic calls, IGN count and unique IDs",
-  "capacity": "NOT_CHECKED",
-  "demand": "NOT_AVAILABLE",
-  "global_optimum": "NOT_CLAIMED",
-  "executed_checks": {
-    "unit_tests_passed": 10,
-    "python_browser_route_cases_passed": 15,
-    "browser": "PASS",
-    "geometry": {
-      "area_geometries_valid": true,
-      "rail_geometries_valid": true,
-      "coordinates_finite": true,
-      "paths_have_at_least_two_vertices": true,
-      "source": "Final data.json"
-    },
-    "validation_queries": 168
-  }
+  "portugal_source": "Geofabrik OSM 2026-11-10",
+  "topology_adjustments": [
+    {
+      "ign_node": [
+        528903,
+        4654218
+      ],
+      "osm_id": "30641209",
+      "offset_m": 0.057,
+      "method": "Shared node on existing border rail bridge; raw geometry unchanged"
+    }
+  ],
+  "status": "REVIEWED_WITH_LIMITATIONS",
+  "validation": "validation.json",
+  "browser_validation": "browser-qa.json",
+  "schedule_coordination": "coordination.json"
 }

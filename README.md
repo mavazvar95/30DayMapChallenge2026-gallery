@@ -144,9 +144,10 @@ Publicado en https://mavazvar95.github.io/30DayMapChallenge2026-gallery/ mediant
 [Texto del post](day-08-utopia/post-linkedin.md) ·
 [Método](day-08-utopia/methodology.md).
 
-Revisión territorial de 12/11/2026: 48 estaciones, vías reales IGN, horarios
-Renfe y propuestas de Cercanías, regionales y coordinación de enlaces.
-A Coruña–Ferrol sigue las vías existentes por Betanzos. Cerdedo se identifica
-como esquema de corredor estudiado, sin tiempos futuros calculados.
-La oferta publicada se conserva; los refuerzos necesitan recursos adicionales.
-Es una propuesta exploratoria, sin validación de demanda, capacidad o explotación.
+V3 de 12/11/2026: 60 estaciones, vías IGN/OSM y costa provincial IGN.
+Vías y servicios se leen por separado, con zoom y fichas de líneas.
+Cercanías propuestas en siete ciudades; continuidad con Porto, Asturias y
+recorridos publicados hacia la Meseta. A Coruña–Ferrol solo por tierra.
+Nuevas infraestructuras propias y corredores oficiales se distinguen explícitamente;
+los tiempos futuros son objetivos sujetos a obras. Ajuste limitado de salidas a
+oferta fija, con validación temporal; capacidad, demanda y costes sin certificar.
