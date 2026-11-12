@@ -1,173 +1,170 @@
-# COMPÁS Atlántico · V3: vías, servicios y obras
+# COMPÁS Atlántico V4 · Menos rodeos, más conexiones
 
-Referencia: 12 de noviembre de 2026. Autor: Miguel Ángel Vázquez Varela.
+Autor: Miguel Ángel Vázquez Varela. Referencia de horarios: 12/11/2026.
 
-## Pregunta y mensaje
+## Qué propone esta revisión
 
-¿Qué infraestructura y qué oferta permitirían acercar las ciudades de Galicia,
-sin confundir un servicio rápido con una vía preparada para su velocidad?
-Se propone una red futura exploratoria: Cercanías en siete ciudades, regionales
-territoriales, media distancia y conexiones rápidas interiores e internacionales.
-No es un proyecto oficial, un óptimo demostrado ni un horario de explotación.
+Una red que conserva los servicios sobre vías existentes y añade **seis ejes
+preliminares nuevos**, definidos geográficamente: Coruña–Ferrol, Coruña–Lugo,
+Santiago–Lugo, Ourense–Pontevedra, Vigo–Braga y Braga–Porto. Ourense–Vigo reutiliza
+el Eixo Atlántico entre Pontevedra y Vigo. Los Cercanías y regionales conservan
+sus perfiles horarios de referencia; aumentar frecuencia no acelera esos trenes.
 
-## Escenarios
+Los ejes nuevos son **propuestas propias**, no vías existentes, proyectos aprobados
+ni reproducción del trazado oficial de Cerdedo o de la LAV portuguesa. Esas relaciones
+pueden tener proyectos oficiales; las geometrías aquí calculadas no se atribuyen a
+sus promotores. Tampoco se localizan nuevas estaciones AV aprobadas en Braga o Valença.
 
-1. **Horario de referencia**: 160 registros del GTFS en el ámbito de 60 estaciones.
-   Cuatro Celta se conservan en el catálogo, pero se excluyen del cálculo y de la
-   animación ferroviaria por el autobús sustitutorio Vigo–Valença anunciado por CP.
-   Los productos comerciales pueden compartir tren físico.
-2. **Más servicios**: añade 396 expediciones propuestas sobre perfiles horarios
-   publicados; no demuestra que quepan en la infraestructura. La relación con Porto
-   presupone restauración ferroviaria después de las obras.
-3. **Obras + servicios futuros**: añade 652 expediciones propuestas. Incrementa la
-   frecuencia de cuatro líneas de Cercanías y añade servicios sujetos a nuevas obras.
-   Mantiene la oferta publicada como referencia superpuesta; no es un plan de
-   sustitución de servicios ni una estimación de demanda.
+El objetivo Coruña–Ferrol <30 min se contrasta, no se impone al cálculo. La
+alternativa seleccionada tiene unos 50 km y un tiempo preliminar de 23 min bajo
+los supuestos indicados; a un máximo de 200 km/h la sensibilidad da 25 min. Ese
+resultado **no prueba viabilidad**: exige grandes intervenciones y accesos urbanos
+sin estudiar. Se rodean las rías por tierra; no se añaden puentes/túneles marítimos.
 
-Los intervalos se repiten a lo largo del día. La V3 ajusta fases de salida en
-14 líneas direccionales (C2, C6, M7, A1, A2, A3 y R8), manteniendo 652 expediciones,
-intervalos y tiempos de marcha. Dos barridos por coordenadas, candidatos cada 15 min
-más la fase inicial, minimizan la suma de tiempos de 192 consultas con igual peso.
+## Fuentes reales
 
-La suma de las consultas de ajuste pasa de 32.581 a 28.326 minutos. En otras 192
-consultas, con horas distintas, pasa de 34.016 a 31.522: **51 mejoran, 31 empeoran y
-110 no cambian**. Se adopta el ajuste porque mejora el conjunto de validación;
-no beneficia a cada viaje. No son minutos de pasajeros ni ahorro diario.
-`coordination.json` conserva consultas, fases y traza reproducible.
+Se mantienen las fuentes congeladas de V3: Renfe GTFS, IGN IGR-RT, IGN BDDAE,
+OpenStreetMap/Geofabrik Portugal y Natural Earth. Sus licencias y detalles están en
+[base-methodology.md](base-methodology.md) y [base-sources-manifest.json](base-sources-manifest.json).
 
-Un primer ensayo con solo 48 consultas sobreajustaba las salidas y empeoró su
-validación; fue descartado (`coordination-small-sample-rejected.json`). Se amplió
-la cobertura de horas, conservando consultas distintas para comprobar el resultado.
-La búsqueda es local, sin capacidad, coste ni demanda; no demuestra el óptimo global.
-La optimización antigua V2 no se reutiliza como evidencia de mejora V3.
+Relieve nuevo: **Mapzen Terrain Tiles / Skadi HGT**, descargado el 12/11/2026 desde
+<https://registry.opendata.aws/terrain-tiles/>. Cinco teselas de un grado, un segundo
+de arco, muestras de altura en metros, verificadas mediante CRC gzip y SHA256.
+Las celdas sin datos se excluyen. El muestreo del relieve es bilineal; la búsqueda
+trabaja sobre una malla métrica de 250 m, no con una precisión constructiva de 30 m.
 
-## Infraestructuras futuras y tiempos objetivo
+Atribución del servicio: Mapzen; relieve europeo producido utilizando datos e
+información Copernicus financiados por la Unión Europea, capas EU-DEM; fuentes
+globales SRTM/GMTED2010 de USGS y ETOPO1 de NOAA, según composición del servicio.
+Condiciones y atribuciones completas:
+<https://github.com/tilezen/joerd/blob/master/docs/attribution.md>.
+La descarga no identifica qué proveedor contribuye a cada píxel; no se atribuye
+el conjunto exclusivamente a SRTM ni se afirma una fecha de vuelo reciente.
 
-- **A Coruña–Ferrol**: 50 min semidirecto, 65 min con más paradas. Propuesta propia
-  de modernización terrestre, tomando actuaciones oficiales como contexto. Exige
-  variantes por tierra, electrificación, señalización y capacidad. No propone
-  nuevos puentes o túneles sobre rías. La banda sigue el corredor ferroviario
-  existente; no localiza las variantes futuras. Rangos de sensibilidad 45–55 y
-  60–70 min, no intervalos estadísticos ni resultados de ingeniería.
-- **A Coruña–Lugo**: 55 min con Betanzos y Guitiriz. Propuesta propia de nuevos
-  tramos/variantes para 200–250 km/h. El corredor existente sirve de referencia
-  territorial, no de trazado apto para esa velocidad. No es un proyecto oficial.
-- **Ourense–Vigo por Cerdedo**: 60 min como supuesto propio. El corredor de Cerdedo
-  tiene documentación oficial; su representación es esquemática y no reproduce un
-  eje constructivo. Mantiene el regional por el Miño.
-- **Vigo–Porto**: 60 min como objetivo de referencia del planeamiento portugués.
-  Requiere LAV portuguesa, conexión española, Salida Sur e interoperabilidad.
-  Los puntos de Braga y Valença son referencias urbanas/estaciones actuales, no
-  ubicaciones aprobadas de futuras estaciones AV. Se omiten paradas futuras no
-  modelizadas (p. ej., aeropuerto y Ponte de Lima); el patrón dibujado es propio.
+Todas las distancias se calculan en **ETRS89 / UTM 29N (EPSG:25829)**. Las alturas
+son las del producto compuesto, sin nivelación topográfica local ni ajuste de
+cota real de andenes. Transformación horizontal con `always_xy=True`.
 
-No se han calculado pendientes, radios, aceleración, frenado, tiempos de parada
-óptimos, capacidad, enclavamientos ni coste. Las velocidades de diseño expresan
-requisitos hipotéticos, no autorizaciones sobre las vías actuales. La animación
-interpola distancia entre paradas y no simula la dinámica de un tren.
+## Alternativas horizontales
 
-## Categorías e infraestructura existente
+1. Para cada pareja se recorta un ámbito de búsqueda con 18 km de margen respecto
+   a sus extremos. Se excluyen mar, celdas sin altura y una franja terrestre de
+   100 m junto al litoral; se comprueban también los enlaces entre celdas.
+2. Un grafo de ocho vecinos minimiza distancia ponderada por rugosidad y altitud.
+   Se ensayan tres pesos del relieve: 0,15 / 1 / 3. La rugosidad procede del
+   gradiente del relieve suavizado; **no es la pendiente de la futura vía**.
+3. Se simplifican y suavizan los recorridos con curvas cúbicas. Toda curva que
+   atraviese la máscara marina se rechaza. La alternativa final se remuestrea a
+   unos 100 m y se vuelve a comprobar contra tierra. No se unen ciudades con rectas
+   presentadas como líneas ferroviarias reales.
+4. El suavizado cambia el camino obtenido en la malla; no se afirma que el
+   resultado suavizado siga siendo el mínimo global de la función de coste.
 
-Cercanías (verde), Regional (ocre), Media distancia (azul), Larga distancia (coral)
-y Alta velocidad (violeta) describen servicios. Infraestructura y servicios tienen
-controles separados. El Eixo Atlántico se diferencia como altas prestaciones en
-ancho ibérico; no se etiqueta todo el corredor como vía de 300 km/h.
+No se incluyen parcelas, edificios, espacios protegidos, patrimonio, fallas,
+servicios afectados o disponibilidad de suelo. Por ello son corredores preliminares,
+no trazados listos para construir. La restricción terrestre se contrasta con los
+polígonos disponibles; no sustituye hidrología ni una evaluación de ríos interiores.
 
-Las etiquetas de infraestructura combinan atributos IGN de ancho/electrificación
-con interpretación de corredores ADIF. Los códigos 082, 084, 982 y 984 se identifican
-como corredores AV. 850, 848, 824, 842 y la parte norte del 822 representan el Eixo
-Atlántico/altas prestaciones. Esta clasificación general **no es un inventario de
-velocidades autorizadas**, no separa cada vía de estacionamiento y no garantiza la
-compatibilidad del material de cada expedición. Portugal conserva clase convencional
-sin atribuir ancho o electrificación a cada segmento OSM.
+## Perfil vertical y exigencia de obra
 
-## Fuentes y licencias
+Para cada alternativa se minimiza la suma de diferencias absolutas entre rasante
+y terreno. Es un indicador de intervención, **no volumen de tierras ni coste**.
+Se fijan las cotas de los extremos al relieve muestreado y se imponen:
 
-- Renfe GTFS MD/LD/AV: <https://ssl.renfe.com/gtransit/Fichero_AV_LD/google_transit.zip>,
-  captura 10/11/2026; Cercanías: <https://ssl.renfe.com/ftransit/Fichero_CER_FOMENTO/fomento_transit.zip>,
-  captura 11/11/2026. CC BY 4.0. Se reutilizan los ficheros congelados y sus hashes V2.
-- IGN IGR-RT, capa 4: <https://serviciosgis.ign.es/servicios/rest/services/RT/igr_rt_ferrocarril/MapServer/4>.
-  Geometrías V2 y atributos consultados 12/11/2026; CC BY 4.0. 9.375 entidades españolas.
-- © OpenStreetMap contributors / Geofabrik: <https://download.geofabrik.de/europe/portugal-261110-free.shp.zip>.
-  Extracto del 10/11/2026, descargado 12/11/2026, ODbL 1.0. Se distribuye también el
-  subconjunto derivado en `osm-portugal.geojson`, bajo ODbL, para acceder a sus geometrías
-  y atributos. Las geometrías y rutas derivadas de OSM en `data.json` conservan esa
-  licencia; la colección no relicencia las fuentes IGN/Renfe. Atribución y licencia:
-  <https://www.openstreetmap.org/copyright>.
-- IGN BDDAE, límites de A Coruña, Lugo, Ourense, Pontevedra y Asturias:
-  <https://www.ign.es/wfs-inspire/unidades-administrativas>, consultados 12/11/2026,
-  CC BY 4.0. Simplificación de 30 m para la visualización; originales conservados.
-  La salida GeoJSON usa longitud/latitud aunque se solicite otro srsName; se valida
-  y transforma explícitamente a EPSG:25829.
-- Natural Earth 1:10m, contexto restante fuera de esas provincias; dominio público. Fuente y
-  hash en el manifiesto V2. No es cartografía detallada de costa para validar obras.
-- Aviso CP: <https://cp.pt/en/detalhe-aviso/transbordo-celta-2026-2027>.
-  Autobús sustitutorio Vigo–Valença del 06/04/2026 al 07/04/2027. El GTFS ferroviario
-  no basta para describir el servicio multimodal temporal.
-- Eixo Atlántico: <https://www.adifaltavelocidad.es/sobre-adif-av/red-av/eje-atlantico>.
-- Material de ancho variable: <https://grupo.renfe.com/es/es/conoce-renfe/nuestros-trenes/s-106>.
-- Actuaciones Ferrol: <https://www.adif.es/documents/20124/2515556/Programa%2Bde%2BActividad%2BADIF%2B2022-2026.pdf>.
-- Cerdedo: <https://www.boe.es/boe/dias/2010/03/15/pdfs/BOE-A-2010-4359.pdf>.
-- Porto–Vigo: <https://diariodarepublica.pt/dr/detalhe/resolucao-conselho-ministros/77-2025-915239713>.
+- Pendiente máxima absoluta: 25‰.
+- Radio vertical aproximado mínimo: 20 km, mediante diferencias de pendientes.
+- Separación inicial máxima: 200 m por debajo o por encima del terreno.
 
-## Geometría y topología
+Si no existe solución con estas restricciones, la alternativa aparece rechazada.
+Las tres alternativas Ourense–Pontevedra fallan ese ensayo. Se añade explícitamente
+una **sensibilidad con cobertura de túnel hasta 600 m**, que sí encuentra perfil;
+no se cambia el límite silenciosamente ni se presenta como una obra sencilla.
 
-CRS de análisis y dibujo: ETRS89 / UTM 29N (EPSG:25829). Fuentes geográficas
-EPSG:4326 se transforman con `always_xy`. No se mide en grados. La escala del mapa
-se actualiza con el zoom; provincias subordinadas gráficamente a las vías.
+Los kilómetros con rasante más de 15 m por debajo o por encima del terreno se
+muestran como indicadores para estudiar túneles, viaductos, desmontes o rellenos.
+No se anuncian longitudes certificadas de túneles o estructuras. Falta geotecnia,
+sección transversal, gálibos, drenaje, portales, cimentaciones y evaluación ambiental.
 
-Las rutas de animación se calculan en una red cartográfica de vías existentes;
-no es un grafo operacional con restricciones de señalización o itinerarios.
-La unión explícita IGN–OSM se realiza en el **puente ferroviario existente** del
-Miño: nodo IGN (528903, 4654218), OSM way 30641209, desplazamiento perpendicular
-**0,057 m**. Se inserta un nodo en el grafo derivado; no se altera la geometría
-original ni se inventa un enlace fronterizo. El ajuste se registra en `qa.json`.
+La selección utiliza el índice:
 
-La costa gallega y asturiana utiliza ahora polígonos provinciales oficiales IGN,
-con más detalle que Natural Earth. La prueba de costa es un cribado contra estos
-polígonos y el contexto restante, con margen de 250 m. No valida nuevos trazados:
-todos los segmentos P-FE reutilizan el corredor existente, incluidas sus obras de
-paso, y las variantes terrestres futuras siguen sin localizarse constructivamente.
+`minutos de escenario + 0,5 × km bajo terreno + 0,75 × km sobre terreno`.
 
-## Viajes, horarios y recursos
+Los coeficientes son preferencias explícitas de este ejercicio, no precios,
+beneficio social o ponderaciones calibradas. No se demuestra un óptimo de red,
+económico ni de ingeniería. Las alternativas descartadas siguen disponibles.
 
-Mínimo 10 min para cambiar de tren, hasta dos transbordos, prioridad a primera
-llegada; desempate por menos transbordos y menos tiempo embarcado. Se respetan
-restricciones GTFS de subida/bajada. Se incluyen espera inicial, marcha y enlaces.
-No se incluye acceso a estaciones, tarifa o desplazamiento entre Vigo-Guixar y
-Vigo-Urzaiz. No encontrar ruta no demuestra ausencia de transporte público.
+## Estimación de marcha
 
-El reloj común es Europe/Madrid. En Portugal, en la fecha de referencia, la hora
-local es una hora menos. Las fichas de expediciones publicadas conservan sus
-paradas completas fuera de Galicia; las propuestas muestran estaciones seleccionadas,
-no todos los apeaderos potenciales. Las rutas a Madrid y otras ciudades exteriores
-se describen en el catálogo sin inventar trazados cartográficos fuera del ámbito.
+Se calcula una envolvente cinemática sobre la alternativa elegida, en ambos sentidos,
+y se adopta el mayor tiempo. Supuestos:
 
-La dotación teórica suma por línea `ceil((ida + vuelta + 30 min) / intervalo)`,
-con flotas separadas, 15 min por cabecera, sin reservas, vacíos ni mantenimiento.
-No es una flota operativa dimensionada. Horas-tren y expediciones son oferta propuesta,
-no viajeros, ahorro social ni justificación económica.
+- Máximo de escenario de 250 km/h; segunda evaluación a 200 km/h.
+- Ancho ibérico hipotético de 1,668 m para integración territorial; interoperabilidad
+  futura por resolver. No describe necesariamente el ancho final de proyectos oficiales.
+- Curvatura horizontal a partir de ternas de puntos; velocidad limitada mediante
+  equilibrio lateral con peralte + insuficiencia supuestos de 250 mm en total
+  (150 + 100 mm). No son autorizaciones de circulación por tramo.
+- Acceso limitado a 80 km/h en los primeros y últimos 2 km de cada eje nuevo.
+- Aceleración base 0,45 m/s² y frenado 0,60 m/s², penalizados por la pendiente.
+- Parada completa en ambos extremos de cada eje. Se añade un 20 % de margen y
+  3 min por eje; son supuestos del escenario, no una norma de explotación.
 
-## Verificación y reproducción
+No se modelan curvas de potencia/adhesión, masa real, resistencia aerodinámica,
+transiciones de peralte, señalización ni conflictos. La marcha es una estimación
+preliminar idealizada, **no una simulación validada de material rodante**. Una cota
+calculada de 23 min no autoriza afirmar que se podrá viajar así comercialmente.
 
-`build_network.py` usa las fuentes V2 y los atributos/OSM V3. `acquire_portugal.py`
-extrae entradas ZIP verificando CRC; `acquire_attributes.py` recupera atributos IGN
-y `acquire_coast.py` los límites provinciales oficiales.
-Los hashes originales están en `sources-manifest.json`. Si una URL histórica cambia,
-se debe conservar la advertencia y no presentar una descarga nueva como la misma fuente.
+Ourense–Vigo suma el eje nuevo hasta Pontevedra, una parada de un minuto y **14 min
+publicados** Pontevedra–Vigo del perfil GTFS M1 utilizado. Los tiempos de ese tramo
+existente no se estiman con el modelo de 250 km/h. Las llamadas inversas conservan
+correctamente marcha y parada, sin restar un minuto al tramo nuevo.
 
-Ejecutar con el entorno GIS del proyecto:
+## Servicios y mejora del sistema
+
+La oferta de referencia conserva el GTFS; cuatro Celta se excluyen de cálculo y
+animación ferroviaria por el autobús sustitutorio Vigo–Valença anunciado por CP.
+Las líneas futuras complementan la referencia, con material y capacidad adicionales.
+Los Cercanías sobre infraestructura existente no reciben los tiempos del nuevo directo.
+
+Se ajustan fases de salida de 16 líneas direccionales a igual número de trenes,
+intervalos y marchas. `coordination.json` registra consultas, resultados y adopción
+(o rechazo) según otras horas de validación. Un ensayo con horas enteras que empeoró
+las consultas intermedias fue descartado; se amplió el muestreo dentro de la hora.
+La muestra final usa 896 consultas de ajuste y 896 con otras horas para validar.
+En validación, 296 mejoran y 187 empeoran; el resto no cambia. La suma pasa de
+112.777 a 100.956 minutos, sin ponderar demanda. No se presenta el ajuste como
+un horario operativo óptimo.
+
+La matriz muestra las siete ciudades gallegas y Porto: **56 relaciones dirigidas**,
+con disponibilidad a las 08:00. Se incluyen espera inicial y transbordos, mínimo
+10 min para cambiar de tren y máximo dos transbordos. Vigo se representa por Urzaiz;
+no se inventa un traslado automático a Guixar. La mediana y el recuento de mejoras
+usan solo las relaciones gallegas con resultado en ambos escenarios. Como se conserva la oferta anterior, que ningún viaje empeore frente a la
+referencia es una consecuencia del escenario aditivo, no una prueba de viabilidad.
+No son viajeros ni beneficios sociales; la mejora combina infraestructura, frecuencia y coordinación.
+
+Las propuestas pueden compartir corredores parcialmente. La suma de sus longitudes
+no deduplica esos tramos: no se debe presentar como kilómetros netos de obra ni como
+una red optimizada bajo presupuesto. La matriz permite valorar conectividad, pero
+faltan demanda, coste, capacidad y una comparación económica de inversiones.
+
+## Reproducción y control
 
 ```bash
-python build_network.py
+python acquire_dem.py
+python corridors.py
+python build.py
 python coordinate.py
 python validate.py
+# Servir el repositorio en localhost:8090
 node check.cjs
 node media.cjs
 node record.cjs
 python export_video.py
 ```
 
-`validation.json` separa PASS, WARNING y NOT_CHECKED. `browser-qa.json` registra
-controles reales y equivalencia del router Python/JavaScript. `visual-review.json`
-registra inspección de renders, sin atribuir al autor una aprobación no recibida.
+`corridors.geojson` contiene alternativas propias y su condición de seleccionadas o
+rechazadas. `corridors.json` incluye perfiles y parámetros. `validation.json` separa
+comprobaciones ejecutadas de aspectos NOT_CHECKED; `browser-qa.json` comprueba la
+aplicación y la igualdad del cálculo de viajes Python/JavaScript. La inspección de
+renders no equivale a aprobación del autor ni a certificación de trazados.

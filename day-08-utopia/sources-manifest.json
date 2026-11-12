@@ -1,104 +1,42 @@
 {
-  "captured": "2026-11-12",
-  "base_sources": "base-sources-manifest.json",
+  "downloaded": "2026-11-12",
   "files": [
     {
-      "file": "attributes-1.json",
-      "bytes": 257792,
-      "sha256": "796c33fd3f71849ecef75256d0320a15ca2b9bd028613dda4124d471c4fc90f7"
+      "tile": "N43W009",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/skadi/N43/N43W009.hgt.gz",
+      "bytes": 5508927,
+      "sha256": "9affd45deef9816e454016c9460a516dc271d88d73aa7c7763316fe32b5016d1",
+      "samples_per_side": 3601
     },
     {
-      "file": "attributes-10001.json",
-      "bytes": 223785,
-      "sha256": "a029b87fb48f02c17896d67e803f6cdb25298481139b94a0566fbd1b878b72ca"
+      "tile": "N43W008",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/skadi/N43/N43W008.hgt.gz",
+      "bytes": 8711231,
+      "sha256": "4b2b956c3ae811f7088d3235e280c61f21a3065ca2c047cd80c161f6ccad2d4e",
+      "samples_per_side": 3601
     },
     {
-      "file": "attributes-20001.json",
-      "bytes": 222163,
-      "sha256": "0b091242a9516bc9e860c82a11d9a3454e0ae385cf03847827ea2156f587c84b"
+      "tile": "N42W009",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/skadi/N42/N42W009.hgt.gz",
+      "bytes": 11435754,
+      "sha256": "bb5004f0d886a4bc80c39a6f8904c9f8d4fe89220059fb7bf067254496f9e1d1",
+      "samples_per_side": 3601
     },
     {
-      "file": "attributes-30001.json",
-      "bytes": 261049,
-      "sha256": "6b983ea5ef1690b63c765bb3cd52d288e15699ec7a0a0513f5eee95ea1b4af6d"
+      "tile": "N42W008",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/skadi/N42/N42W008.hgt.gz",
+      "bytes": 12772084,
+      "sha256": "7acccca567db94345cd69feda9f0634b81563945c0480133bca186b5dcffb17c",
+      "samples_per_side": 3601
     },
     {
-      "file": "attributes-40001.json",
-      "bytes": 268841,
-      "sha256": "22a662bf5075a7ebd33db9d6a53893818e630ee6a6a051c0fb27e913ca6537d4"
-    },
-    {
-      "file": "attributes-50001.json",
-      "bytes": 203046,
-      "sha256": "1e093e7744f17d9c7e54563c033117c3c37254c497c405f70497519a206866ac"
-    },
-    {
-      "file": "attributes-60001.json",
-      "bytes": 831,
-      "sha256": "524f6340059979ff105fccc7edb8b451d6aaa00c0567365a905809fb3e03b90c"
-    },
-    {
-      "file": "gis_osm_railways_free_1.cpg",
-      "bytes": 6,
-      "sha256": "146d6789ffe033a5297c1ad046e6a62ee35319b86b021444f05b6ea2aa8a1f4a"
-    },
-    {
-      "file": "gis_osm_railways_free_1.dbf",
-      "bytes": 1722069,
-      "sha256": "2c793b32f2a2a31ddd5b79a14a934c294d9aa6ffc8c8f8cb726ff0c4d6095848"
-    },
-    {
-      "file": "gis_osm_railways_free_1.prj",
-      "bytes": 144,
-      "sha256": "ffc9162903c37f0867d1e7f36c20036a165f7aa555dda24c1ae0ee4328d2977f"
-    },
-    {
-      "file": "gis_osm_railways_free_1.shp",
-      "bytes": 2151692,
-      "sha256": "22264a1a12f4bb047682a6e3b1412319db91c596123c805301d10ce4dee40147"
-    },
-    {
-      "file": "gis_osm_railways_free_1.shx",
-      "bytes": 86732,
-      "sha256": "e4eee0514e222f9b40e6af8e7b4eef61c446e604191bb982203da0a4ee6db1b8"
-    },
-    {
-      "file": "gis_osm_transport_free_1.cpg",
-      "bytes": 6,
-      "sha256": "146d6789ffe033a5297c1ad046e6a62ee35319b86b021444f05b6ea2aa8a1f4a"
-    },
-    {
-      "file": "gis_osm_transport_free_1.dbf",
-      "bytes": 7810587,
-      "sha256": "65de9695edffbb5c537c812210479de64d6f118dc528190c27affbed6ec5fdeb"
-    },
-    {
-      "file": "gis_osm_transport_free_1.prj",
-      "bytes": 144,
-      "sha256": "ffc9162903c37f0867d1e7f36c20036a165f7aa555dda24c1ae0ee4328d2977f"
-    },
-    {
-      "file": "gis_osm_transport_free_1.shp",
-      "bytes": 1508320,
-      "sha256": "c59fe8e046c4154c92ed092422939372bb512ee7c021e372ef9392e1e5ff948f"
-    },
-    {
-      "file": "gis_osm_transport_free_1.shx",
-      "bytes": 431020,
-      "sha256": "84340d2f6b7112dcd31fd2cd6d48da4ed52033c77f521c95c299f418da44409c"
-    },
-    {
-      "file": "ign-provinces.geojson",
-      "bytes": 19503674,
-      "sha256": "da2be13ec6ad44d952497ecb5cca86a260772d70882733e966dee755208894ea"
-    },
-    {
-      "file": "portugal-source.json",
-      "bytes": 2365,
-      "sha256": "9b21dce25371e648d6007554528834c121de6c6e100b84c6f68a87736e6d3e75"
+      "tile": "N41W009",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/skadi/N41/N41W009.hgt.gz",
+      "bytes": 10549193,
+      "sha256": "0dc83f2478cfb1879397c11e844ae46f2b0b1f3c8326699e418183dabe481905",
+      "samples_per_side": 3601
     }
   ],
-  "unused_sources": [
-    "GISCO NUTS downloaded for inspection but not used or redistributed; restricted commercial reuse"
-  ]
+  "base_data_sha256": "48428a65a62f582c5ad858dfef590d725601f1a4ca58b0cf57cefb1d74802f9e",
+  "attribution": "Mapzen Terrain Tiles; Europe Copernicus EU-DEM; USGS/NOAA global sources according to the tile composition."
 }

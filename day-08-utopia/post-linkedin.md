@@ -1,22 +1,21 @@
 🚆 Desafío de cartografía de noviembre, día 8: Utopía.
 
-Vivir en Ferrol, trabajar en A Coruña y poder elegir el tren sin organizar el día entero alrededor del horario. Por ahí quería empezar este mapa.
+Ir de Ferrol a A Coruña en menos de media hora en tren. Esa era una de las preguntas con las que empecé este mapa.
 
-Me he inventado una compañía: COMPÁS Atlántico. Pero para diseñar su red he partido de las vías y los horarios que sí existen.
+Para probarla he desarrollado COMPÁS Atlántico: una propuesta de red que combina las vías existentes con nuevas conexiones entre ciudades gallegas y hacia Porto. 🗺️
 
-La pregunta era bastante concreta: ¿qué cambiaría si Galicia tuviese Cercanías en sus siete ciudades y conexiones rápidas que también incorporasen a Lugo y al norte de Portugal? 🗺️
+Esta vez he bajado al recorrido: comparar alternativas sobre el relieve, rodear las rías por tierra y ver qué perfil necesitaría la vía. Porque acortar el viaje también puede significar muchos kilómetros de túneles, viaductos y movimientos de tierras.
 
-En el interactivo puedes elegir una línea, ver sus paradas y comparar un viaje con la oferta de referencia. También distinguir las vías actuales de los corredores que exigirían obras.
+En el modelo preliminar, la alternativa Coruña–Ferrol seleccionada ronda los 50 km y estima 23 minutos de marcha. Es un escenario exigente de infraestructura nueva, no un tiempo que pueda conseguirse mañana ni una viabilidad demostrada.
 
-Por ejemplo, planteo A Coruña–Ferrol en 50 minutos con un semidirecto y A Coruña–Lugo en 55 con una nueva conexión de altas prestaciones. Son objetivos del escenario, no tiempos que se puedan conseguir mañana sobre la infraestructura actual. Y en Ferrol, la alternativa sigue por tierra, rodeando las rías.
+También aparecen conexiones Coruña–Lugo y Santiago–Lugo, una alternativa Ourense–Pontevedra que aprovecha después el Eixo Atlántico hasta Vigo, y continuidad hacia Braga y Porto. Los Cercanías y regionales mantienen su función de atender las poblaciones intermedias.
 
-También he separado el tren para ir todos los días de los servicios para viajar entre ciudades. Un Cercanías con más paradas y un semidirecto cumplen funciones distintas; no tienen por qué competir por hacer exactamente lo mismo.
+Lo que me interesaba era comprobar el efecto sobre el conjunto: a las 08:00, 37 de las 42 relaciones dirigidas entre las siete ciudades gallegas mejoran en el escenario. Ahí cuentan las obras, pero también la frecuencia y los transbordos. ⏱️
 
-Todavía faltaría lo que hace viable una propuesta de transporte: contrastar demanda, capacidad, costes y material. Este mapa permite empezar por una red concreta y discutir sus decisiones.
+En el interactivo puedes explorar las líneas, comparar trazados, ver sus perfiles y consultar los viajes. También se muestran alternativas descartadas y lo que queda sin resolver: demanda, costes, afecciones, capacidad y explotación.
 
-¿En qué trayecto de Galicia te gustaría poder elegir el tren? 👇
+¿En qué conexión invertirías primero? 👇
 
-🔗 Explora la red:
-https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-08-utopia/
+🔗 https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-08-utopia/
 
 #30DayMapChallenge #Galicia #Ferrocarril #TransportePúblico #Movilidad #Cartografía

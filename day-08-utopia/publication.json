@@ -1,62 +1,87 @@
 {
-  "edition": "2026-11-12-v3",
-  "title": "COMPÁS Atlántico · Más cerca. Sobre otras vías.",
+  "edition": "2026-11-12-v4",
+  "title": "COMPÁS Atlántico · Menos rodeos. Más conexiones.",
   "type": "Propuesta exploratoria con obras condicionantes; no horario comercial",
   "files": [
     {
       "file": "index.html",
-      "sha256": "972369e708f35848d0212181c6b397bc720bfd8cc8175d4badff1e77054bca3c",
-      "bytes": 7310
+      "sha256": "0b4a8755fa88308d26cc343115fec46426841a4430ff9ce8255529810966bb4b",
+      "bytes": 9562
     },
     {
       "file": "style.css",
-      "sha256": "c14a2e2f53304f79c136f4f6c08f868b29b6b40974cb1e202961f1a467620b5e",
-      "bytes": 7165
+      "sha256": "115dc3dbf790c0a37962c3af6357ce0919ec15f3d68bbb7a64df129ba7619937",
+      "bytes": 8273
     },
     {
       "file": "app.js",
-      "sha256": "71324b832d77c1cd71278fc47f7412e9bfd7816fae04f4f3160d98fc8c83b2d0",
-      "bytes": 24405
+      "sha256": "b86574a01e0ec8003a416a4a3dff0d09f4499dfde832d07fd9cc3b682c8b9e9b",
+      "bytes": 30572
     },
     {
       "file": "data.json",
-      "sha256": "48428a65a62f582c5ad858dfef590d725601f1a4ca58b0cf57cefb1d74802f9e",
-      "bytes": 7239516
+      "sha256": "57dfbfe692331755d60326b0f7d8fcceb44804ff5c559db1001642dbefd8b4c5",
+      "bytes": 7861556
     },
     {
       "file": "methodology.md",
+      "sha256": "b2b2fa1dfdfa0ee370a28555987c59c9fc8ac5d1b6835b8f4cbad423ae8887d0",
+      "bytes": 9829
+    },
+    {
+      "file": "qa.json",
+      "sha256": "c2124b80c0f6c90e01c8af5ad5c2e62836ee59e00a2239f1bbedf7a3f11ed080",
+      "bytes": 1022
+    },
+    {
+      "file": "validation.json",
+      "sha256": "947fececbff137283c3d8469711eb08839ce5957879b8f2eef139001f9a894d2",
+      "bytes": 6172
+    },
+    {
+      "file": "browser-qa.json",
+      "sha256": "85dbaaf5ae1b2bda4d8d7c4701ed81f9e659dffa2ec04873f60ef326bd45f576",
+      "bytes": 519
+    },
+    {
+      "file": "sources-manifest.json",
+      "sha256": "5991937bc08723ad7346940e4f7d3ca920a39a6f501988a5ade97055d9e72d6f",
+      "bytes": 1591
+    },
+    {
+      "file": "base-sources-manifest.json",
+      "sha256": "0256e7bcb5d70c16fe0a63bae4e00d5345560d68f53feb5ac8bcb2eac53115b4",
+      "bytes": 3269
+    },
+    {
+      "file": "coordination.json",
+      "sha256": "319d1aa1011b18b52e380668a25056d310afc80def8baaf4ea810002325348f3",
+      "bytes": 100206
+    },
+    {
+      "file": "corridors.json",
+      "sha256": "7ae5774179da10b55fe22dc7e38bd51055f61536b3cff70f10fb4c04456285cc",
+      "bytes": 406664
+    },
+    {
+      "file": "corridors.geojson",
+      "sha256": "2b23491a30bb33d9872ffabcad5f3776a92330a690ce9536703d5db0c17dbc8f",
+      "bytes": 370041
+    },
+    {
+      "file": "system.json",
+      "sha256": "3ed625ec0da3f5d3e3772873b82ba5de2aec19c41c57285c3936234151d8e608",
+      "bytes": 6423
+    },
+    {
+      "file": "base-methodology.md",
       "sha256": "fb19dc8e8ddfbdaf222b4055e71755089da134348b9b0f5ee36ad94da897ea8f",
       "bytes": 10717
     },
     {
-      "file": "qa.json",
-      "sha256": "a1b40f12abe24792cffa12c24bd63abd04b79186652a3a59845e1fbcbcd121f1",
-      "bytes": 768
-    },
-    {
-      "file": "validation.json",
-      "sha256": "dead83a3592bfab034785a8964bf87d1b0d0b21c89d36782bbe1fa25ba3faaaf",
-      "bytes": 3037
-    },
-    {
-      "file": "browser-qa.json",
-      "sha256": "2cceb6d8f93500d4a2de3562a2aa70d282ab95851bdef2ded700873cd213cb80",
-      "bytes": 423
-    },
-    {
-      "file": "sources-manifest.json",
-      "sha256": "392ab7b5321e1453485c62ae8f0262608ceb3ce8e4f07c68440c4169d90863b7",
-      "bytes": 3271
-    },
-    {
-      "file": "base-sources-manifest.json",
+      "file": "v2-sources-manifest.json",
       "sha256": "6a2b066df96d5e223a81ee2faadb0555e7b25d8556b6a775ee829d7685ce4d3d",
       "bytes": 5541
-    },
-    {
-      "file": "coordination.json",
-      "sha256": "b1cb62ec01a2b20146f861d01233ec80565cb8ae17303161dd02bf2b4f2a78cf",
-      "bytes": 24759
     },
     {
       "file": "osm-portugal.geojson",
@@ -65,13 +90,13 @@
     },
     {
       "file": "post-linkedin.md",
-      "sha256": "95ebe600d304627235a5cdcc7d4b5600d0e8f7eafe56f6671fdef621bd3c7ba4",
-      "bytes": 1728
+      "sha256": "a14ae9577d6c68511e32fa6862d9d4f4e4135bf3bd2405de1daee96b49220f09",
+      "bytes": 1837
     },
     {
       "file": "visual-review.json",
-      "sha256": "9521696dea63b0456b558a0728fbc69cfab5f325fba9d1a98f224ed748c5ed70",
-      "bytes": 731
+      "sha256": "80fac376e8cefa3b4039b10747caee9d244faeed2e2bd3ae11e2334c86a2df39",
+      "bytes": 953
     },
     {
       "file": "brand/compas.svg",
@@ -80,28 +105,28 @@
     },
     {
       "file": "publication/08-utopia-linkedin.jpg",
-      "sha256": "84c18d7e5bcf90a04bbea12edd0e7f25b55c8cd5fc0e00e22d3dc44b4fe6dfdf",
-      "bytes": 1053568
+      "sha256": "ba124aed33063b918659d86ce877a67e39ec0624c9f9809b98ac0a2cff063c81",
+      "bytes": 1080821
     },
     {
       "file": "publication/08-utopia-demo.mp4",
-      "sha256": "f6ac98d92a250feb57e77973d44bad78ddbf89c2da3db81fb895e68c8fc11825",
-      "bytes": 2899244
+      "sha256": "e10bf80febf2e9abaa7bb97006b86d1b6bda6cb7fd15d849cf3b3cd48d6269c6",
+      "bytes": 4963903
     },
     {
       "file": "publication/08-utopia.pdf",
-      "sha256": "81168be946c09a1fe97cdecb58e94bd7a696a7d9dd52d322b6158b6b0b3c3748",
-      "bytes": 5392210
+      "sha256": "3977e5e0f884177aed8bd926dd73b2979ee1f701794090dacd79572cdb625815",
+      "bytes": 5409324
     },
     {
       "file": "publication/08-utopia-mapa.png",
-      "sha256": "706911329100a480c1408cacaa3b2664d87db9ece92bf03c6c36d46239f16bd2",
-      "bytes": 296432
+      "sha256": "468473bc2f590cbdb17857066dfe0feaedac9f6055865c931e13a5ae5a542f01",
+      "bytes": 300522
     },
     {
       "file": "publication/08-utopia-viaje.png",
-      "sha256": "5dc6da70b47f4394adb9df333f34a5d6db327faaa8620a1666e7fdc835bf6761",
-      "bytes": 107020
+      "sha256": "d2e51028eb1fbe5b98e7c3661d004acda89cac97ddc27128c2900d734f798c9e",
+      "bytes": 106090
     }
   ]
 }

@@ -144,10 +144,10 @@ Publicado en https://mavazvar95.github.io/30DayMapChallenge2026-gallery/ mediant
 [Texto del post](day-08-utopia/post-linkedin.md) ·
 [Método](day-08-utopia/methodology.md).
 
-V3 de 12/11/2026: 60 estaciones, vías IGN/OSM y costa provincial IGN.
-Vías y servicios se leen por separado, con zoom y fichas de líneas.
-Cercanías propuestas en siete ciudades; continuidad con Porto, Asturias y
-recorridos publicados hacia la Meseta. A Coruña–Ferrol solo por tierra.
-Nuevas infraestructuras propias y corredores oficiales se distinguen explícitamente;
-los tiempos futuros son objetivos sujetos a obras. Ajuste limitado de salidas a
-oferta fija, con validación temporal; capacidad, demanda y costes sin certificar.
+V4 de 12/11/2026: seis ejes nuevos con alternativas terrestres, relieve real,
+rasante preliminar y estimación de marcha. Vías existentes IGN/OSM diferenciadas.
+Comparación de 42 relaciones dirigidas gallegas a las 08:00: 37 mejoran en el
+escenario completo de infraestructura y oferta. A Coruña–Ferrol: 23 min en el
+modelo preliminar, condicionado a grandes obras; no acredita viabilidad.
+Perfiles, alternativas rechazadas, horarios y límites disponibles en el método.
+Demanda, costes, capacidad y afecciones pendientes de estudio.
