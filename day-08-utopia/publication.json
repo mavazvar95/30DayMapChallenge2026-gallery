@@ -1,132 +1,89 @@
 {
-  "edition": "2026-11-12-v4",
-  "title": "COMPÁS Atlántico · Menos rodeos. Más conexiones.",
-  "type": "Propuesta exploratoria con obras condicionantes; no horario comercial",
+  "edition": "2026-11-13-v5-review",
+  "title": "COMPÁS Atlántico · revisión ferroviaria",
+  "status": "REVIEW_NOT_FINAL_DESIGN",
+  "previous_edition": "archive-v4/",
+  "media_status": "V4 media archived; not regenerated for this unfinished infrastructure revision",
   "files": [
     {
       "file": "index.html",
-      "sha256": "0b4a8755fa88308d26cc343115fec46426841a4430ff9ce8255529810966bb4b",
-      "bytes": 9562
-    },
-    {
-      "file": "style.css",
-      "sha256": "115dc3dbf790c0a37962c3af6357ce0919ec15f3d68bbb7a64df129ba7619937",
-      "bytes": 8273
+      "bytes": 8695,
+      "sha256": "696e3c4c702b4ec9101aeb6ee59cf1600a6f7cd53b89164e859eda3defcc9efc"
     },
     {
       "file": "app.js",
-      "sha256": "b86574a01e0ec8003a416a4a3dff0d09f4499dfde832d07fd9cc3b682c8b9e9b",
-      "bytes": 30572
+      "bytes": 28601,
+      "sha256": "a997c960e23ddb9efedc1a72de1f66143f2302332648c3b4c560f37b446f4daa"
+    },
+    {
+      "file": "style.css",
+      "bytes": 9577,
+      "sha256": "b1ff149a0a85730b914f7b3e964ec59bce29e80a275ebe977cc2872e78daf492"
     },
     {
       "file": "data.json",
-      "sha256": "57dfbfe692331755d60326b0f7d8fcceb44804ff5c559db1001642dbefd8b4c5",
-      "bytes": 7861556
+      "bytes": 6824569,
+      "sha256": "dc431a4cdf00a9ff72b1389c17cdd2158c11f2be5f7848aafe5b3c9dec073b25"
+    },
+    {
+      "file": "review.md",
+      "bytes": 9207,
+      "sha256": "5de4fe14f7feb66e7d6adc3cc4f387186eb6bfea9de6a340e1b2dbe0f1aba210"
     },
     {
       "file": "methodology.md",
-      "sha256": "b2b2fa1dfdfa0ee370a28555987c59c9fc8ac5d1b6835b8f4cbad423ae8887d0",
-      "bytes": 9829
+      "bytes": 4104,
+      "sha256": "29cbbff256c9591704205314405a806bb05758896edf7eb37ef83e67ab1dabb7"
+    },
+    {
+      "file": "README.md",
+      "bytes": 758,
+      "sha256": "a1598e532ba2e516fb77a1e2d34411085f0a798cfdbedc5ef964cb96ca9b8091"
     },
     {
       "file": "qa.json",
-      "sha256": "c2124b80c0f6c90e01c8af5ad5c2e62836ee59e00a2239f1bbedf7a3f11ed080",
-      "bytes": 1022
-    },
-    {
-      "file": "validation.json",
-      "sha256": "947fececbff137283c3d8469711eb08839ce5957879b8f2eef139001f9a894d2",
-      "bytes": 6172
+      "bytes": 2943,
+      "sha256": "5725a5c35a822687081e7abde5cdb757f0699988ddfa7f181007122859a1d3b4"
     },
     {
       "file": "browser-qa.json",
-      "sha256": "85dbaaf5ae1b2bda4d8d7c4701ed81f9e659dffa2ec04873f60ef326bd45f576",
-      "bytes": 519
+      "bytes": 448,
+      "sha256": "bc08741eda46104ee6e4b015e294fcd6aea19489c1c3384725121417653e751f"
     },
     {
       "file": "sources-manifest.json",
-      "sha256": "5991937bc08723ad7346940e4f7d3ca920a39a6f501988a5ade97055d9e72d6f",
-      "bytes": 1591
-    },
-    {
-      "file": "base-sources-manifest.json",
-      "sha256": "0256e7bcb5d70c16fe0a63bae4e00d5345560d68f53feb5ac8bcb2eac53115b4",
-      "bytes": 3269
-    },
-    {
-      "file": "coordination.json",
-      "sha256": "319d1aa1011b18b52e380668a25056d310afc80def8baaf4ea810002325348f3",
-      "bytes": 100206
-    },
-    {
-      "file": "corridors.json",
-      "sha256": "7ae5774179da10b55fe22dc7e38bd51055f61536b3cff70f10fb4c04456285cc",
-      "bytes": 406664
-    },
-    {
-      "file": "corridors.geojson",
-      "sha256": "2b23491a30bb33d9872ffabcad5f3776a92330a690ce9536703d5db0c17dbc8f",
-      "bytes": 370041
-    },
-    {
-      "file": "system.json",
-      "sha256": "3ed625ec0da3f5d3e3772873b82ba5de2aec19c41c57285c3936234151d8e608",
-      "bytes": 6423
+      "bytes": 1217,
+      "sha256": "d8317bc6ee30e0b346a2ed98a2c366635f5219bc4c13d386e9a2a6bc63619df9"
     },
     {
       "file": "base-methodology.md",
-      "sha256": "fb19dc8e8ddfbdaf222b4055e71755089da134348b9b0f5ee36ad94da897ea8f",
-      "bytes": 10717
+      "bytes": 10717,
+      "sha256": "fb19dc8e8ddfbdaf222b4055e71755089da134348b9b0f5ee36ad94da897ea8f"
+    },
+    {
+      "file": "base-sources-manifest.json",
+      "bytes": 3269,
+      "sha256": "0256e7bcb5d70c16fe0a63bae4e00d5345560d68f53feb5ac8bcb2eac53115b4"
     },
     {
       "file": "v2-sources-manifest.json",
-      "sha256": "6a2b066df96d5e223a81ee2faadb0555e7b25d8556b6a775ee829d7685ce4d3d",
-      "bytes": 5541
+      "bytes": 5541,
+      "sha256": "6a2b066df96d5e223a81ee2faadb0555e7b25d8556b6a775ee829d7685ce4d3d"
     },
     {
-      "file": "osm-portugal.geojson",
-      "sha256": "90e2fd23cbdb1420c7f3abf9ca7b506e7ba04be69d52cfb17a2dd5b27a29ca30",
-      "bytes": 825158
-    },
-    {
-      "file": "post-linkedin.md",
-      "sha256": "a14ae9577d6c68511e32fa6862d9d4f4e4135bf3bd2405de1daee96b49220f09",
-      "bytes": 1837
+      "file": "path-repairs.json",
+      "bytes": 2344,
+      "sha256": "d5d797f3fee594d5f0f27846ea54723c4478a410d8c440f8ee9986d2091587c1"
     },
     {
       "file": "visual-review.json",
-      "sha256": "80fac376e8cefa3b4039b10747caee9d244faeed2e2bd3ae11e2334c86a2df39",
-      "bytes": 953
+      "bytes": 632,
+      "sha256": "98b723b8f17ebfb4dd52844ff18d8320e90a117753cdaa8286b9db1bf16ca4ba"
     },
     {
       "file": "brand/compas.svg",
-      "sha256": "0dc8459531ad9ccd131164b9fbcc92de554692907876c2791bf9ee806e67a6ab",
-      "bytes": 448
-    },
-    {
-      "file": "publication/08-utopia-linkedin.jpg",
-      "sha256": "ba124aed33063b918659d86ce877a67e39ec0624c9f9809b98ac0a2cff063c81",
-      "bytes": 1080821
-    },
-    {
-      "file": "publication/08-utopia-demo.mp4",
-      "sha256": "e10bf80febf2e9abaa7bb97006b86d1b6bda6cb7fd15d849cf3b3cd48d6269c6",
-      "bytes": 4963903
-    },
-    {
-      "file": "publication/08-utopia.pdf",
-      "sha256": "3977e5e0f884177aed8bd926dd73b2979ee1f701794090dacd79572cdb625815",
-      "bytes": 5409324
-    },
-    {
-      "file": "publication/08-utopia-mapa.png",
-      "sha256": "468473bc2f590cbdb17857066dfe0feaedac9f6055865c931e13a5ae5a542f01",
-      "bytes": 300522
-    },
-    {
-      "file": "publication/08-utopia-viaje.png",
-      "sha256": "d2e51028eb1fbe5b98e7c3661d004acda89cac97ddc27128c2900d734f798c9e",
-      "bytes": 106090
+      "bytes": 448,
+      "sha256": "0dc8459531ad9ccd131164b9fbcc92de554692907876c2791bf9ee806e67a6ab"
     }
   ]
 }

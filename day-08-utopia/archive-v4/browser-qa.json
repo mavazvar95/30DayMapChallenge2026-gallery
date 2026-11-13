@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "python_js_cases": 168,
+  "checks": [
+    "scenario selectors",
+    "seven city line selectors",
+    "AV infrastructure condition",
+    "design alternatives and rejected profiles",
+    "system matrix of 56 directed relations",
+    "zoom/reset",
+    "infrastructure layer",
+    "animated train rectangles",
+    "time decomposition",
+    "keyboard timetable",
+    "Celta excluded from reference routing",
+    "desktop/mobile no overflow"
+  ],
+  "date": "2026-11-12T15:12:09.055Z"
+}

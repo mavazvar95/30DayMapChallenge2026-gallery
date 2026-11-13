@@ -1,55 +1,116 @@
 {
-  "status": "PRELIMINARY_WITH_LIMITATIONS",
-  "stations": 60,
-  "alternatives": 19,
-  "rejected": 4,
-  "selected_corridors": [
+  "status": "REVIEW_EDITION_NOT_FINAL_DESIGN",
+  "checks": [
     {
-      "id": "F1",
-      "minutes": 23,
-      "km": 50.21,
-      "below_ground_km": 12.88,
-      "above_ground_km": 10.38
+      "check": "Reference services preserved",
+      "status": "PASS",
+      "evidence": "GTFS snapshot unchanged"
     },
     {
-      "id": "L1",
-      "minutes": 35,
-      "km": 90.63,
-      "below_ground_km": 12.79,
-      "above_ground_km": 12.49
+      "check": "Only documented rail node correction",
+      "status": "PASS",
+      "evidence": {
+        "oid": 38627,
+        "line": "800",
+        "source_endpoint_offsets_m": [
+          0.7429876868869447,
+          0.7429128393397361
+        ],
+        "display_before": [
+          [
+            624143,
+            4722299
+          ],
+          [
+            624143,
+            4722310
+          ]
+        ],
+        "display_after": [
+          [
+            624142,
+            4722299
+          ],
+          [
+            624142,
+            4722310
+          ]
+        ],
+        "source": "sarria-detail.json",
+        "reason": "Join existing 11 m segment to adjoining same-line features; no new infrastructure"
+      }
     },
     {
-      "id": "L2",
-      "minutes": 34,
-      "km": 85.39,
-      "below_ground_km": 14.0,
-      "above_ground_km": 12.3
+      "check": "No automatic new alignment adopted",
+      "status": "PASS",
+      "evidence": "V4 new paths removed from active scenario"
     },
     {
-      "id": "V1",
-      "minutes": 29,
-      "km": 64.68,
-      "below_ground_km": 36.19,
-      "above_ground_km": 12.4
+      "check": "No synthetic corridor trips",
+      "status": "PASS",
+      "evidence": "No train is animated on a withdrawn new alignment"
     },
     {
-      "id": "P1",
-      "minutes": 39,
-      "km": 96.21,
-      "below_ground_km": 19.48,
-      "above_ground_km": 16.19
+      "check": "Proposed services use preserved or documented corrected paths",
+      "status": "PASS",
+      "evidence": 3920
     },
     {
-      "id": "P2",
-      "minutes": 22,
-      "km": 46.43,
-      "below_ground_km": 6.59,
-      "above_ground_km": 2.5
+      "check": "other:20300:20305 stays on Sarria–Monforte corridor",
+      "status": "PASS",
+      "evidence": {
+        "km": 34.6674196584185,
+        "old_km": 343.687
+      }
+    },
+    {
+      "check": "other:20305:20300 stays on Sarria–Monforte corridor",
+      "status": "PASS",
+      "evidence": {
+        "km": 34.6674196584185,
+        "old_km": 343.687
+      }
+    },
+    {
+      "check": "I1a profile equals GTFS",
+      "status": "PASS",
+      "evidence": {
+        "minutes": 105.0,
+        "source": "md:0055812026-11-10"
+      }
+    },
+    {
+      "check": "I1b profile equals GTFS",
+      "status": "PASS",
+      "evidence": {
+        "minutes": 105.0,
+        "source": "md:0056012026-11-10"
+      }
+    },
+    {
+      "check": "New alignment design",
+      "status": "NOT_CHECKED",
+      "evidence": "Not claimed as validated; required next stage"
+    },
+    {
+      "check": "Geotechnics and environmental constraints",
+      "status": "NOT_CHECKED",
+      "evidence": "Not claimed as validated; required next stage"
+    },
+    {
+      "check": "Timetable capacity and rolling-stock diagrams",
+      "status": "NOT_CHECKED",
+      "evidence": "Not claimed as validated; required next stage"
+    },
+    {
+      "check": "Demand and cost-benefit appraisal",
+      "status": "NOT_CHECKED",
+      "evidence": "Not claimed as validated; required next stage"
+    },
+    {
+      "check": "Current official project status",
+      "status": "NOT_CHECKED",
+      "evidence": "Not claimed as validated; required next stage"
     }
-  ],
-  "reports": [
-    "validation.json",
-    "browser-qa.json",
-    "coordination.json"
   ]
 }

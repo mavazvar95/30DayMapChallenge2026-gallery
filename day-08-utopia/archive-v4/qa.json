@@ -1,0 +1,55 @@
+{
+  "status": "PRELIMINARY_WITH_LIMITATIONS",
+  "stations": 60,
+  "alternatives": 19,
+  "rejected": 4,
+  "selected_corridors": [
+    {
+      "id": "F1",
+      "minutes": 23,
+      "km": 50.21,
+      "below_ground_km": 12.88,
+      "above_ground_km": 10.38
+    },
+    {
+      "id": "L1",
+      "minutes": 35,
+      "km": 90.63,
+      "below_ground_km": 12.79,
+      "above_ground_km": 12.49
+    },
+    {
+      "id": "L2",
+      "minutes": 34,
+      "km": 85.39,
+      "below_ground_km": 14.0,
+      "above_ground_km": 12.3
+    },
+    {
+      "id": "V1",
+      "minutes": 29,
+      "km": 64.68,
+      "below_ground_km": 36.19,
+      "above_ground_km": 12.4
+    },
+    {
+      "id": "P1",
+      "minutes": 39,
+      "km": 96.21,
+      "below_ground_km": 19.48,
+      "above_ground_km": 16.19
+    },
+    {
+      "id": "P2",
+      "minutes": 22,
+      "km": 46.43,
+      "below_ground_km": 6.59,
+      "above_ground_km": 2.5
+    }
+  ],
+  "reports": [
+    "validation.json",
+    "browser-qa.json",
+    "coordination.json"
+  ]
+}

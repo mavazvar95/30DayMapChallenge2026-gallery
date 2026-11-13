@@ -1,23 +1,19 @@
 {
   "inspected": true,
-  "date": "2026-11-12",
-  "status": "Reviewed renders; author approval pending",
+  "date": "2026-11-13",
   "artifacts": [
-    "map-preview.png",
-    "design-preview.png",
-    "system-preview.png",
-    "plate-preview.png",
-    "publication/08-utopia-demo.mp4 (sample frame at 16 seconds)"
+    "interior-preview.png",
+    "plan-preview.png",
+    "external-preview.png"
   ],
   "observations": [
-    "Poster hierarchy, map, legend and attribution inspected at preview size; full export is 3200 x 4000.",
-    "Terrain/rail profile and alternatives table inspected.",
-    "Matrix distinguishes future duration and reference, including initial waiting and transfers.",
-    "Actual video frame shows route alternatives and train symbols; no browser address bar or Sites branding."
+    "Sarria–Monforte corrected route visually follows the direct existing corridor, no loop via Santiago.",
+    "Nine investment cards use consistent navy/teal/gold hierarchy.",
+    "External journey card distinguishes full and mapped duration."
   ],
   "limitations": [
-    "Video inspection sampled, not a frame-by-frame review.",
-    "At regional scale closely spaced rail junction labels require interactive zoom.",
-    "This is visual inspection, not engineering feasibility or author approval."
+    "New infrastructure alignment design remains pending.",
+    "No regenerated publication video or poster.",
+    "This inspection is not author approval or engineering certification."
   ]
 }

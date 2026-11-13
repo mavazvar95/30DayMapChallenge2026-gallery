@@ -1,20 +1,18 @@
 {
   "status": "PASS",
   "errors": [],
-  "python_js_cases": 168,
+  "external_full_duration_cases": 31,
   "checks": [
-    "scenario selectors",
-    "seven city line selectors",
-    "AV infrastructure condition",
-    "design alternatives and rejected profiles",
-    "system matrix of 56 directed relations",
-    "zoom/reset",
-    "infrastructure layer",
-    "animated train rectangles",
-    "time decomposition",
-    "keyboard timetable",
-    "Celta excluded from reference routing",
-    "desktop/mobile no overflow"
+    "nine investment axes",
+    "no adopted synthetic curves",
+    "full and regional duration distinguished",
+    "Lugo–Ourense direct 105 min with one train",
+    "56 OD cells",
+    "zoom",
+    "train symbols",
+    "three scenarios",
+    "seven city selectors",
+    "desktop and mobile no horizontal overflow"
   ],
-  "date": "2026-11-12T15:12:09.055Z"
+  "date": "2026-11-13T11:06:40.364Z"
 }

@@ -1,0 +1,42 @@
+{
+  "downloaded": "2026-11-12",
+  "files": [
+    {
+      "tile": "N43W009",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/skadi/N43/N43W009.hgt.gz",
+      "bytes": 5508927,
+      "sha256": "9affd45deef9816e454016c9460a516dc271d88d73aa7c7763316fe32b5016d1",
+      "samples_per_side": 3601
+    },
+    {
+      "tile": "N43W008",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/skadi/N43/N43W008.hgt.gz",
+      "bytes": 8711231,
+      "sha256": "4b2b956c3ae811f7088d3235e280c61f21a3065ca2c047cd80c161f6ccad2d4e",
+      "samples_per_side": 3601
+    },
+    {
+      "tile": "N42W009",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/skadi/N42/N42W009.hgt.gz",
+      "bytes": 11435754,
+      "sha256": "bb5004f0d886a4bc80c39a6f8904c9f8d4fe89220059fb7bf067254496f9e1d1",
+      "samples_per_side": 3601
+    },
+    {
+      "tile": "N42W008",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/skadi/N42/N42W008.hgt.gz",
+      "bytes": 12772084,
+      "sha256": "7acccca567db94345cd69feda9f0634b81563945c0480133bca186b5dcffb17c",
+      "samples_per_side": 3601
+    },
+    {
+      "tile": "N41W009",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/skadi/N41/N41W009.hgt.gz",
+      "bytes": 10549193,
+      "sha256": "0dc83f2478cfb1879397c11e844ae46f2b0b1f3c8326699e418183dabe481905",
+      "samples_per_side": 3601
+    }
+  ],
+  "base_data_sha256": "48428a65a62f582c5ad858dfef590d725601f1a4ca58b0cf57cefb1d74802f9e",
+  "attribution": "Mapzen Terrain Tiles; Europe Copernicus EU-DEM; USGS/NOAA global sources according to the tile composition."
+}
