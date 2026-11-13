@@ -1,116 +1,17 @@
 {
-  "status": "REVIEW_EDITION_NOT_FINAL_DESIGN",
+  "status": "RESTORATION_CHECKS_PASS_ALIGNMENT_DESIGN_NOT_VALIDATED",
   "checks": [
-    {
-      "check": "Reference services preserved",
-      "status": "PASS",
-      "evidence": "GTFS snapshot unchanged"
-    },
-    {
-      "check": "Only documented rail node correction",
-      "status": "PASS",
-      "evidence": {
-        "oid": 38627,
-        "line": "800",
-        "source_endpoint_offsets_m": [
-          0.7429876868869447,
-          0.7429128393397361
-        ],
-        "display_before": [
-          [
-            624143,
-            4722299
-          ],
-          [
-            624143,
-            4722310
-          ]
-        ],
-        "display_after": [
-          [
-            624142,
-            4722299
-          ],
-          [
-            624142,
-            4722310
-          ]
-        ],
-        "source": "sarria-detail.json",
-        "reason": "Join existing 11 m segment to adjoining same-line features; no new infrastructure"
-      }
-    },
-    {
-      "check": "No automatic new alignment adopted",
-      "status": "PASS",
-      "evidence": "V4 new paths removed from active scenario"
-    },
-    {
-      "check": "No synthetic corridor trips",
-      "status": "PASS",
-      "evidence": "No train is animated on a withdrawn new alignment"
-    },
-    {
-      "check": "Proposed services use preserved or documented corrected paths",
-      "status": "PASS",
-      "evidence": 3920
-    },
-    {
-      "check": "other:20300:20305 stays on Sarria–Monforte corridor",
-      "status": "PASS",
-      "evidence": {
-        "km": 34.6674196584185,
-        "old_km": 343.687
-      }
-    },
-    {
-      "check": "other:20305:20300 stays on Sarria–Monforte corridor",
-      "status": "PASS",
-      "evidence": {
-        "km": 34.6674196584185,
-        "old_km": 343.687
-      }
-    },
-    {
-      "check": "I1a profile equals GTFS",
-      "status": "PASS",
-      "evidence": {
-        "minutes": 105.0,
-        "source": "md:0055812026-11-10"
-      }
-    },
-    {
-      "check": "I1b profile equals GTFS",
-      "status": "PASS",
-      "evidence": {
-        "minutes": 105.0,
-        "source": "md:0056012026-11-10"
-      }
-    },
-    {
-      "check": "New alignment design",
-      "status": "NOT_CHECKED",
-      "evidence": "Not claimed as validated; required next stage"
-    },
-    {
-      "check": "Geotechnics and environmental constraints",
-      "status": "NOT_CHECKED",
-      "evidence": "Not claimed as validated; required next stage"
-    },
-    {
-      "check": "Timetable capacity and rolling-stock diagrams",
-      "status": "NOT_CHECKED",
-      "evidence": "Not claimed as validated; required next stage"
-    },
-    {
-      "check": "Demand and cost-benefit appraisal",
-      "status": "NOT_CHECKED",
-      "evidence": "Not claimed as validated; required next stage"
-    },
-    {
-      "check": "Current official project status",
-      "status": "NOT_CHECKED",
-      "evidence": "Not claimed as validated; required next stage"
-    }
+    "six original proposals restored without claiming redesigned geometry",
+    "published timetable preserved",
+    "both Sarria\u2013Monforte corrections preserved",
+    "32 I1 trips added",
+    "all proposed stop-to-stop geometries present"
+  ],
+  "not_checked": [
+    "realistic new alignment design",
+    "capacity",
+    "demand",
+    "construction costs",
+    "certified running times"
   ]
 }

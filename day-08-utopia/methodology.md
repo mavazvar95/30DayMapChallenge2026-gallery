@@ -1,66 +1,44 @@
-# Método y fuentes · COMPÁS V5
+# COMPÁS V6 · Recuperación de la red futura
 
-Revisión: 13 noviembre 2026. Datos horarios: 12 noviembre 2026.
+13/11/2026. Referencia horaria conservada: 12/11/2026.
 
-[Revisión ferroviaria integral](review.md) · [Método base y licencias](base-methodology.md).
-El método base describe la edición histórica V3: sus obras y objetivos ya no son
-el escenario activo. Las diferencias aplicables son las de este documento.
+Esta edición recupera las seis hipótesis de infraestructura de V4: A Coruña–Ferrol,
+A Coruña–Lugo, Santiago–Lugo, Ourense–Pontevedra, Vigo–Braga y Braga–Porto.
+Las líneas nuevas vuelven al mapa y a la oferta del escenario futuro.
 
-Se conservan las vías IGN/OSM, límites IGN/Natural Earth y expediciones GTFS de
-la V4; no se modifican sus geometrías. CRS horizontal: ETRS89/UTM29N, EPSG:25829.
-Los recorridos enlazados siguen siendo una reconstrucción cartográfica de la red,
-no itinerarios técnicos certificados ni geometrías de proyectos nuevos.
+**Se recuperan las propuestas, no se certifican sus geometrías.** Los arcos
+suavizados de V4 siguen pendientes de rediseño de accesos, empalmes, transiciones,
+rasantes y afecciones. Los tiempos son hipótesis del ensayo previo, no marchas
+acreditadas. Coruña–Ferrol <30 min figura como objetivo. No se afirma que esta
+edición haya resuelto un trazado ferroviario realista nuevo.
 
-Se retiran todas las claves P-* y los trenes que las utilizaban. Se mantienen
-el horario de referencia y el escenario anterior de más servicios. La propuesta
-revisada añade frecuencias sobre vías existentes y un servicio horario Lugo–Ourense
-con las llamadas de los Intercity 00558 y 00560. Ambos perfiles duran 105 minutos.
-No se han acelerado trenes ni atribuido beneficios a obras nuevas sin definir.
+Se conservan las correcciones de V5:
 
-Las fases de la propuesta revisada son explícitas: salidas desde 06:00 con el
-intervalo de cada línea; I1 inverso empieza a las 06:30. No se declara ajuste óptimo
-ni se reutiliza la validación de fases de V4. La referencia publicada se conserva,
-por lo que la oferta aditiva no puede empeorar el mejor viaje calculable: esto
-es una propiedad del modelo, no evidencia de capacidad ferroviaria.
+- Reconstrucción Sarria–Monforte, de 343,687 km erróneos a 34,667 km sobre vías
+  existentes. Detalle IGN y corrección documentada de los nodos de OBJECTID 38627.
+- Servicio horario Lugo–Ourense, por Sarria y Monforte, basado en perfiles GTFS
+  de 105 minutos: 16 expediciones por sentido, sin atribuir aceleración a obras.
+- Selección correcta de las expediciones publicadas y duración completa de
+  origen a destino. El tramo visible se muestra por separado.
 
-El comparador incluye espera inicial, marcha y transbordos, mínimo 10 min y máximo
-dos transbordos. Mantiene separados Vigo-Urzáiz y Vigo-Guixar y excluye el Celta
-sustituido por autobús de la referencia ferroviaria. El servicio futuro por Viana
-sigue condicionado al restablecimiento de la circulación ferroviaria.
+La matriz se recalcula en el navegador con la nueva oferta combinada. Sus
+resultados comparan un escenario hipotético con la referencia, no beneficios
+verificados de una inversión. Se elimina el informe de optimización de fases
+anterior del modelo activo: no valida esta oferta modificada.
 
-La ficha de cada expedición publicada calcula `última llegada − primera salida`
-sobre `full_calls`, cuando está disponible. El tramo regional se muestra aparte.
-Los valores pueden superar 24 horas y se conservan como minutos absolutos; las horas
-se rotulan con el día siguiente cuando corresponde. No se recortan a Galicia los
-tiempos anunciados para Madrid, Barcelona u otros destinos externos.
+Los colores siguen identificando servicios; el trazo violeta discontinuo identifica
+las propuestas nuevas. Los regionales y Cercanías conservan los perfiles existentes.
+Las hipótesis AV no convierten las vías convencionales en infraestructura de alta
+velocidad. No se modelan capacidad, demanda, costes ni potencia real del material.
 
-Las fichas de inversión son propuestas de estudio. La geometría dorada representa
-el corredor **existente**, no una variante futura. Santiago–Lugo y otros enlaces
-sin cartografía contrastada muestran cabeceras, no una curva indicativa que pueda
-confundirse con un trazado diseñado.
+[Supuestos y fuentes del ensayo V4](prior-methodology.md) ·
+[Diagnóstico de planificación V5](review.md) · [Corrección topológica](path-repairs.json).
+La decisión de V5 de retirar las propuestas del escenario queda sustituida por esta
+recuperación; sus advertencias técnicas siguen vigentes.
 
-Documentación histórica de Cerdedo:
-https://www.boe.es/boe/dias/2010/03/15/pdfs/BOE-A-2010-4359.pdf
-Planeamiento portugués citado en versiones anteriores:
-https://diariodarepublica.pt/dr/detalhe/resolucao-conselho-ministros/77-2025-915239713
-No se afirma que estos documentos acrediten por sí solos el estado de los proyectos
-al 13/11/2026 ni se ha extraído de ellos una nueva alineación vectorial.
+Reproducción: `python build.py`, servir el repositorio en localhost:8091 y ejecutar
+`node check.cjs`. Los insumos congelados V4/V5 se identifican mediante SHA256 en
+`sources-manifest.json`. CRS: ETRS89/UTM29N, EPSG:25829.
 
-Reproducir: `python build.py`, `python validate.py`; servir el repositorio en
-localhost:8091 y ejecutar `node check.cjs`. Datos derivados en `data.json`,
-procedencia en `sources-manifest.json`; controles ejecutados en `qa.json` y
-`browser-qa.json`. Requiere Node/Playwright y Chromium para las pruebas visuales.
-
-### Excepción documentada a la conservación geométrica
-
-La inspección posterior detectó la discontinuidad Sarria–Monforte. Se descargó
-el detalle oficial IGN sin simplificación el 13/11/2026 y se documentó la corrección
-de dos nodos derivados del segmento OBJECTID 38627 (línea 800), con offsets de la
-fuente inferiores a 1 m. Se rehacen únicamente las rutas Sarria–Monforte en ambos
-sentidos. Véase `path-repairs.json` y la sección correspondiente de `review.md`.
-Los originales permanecen intactos en `data/raw/day-08-utopia/v5/`.
-
-La reproducción incluye `python repair_paths.py` después de `build.py` y antes
-de `validate.py`. Requiere NumPy/SciPy para la búsqueda espacial. `path-repairs.json`
-registra otras alternativas no adoptadas que requieren comprobar el itinerario
-ferroviario. No se consideran fallos resueltos por disponer de una ruta más corta.
+La lámina y el vídeo de V4 siguen archivados. No son exportaciones actualizadas de
+V6. El diseño definitivo de las nuevas vías y los nuevos medios siguen pendientes.

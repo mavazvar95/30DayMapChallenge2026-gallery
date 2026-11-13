@@ -1,29 +1,51 @@
 {
-  "edition": "2026-11-13-v5-review",
-  "title": "COMPÁS Atlántico · revisión ferroviaria",
-  "status": "REVIEW_NOT_FINAL_DESIGN",
-  "previous_edition": "archive-v4/",
-  "media_status": "V4 media archived; not regenerated for this unfinished infrastructure revision",
+  "edition": "2026-11-13-v6-restored",
+  "status": "HYPOTHETICAL_NETWORK_ALIGNMENT_REDESIGN_PENDING",
   "files": [
     {
       "file": "index.html",
-      "bytes": 8695,
-      "sha256": "696e3c4c702b4ec9101aeb6ee59cf1600a6f7cd53b89164e859eda3defcc9efc"
+      "bytes": 10201,
+      "sha256": "cce9ae8ab5ef9d8092f9829b88c5760c5674a5205e78581861a14c88d69f82de"
     },
     {
       "file": "app.js",
-      "bytes": 28601,
-      "sha256": "a997c960e23ddb9efedc1a72de1f66143f2302332648c3b4c560f37b446f4daa"
+      "bytes": 30958,
+      "sha256": "686a307d74d8c7fce7ede267ae160a39b92ab7f41b4d0540ee9e77cd1928ef3b"
     },
     {
       "file": "style.css",
-      "bytes": 9577,
-      "sha256": "b1ff149a0a85730b914f7b3e964ec59bce29e80a275ebe977cc2872e78daf492"
+      "bytes": 8470,
+      "sha256": "eed076ab1b906f5f985c5b798a1bd9a50b2c9f6c43a62331e035b0493601dac1"
     },
     {
       "file": "data.json",
-      "bytes": 6824569,
-      "sha256": "dc431a4cdf00a9ff72b1389c17cdd2158c11f2be5f7848aafe5b3c9dec073b25"
+      "bytes": 7673294,
+      "sha256": "ef28e18f9e68e7cef6284b5bda518844a39d67aa9c5dff74514cd2c46f038982"
+    },
+    {
+      "file": "corridors.json",
+      "bytes": 406664,
+      "sha256": "7ae5774179da10b55fe22dc7e38bd51055f61536b3cff70f10fb4c04456285cc"
+    },
+    {
+      "file": "corridors.geojson",
+      "bytes": 370041,
+      "sha256": "2b23491a30bb33d9872ffabcad5f3776a92330a690ce9536703d5db0c17dbc8f"
+    },
+    {
+      "file": "README.md",
+      "bytes": 469,
+      "sha256": "a820f41a5132b556f878a631d715897326e0115abfce441a9a085a6aebc83432"
+    },
+    {
+      "file": "methodology.md",
+      "bytes": 2577,
+      "sha256": "2c5a4d058719f75331de2d21e24f04cb5e9fe45c9df0f51496f9c406fa0ed8f8"
+    },
+    {
+      "file": "prior-methodology.md",
+      "bytes": 9829,
+      "sha256": "b2b2fa1dfdfa0ee370a28555987c59c9fc8ac5d1b6835b8f4cbad423ae8887d0"
     },
     {
       "file": "review.md",
@@ -31,29 +53,14 @@
       "sha256": "5de4fe14f7feb66e7d6adc3cc4f387186eb6bfea9de6a340e1b2dbe0f1aba210"
     },
     {
-      "file": "methodology.md",
-      "bytes": 4104,
-      "sha256": "29cbbff256c9591704205314405a806bb05758896edf7eb37ef83e67ab1dabb7"
-    },
-    {
-      "file": "README.md",
-      "bytes": 758,
-      "sha256": "a1598e532ba2e516fb77a1e2d34411085f0a798cfdbedc5ef964cb96ca9b8091"
-    },
-    {
-      "file": "qa.json",
-      "bytes": 2943,
-      "sha256": "5725a5c35a822687081e7abde5cdb757f0699988ddfa7f181007122859a1d3b4"
-    },
-    {
-      "file": "browser-qa.json",
-      "bytes": 448,
-      "sha256": "bc08741eda46104ee6e4b015e294fcd6aea19489c1c3384725121417653e751f"
+      "file": "path-repairs.json",
+      "bytes": 2344,
+      "sha256": "d5d797f3fee594d5f0f27846ea54723c4478a410d8c440f8ee9986d2091587c1"
     },
     {
       "file": "sources-manifest.json",
-      "bytes": 1217,
-      "sha256": "d8317bc6ee30e0b346a2ed98a2c366635f5219bc4c13d386e9a2a6bc63619df9"
+      "bytes": 1013,
+      "sha256": "4396bb61f7d4635f4c4e42994e633ba7502eae425786c7a1f5dd248611dcbe45"
     },
     {
       "file": "base-methodology.md",
@@ -71,19 +78,24 @@
       "sha256": "6a2b066df96d5e223a81ee2faadb0555e7b25d8556b6a775ee829d7685ce4d3d"
     },
     {
-      "file": "path-repairs.json",
-      "bytes": 2344,
-      "sha256": "d5d797f3fee594d5f0f27846ea54723c4478a410d8c440f8ee9986d2091587c1"
-    },
-    {
-      "file": "visual-review.json",
-      "bytes": 632,
-      "sha256": "98b723b8f17ebfb4dd52844ff18d8320e90a117753cdaa8286b9db1bf16ca4ba"
-    },
-    {
       "file": "brand/compas.svg",
       "bytes": 448,
       "sha256": "0dc8459531ad9ccd131164b9fbcc92de554692907876c2791bf9ee806e67a6ab"
+    },
+    {
+      "file": "browser-qa.json",
+      "bytes": 466,
+      "sha256": "e69a0d664dee6fe1c72ea92ba47bec754b293eff916505af8be997c101d77812"
+    },
+    {
+      "file": "qa.json",
+      "bytes": 484,
+      "sha256": "fa6b3278bf65e7ffc1cfd3310e0c1fac4d13c424b585f9d9f34c334b5c532924"
+    },
+    {
+      "file": "visual-review.json",
+      "bytes": 365,
+      "sha256": "9d8e16c84f2758b35348ea41d40a60f9dd8ac429d4950ade56d3f0884ac9d105"
     }
   ]
 }

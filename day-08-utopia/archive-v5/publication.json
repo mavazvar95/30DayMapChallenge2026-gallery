@@ -1,0 +1,89 @@
+{
+  "edition": "2026-11-13-v5-review",
+  "title": "COMPÁS Atlántico · revisión ferroviaria",
+  "status": "REVIEW_NOT_FINAL_DESIGN",
+  "previous_edition": "archive-v4/",
+  "media_status": "V4 media archived; not regenerated for this unfinished infrastructure revision",
+  "files": [
+    {
+      "file": "index.html",
+      "bytes": 8695,
+      "sha256": "696e3c4c702b4ec9101aeb6ee59cf1600a6f7cd53b89164e859eda3defcc9efc"
+    },
+    {
+      "file": "app.js",
+      "bytes": 28601,
+      "sha256": "a997c960e23ddb9efedc1a72de1f66143f2302332648c3b4c560f37b446f4daa"
+    },
+    {
+      "file": "style.css",
+      "bytes": 9577,
+      "sha256": "b1ff149a0a85730b914f7b3e964ec59bce29e80a275ebe977cc2872e78daf492"
+    },
+    {
+      "file": "data.json",
+      "bytes": 6824569,
+      "sha256": "dc431a4cdf00a9ff72b1389c17cdd2158c11f2be5f7848aafe5b3c9dec073b25"
+    },
+    {
+      "file": "review.md",
+      "bytes": 9207,
+      "sha256": "5de4fe14f7feb66e7d6adc3cc4f387186eb6bfea9de6a340e1b2dbe0f1aba210"
+    },
+    {
+      "file": "methodology.md",
+      "bytes": 4104,
+      "sha256": "29cbbff256c9591704205314405a806bb05758896edf7eb37ef83e67ab1dabb7"
+    },
+    {
+      "file": "README.md",
+      "bytes": 758,
+      "sha256": "a1598e532ba2e516fb77a1e2d34411085f0a798cfdbedc5ef964cb96ca9b8091"
+    },
+    {
+      "file": "qa.json",
+      "bytes": 2943,
+      "sha256": "5725a5c35a822687081e7abde5cdb757f0699988ddfa7f181007122859a1d3b4"
+    },
+    {
+      "file": "browser-qa.json",
+      "bytes": 448,
+      "sha256": "bc08741eda46104ee6e4b015e294fcd6aea19489c1c3384725121417653e751f"
+    },
+    {
+      "file": "sources-manifest.json",
+      "bytes": 1217,
+      "sha256": "d8317bc6ee30e0b346a2ed98a2c366635f5219bc4c13d386e9a2a6bc63619df9"
+    },
+    {
+      "file": "base-methodology.md",
+      "bytes": 10717,
+      "sha256": "fb19dc8e8ddfbdaf222b4055e71755089da134348b9b0f5ee36ad94da897ea8f"
+    },
+    {
+      "file": "base-sources-manifest.json",
+      "bytes": 3269,
+      "sha256": "0256e7bcb5d70c16fe0a63bae4e00d5345560d68f53feb5ac8bcb2eac53115b4"
+    },
+    {
+      "file": "v2-sources-manifest.json",
+      "bytes": 5541,
+      "sha256": "6a2b066df96d5e223a81ee2faadb0555e7b25d8556b6a775ee829d7685ce4d3d"
+    },
+    {
+      "file": "path-repairs.json",
+      "bytes": 2344,
+      "sha256": "d5d797f3fee594d5f0f27846ea54723c4478a410d8c440f8ee9986d2091587c1"
+    },
+    {
+      "file": "visual-review.json",
+      "bytes": 632,
+      "sha256": "98b723b8f17ebfb4dd52844ff18d8320e90a117753cdaa8286b9db1bf16ca4ba"
+    },
+    {
+      "file": "brand/compas.svg",
+      "bytes": 448,
+      "sha256": "0dc8459531ad9ccd131164b9fbcc92de554692907876c2791bf9ee806e67a6ab"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "external_full_duration_cases": 31,
+  "checks": [
+    "nine investment axes",
+    "no adopted synthetic curves",
+    "full and regional duration distinguished",
+    "Lugo–Ourense direct 105 min with one train",
+    "56 OD cells",
+    "zoom",
+    "train symbols",
+    "three scenarios",
+    "seven city selectors",
+    "desktop and mobile no horizontal overflow"
+  ],
+  "date": "2026-11-13T11:06:40.364Z"
+}

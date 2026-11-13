@@ -1,19 +1,13 @@
 {
   "inspected": true,
   "date": "2026-11-13",
-  "artifacts": [
-    "interior-preview.png",
-    "plan-preview.png",
-    "external-preview.png"
-  ],
+  "artifact": "map-preview.png",
   "observations": [
-    "Sarria–Monforte corrected route visually follows the direct existing corridor, no loop via Santiago.",
-    "Nine investment cards use consistent navy/teal/gold hierarchy.",
-    "External journey card distinguishes full and mapped duration."
+    "Six hypothetical corridors and service symbols visible again.",
+    "New alignment caveat visible above map."
   ],
   "limitations": [
-    "New infrastructure alignment design remains pending.",
-    "No regenerated publication video or poster.",
-    "This inspection is not author approval or engineering certification."
+    "Restoration does not fix the known broad arcs.",
+    "Not final author approval or validated railway engineering."
   ]
 }

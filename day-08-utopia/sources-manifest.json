@@ -1,12 +1,18 @@
 {
-  "review_date": "2026-11-13",
-  "timetable_date": "2026-11-12",
-  "input": "../v4/data.json",
-  "input_sha256": "57dfbfe692331755d60326b0f7d8fcceb44804ff5c559db1001642dbefd8b4c5",
+  "edition_date": "2026-11-13",
+  "reference_timetable": "2026-11-12",
+  "inputs": [
+    {
+      "file": "../v4/data.json",
+      "sha256": "57dfbfe692331755d60326b0f7d8fcceb44804ff5c559db1001642dbefd8b4c5"
+    },
+    {
+      "file": "../v5/data.json",
+      "sha256": "dc431a4cdf00a9ff72b1389c17cdd2158c11f2be5f7848aafe5b3c9dec073b25"
+    }
+  ],
   "base_sources": "base-sources-manifest.json",
-  "new_official_alignment_geometry_acquired": false,
-  "notes": "Existing source snapshots retained. V4 automatic new alignments withdrawn from scenario; not silently repaired.",
-  "topology_detail": {
+  "topology_source": {
     "url": "https://serviciosgis.ign.es/servicios/rest/services/RT/igr_rt_ferrocarril/MapServer/4/query?f=json&where=1%3D1&geometry=624000%2C4722150%2C624300%2C4722450&geometryType=esriGeometryEnvelope&inSR=25829&outSR=25829&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=true",
     "downloaded": "2026-11-13",
     "sha256": "2434d8b7cc0a4cd29cb410af59d278bb3b893c61a91bf9b5a3204abe6510a502",
@@ -14,11 +20,5 @@
     "feature_count": 5,
     "crs": "EPSG:25829"
   },
-  "cerdedo_document": {
-    "url": "https://www.boe.es/boe/dias/2010/03/15/pdfs/BOE-A-2010-4359.pdf",
-    "consulted": "2026-11-13",
-    "sha256": "bcd948ebfb63ad52b0086b19e944215edfb828deb6cfe79eee5b0402b65e9a1a",
-    "document_date": "2010-03-15",
-    "current_project_status_verified": false
-  }
+  "new_alignments": "Original six V4 hypotheses retained, not redesigned or validated in this restoration."
 }

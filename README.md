@@ -138,11 +138,9 @@ Publicado en https://mavazvar95.github.io/30DayMapChallenge2026-gallery/ mediant
 
 ## Día 08 · Utopia — COMPÁS Atlántico
 
-[V5: revisión ferroviaria](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-08-utopia/) · [Informe](day-08-utopia/review.md) · [V4 archivada](day-08-utopia/archive-v4/).
+[V6: red futura recuperada](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-08-utopia/) · [Método](day-08-utopia/methodology.md).
 
-Nueve ejes de inversión, selección cartográfica de corredores existentes,
-Lugo–Ourense sin transbordo y duraciones completas de expediciones exteriores.
-Corregida la discontinuidad cartográfica Sarria–Monforte con detalle oficial IGN.
-Las seis alineaciones automáticas anteriores dejan de ser soluciones seleccionadas.
-Las nuevas obras siguen pendientes de un estudio de trazado; no es edición final
-para LinkedIn. Los medios anteriores permanecen archivados.
+Seis propuestas nuevas recuperadas, con los arreglos de topología Sarria–Monforte,
+servicio horario Lugo–Ourense y duración completa de las expediciones exteriores.
+Las geometrías conceptuales aún requieren rediseño ferroviario; no es un proyecto
+validado. V4 y V5 permanecen archivadas. Medios de publicación sin regenerar.
