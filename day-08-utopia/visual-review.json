@@ -1,13 +1,23 @@
 {
   "inspected": true,
   "date": "2026-11-13",
-  "artifact": "map-preview.png",
+  "artifacts": [
+    "map-preview.png",
+    "F1-preview.png",
+    "L2-preview.png",
+    "V1-preview.png",
+    "L3-preview.png"
+  ],
   "observations": [
-    "Six hypothetical corridors and service symbols visible again.",
-    "New alignment caveat visible above map."
+    "New corridors retained and access tracks distinguished.",
+    "Santiago–Lugo uses local straight/curve geometry instead of the single previous arc.",
+    "Selected Ourense–Pontevedra alternative has no full-route loop; rejected candidate remains labelled.",
+    "Lugo–Ourense new interior alternative is visible alongside existing services.",
+    "Hillshade has transparent feathered nodata boundaries."
   ],
   "limitations": [
-    "Restoration does not fix the known broad arcs.",
-    "Not final author approval or validated railway engineering."
+    "Braga station unresolved.",
+    "No validated vertical geometry or running times for V7.",
+    "Visual inspection is not engineering feasibility or author approval."
   ]
 }

@@ -1,17 +1,15 @@
 {
   "status": "PASS",
   "errors": [],
-  "restored_corridors": 6,
-  "full_duration_cases": 31,
-  "sarria_monforte_km": 34.66741965841851,
   "checks": [
-    "all six design selectors",
-    "proposed lines visible in future scenario",
-    "Lugo–Ourense line retained",
-    "corrected Sarria topology retained",
-    "external trip selection and complete duration",
-    "56 OD matrix cells",
+    "seven proposed corridors visible",
+    "fourteen alternatives available",
+    "new and reused section rendering",
+    "V7 and V6 modes distinct",
+    "no inherited duration on reviewed AV line card",
+    "I1 105 min preserved",
+    "Madrid full journey duration",
     "desktop/mobile no overflow"
   ],
-  "date": "2026-11-13T11:27:38.206Z"
+  "date": "2026-11-13T13:57:04.785Z"
 }

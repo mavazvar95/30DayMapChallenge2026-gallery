@@ -1,17 +1,226 @@
 {
-  "status": "RESTORATION_CHECKS_PASS_ALIGNMENT_DESIGN_NOT_VALIDATED",
+  "status": "HORIZONTAL_CHECKS_PASS_ENGINEERING_PENDING",
+  "crs": "EPSG:25829",
   "checks": [
-    "six original proposals restored without claiming redesigned geometry",
-    "published timetable preserved",
-    "both Sarria\u2013Monforte corrections preserved",
-    "32 I1 trips added",
-    "all proposed stop-to-stop geometries present"
+    {
+      "corridor": "F1",
+      "alternative": 0,
+      "status": "PASS",
+      "new_core_simple": true,
+      "new_outside_land_m": 0.0,
+      "sampled_access_angle_deg": [
+        0.0,
+        0.0
+      ],
+      "total_km": 55.08,
+      "reused_km": 12.0,
+      "new_km": 43.08,
+      "full_route_simple": true
+    },
+    {
+      "corridor": "F1",
+      "alternative": 1,
+      "status": "PASS",
+      "new_core_simple": true,
+      "new_outside_land_m": 0.0,
+      "sampled_access_angle_deg": [
+        0.0,
+        0.0
+      ],
+      "total_km": 59.15,
+      "reused_km": 12.0,
+      "new_km": 47.15,
+      "full_route_simple": true
+    },
+    {
+      "corridor": "L1",
+      "alternative": 0,
+      "status": "PASS",
+      "new_core_simple": true,
+      "new_outside_land_m": 0.0,
+      "sampled_access_angle_deg": [
+        0.0,
+        0.0
+      ],
+      "total_km": 90.97,
+      "reused_km": 12.0,
+      "new_km": 78.97,
+      "full_route_simple": true
+    },
+    {
+      "corridor": "L1",
+      "alternative": 1,
+      "status": "PASS",
+      "new_core_simple": true,
+      "new_outside_land_m": 0.0,
+      "sampled_access_angle_deg": [
+        0.0,
+        0.0
+      ],
+      "total_km": 91.37,
+      "reused_km": 12.0,
+      "new_km": 79.37,
+      "full_route_simple": true
+    },
+    {
+      "corridor": "L2",
+      "alternative": 0,
+      "status": "PASS",
+      "new_core_simple": true,
+      "new_outside_land_m": 0.0,
+      "sampled_access_angle_deg": [
+        0.0,
+        8.537736462515939e-07
+      ],
+      "total_km": 101.77,
+      "reused_km": 9.0,
+      "new_km": 92.77,
+      "full_route_simple": true
+    },
+    {
+      "corridor": "L2",
+      "alternative": 1,
+      "status": "PASS",
+      "new_core_simple": true,
+      "new_outside_land_m": 0.0,
+      "sampled_access_angle_deg": [
+        0.0,
+        0.0
+      ],
+      "total_km": 103.82,
+      "reused_km": 9.0,
+      "new_km": 94.82,
+      "full_route_simple": true
+    },
+    {
+      "corridor": "V1",
+      "alternative": 0,
+      "status": "REJECTED_FULL_ROUTE_LOOP",
+      "new_core_simple": true,
+      "new_outside_land_m": 0.0,
+      "sampled_access_angle_deg": [
+        0.0,
+        0.0
+      ],
+      "total_km": 89.13,
+      "reused_km": 24.44,
+      "new_km": 64.69,
+      "full_route_simple": false
+    },
+    {
+      "corridor": "V1",
+      "alternative": 1,
+      "status": "PASS",
+      "new_core_simple": true,
+      "new_outside_land_m": 0.0,
+      "sampled_access_angle_deg": [
+        0.0,
+        0.0
+      ],
+      "total_km": 98.95,
+      "reused_km": 24.44,
+      "new_km": 74.51,
+      "full_route_simple": true
+    },
+    {
+      "corridor": "P1",
+      "alternative": 0,
+      "status": "PASS",
+      "new_core_simple": true,
+      "new_outside_land_m": 0.0,
+      "sampled_access_angle_deg": [
+        0.0,
+        null
+      ],
+      "total_km": 91.19,
+      "reused_km": 4.0,
+      "new_km": 87.19,
+      "full_route_simple": true
+    },
+    {
+      "corridor": "P1",
+      "alternative": 1,
+      "status": "PASS",
+      "new_core_simple": true,
+      "new_outside_land_m": 0.0,
+      "sampled_access_angle_deg": [
+        0.0,
+        null
+      ],
+      "total_km": 91.75,
+      "reused_km": 4.0,
+      "new_km": 87.75,
+      "full_route_simple": true
+    },
+    {
+      "corridor": "P2",
+      "alternative": 0,
+      "status": "PASS",
+      "new_core_simple": true,
+      "new_outside_land_m": 0.0,
+      "sampled_access_angle_deg": [
+        null,
+        0.0
+      ],
+      "total_km": 49.53,
+      "reused_km": 5.0,
+      "new_km": 44.53,
+      "full_route_simple": true
+    },
+    {
+      "corridor": "P2",
+      "alternative": 1,
+      "status": "PASS",
+      "new_core_simple": true,
+      "new_outside_land_m": 0.0,
+      "sampled_access_angle_deg": [
+        null,
+        0.0
+      ],
+      "total_km": 50.28,
+      "reused_km": 5.0,
+      "new_km": 45.28,
+      "full_route_simple": true
+    },
+    {
+      "corridor": "L3",
+      "alternative": 0,
+      "status": "PASS",
+      "new_core_simple": true,
+      "new_outside_land_m": 0.0,
+      "sampled_access_angle_deg": [
+        0.0,
+        8.537736462515939e-07
+      ],
+      "total_km": 91.08,
+      "reused_km": 8.0,
+      "new_km": 83.08,
+      "full_route_simple": true
+    },
+    {
+      "corridor": "L3",
+      "alternative": 1,
+      "status": "PASS",
+      "new_core_simple": true,
+      "new_outside_land_m": 0.0,
+      "sampled_access_angle_deg": [
+        0.0,
+        8.537736462515939e-07
+      ],
+      "total_km": 91.09,
+      "reused_km": 8.0,
+      "new_km": 83.09,
+      "full_route_simple": true
+    }
   ],
   "not_checked": [
-    "realistic new alignment design",
-    "capacity",
-    "demand",
-    "construction costs",
-    "certified running times"
-  ]
+    "vertical profiles",
+    "certified speeds and running times",
+    "clothoids and cant",
+    "urban property and environmental constraints",
+    "junction engineering",
+    "future Braga station",
+    "cost-benefit and capacity"
+  ],
+  "warning": "Local smoothing and terrain screening do not constitute a feasible railway design."
 }

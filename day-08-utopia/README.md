@@ -1,9 +1,11 @@
-# 08/30 · Utopia — COMPÁS Atlántico V6
+# 08/30 · Utopia — COMPÁS Atlántico V7
 
-Red futura recuperada: seis hipótesis nuevas + correcciones de topología y
-expediciones de V5. Las nuevas geometrías aún no se han rediseñado ni validado.
+Siete conexiones propuestas, con accesos existentes y tramos nuevos diferenciados.
+Dos alternativas por conexión; una descartada por retorno sobre el acceso.
 
-[Interactivo](index.html) · [Método y estado](methodology.md) · [Pruebas](browser-qa.json).
+[Interactivo](index.html) · [Método](methodology.md) · [GeoJSON](alignments.geojson) ·
+[QA](qa.json) · [Navegador](browser-qa.json).
 
-Se conserva Lugo–Ourense horario sobre vía existente y la duración completa de
-las expediciones exteriores. No se presenta esta recuperación como proyecto final.
+Las nuevas marchas y rasantes están pendientes. El ensayo horario V6 se conserva
+en un modo explícito, sin atribuir sus tiempos a la geometría V7. No es una edición
+final de infraestructura ni un paquete de LinkedIn actualizado.

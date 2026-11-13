@@ -1,0 +1,17 @@
+{
+  "status": "RESTORATION_CHECKS_PASS_ALIGNMENT_DESIGN_NOT_VALIDATED",
+  "checks": [
+    "six original proposals restored without claiming redesigned geometry",
+    "published timetable preserved",
+    "both Sarria\u2013Monforte corrections preserved",
+    "32 I1 trips added",
+    "all proposed stop-to-stop geometries present"
+  ],
+  "not_checked": [
+    "realistic new alignment design",
+    "capacity",
+    "demand",
+    "construction costs",
+    "certified running times"
+  ]
+}
