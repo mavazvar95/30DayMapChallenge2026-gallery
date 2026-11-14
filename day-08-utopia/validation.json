@@ -14,19 +14,19 @@
     {
       "check": "F1 metric length",
       "status": "PASS",
-      "evidence": 50.21
+      "evidence": 59.15
     },
     {
       "check": "F1 curve contains intermediate vertices",
       "status": "PASS",
-      "evidence": 504
+      "evidence": 624
     },
     {
       "check": "F1 sensitivity",
       "status": "PASS",
       "evidence": [
-        23,
-        25
+        35,
+        36
       ]
     },
     {
@@ -42,19 +42,19 @@
     {
       "check": "L1 metric length",
       "status": "PASS",
-      "evidence": 90.63
+      "evidence": 90.97
     },
     {
       "check": "L1 curve contains intermediate vertices",
       "status": "PASS",
-      "evidence": 908
+      "evidence": 587
     },
     {
       "check": "L1 sensitivity",
       "status": "PASS",
       "evidence": [
-        35,
-        41
+        41,
+        46
       ]
     },
     {
@@ -70,19 +70,19 @@
     {
       "check": "L2 metric length",
       "status": "PASS",
-      "evidence": 85.39
+      "evidence": 101.77
     },
     {
       "check": "L2 curve contains intermediate vertices",
       "status": "PASS",
-      "evidence": 855
+      "evidence": 621
     },
     {
       "check": "L2 sensitivity",
       "status": "PASS",
       "evidence": [
-        34,
-        39
+        43,
+        48
       ]
     },
     {
@@ -98,19 +98,19 @@
     {
       "check": "V1 metric length",
       "status": "PASS",
-      "evidence": 64.68
+      "evidence": 98.95
     },
     {
       "check": "V1 curve contains intermediate vertices",
       "status": "PASS",
-      "evidence": 648
+      "evidence": 851
     },
     {
       "check": "V1 sensitivity",
       "status": "PASS",
       "evidence": [
-        29,
-        32
+        50,
+        54
       ]
     },
     {
@@ -126,19 +126,19 @@
     {
       "check": "P1 metric length",
       "status": "PASS",
-      "evidence": 96.21
+      "evidence": 91.19
     },
     {
       "check": "P1 curve contains intermediate vertices",
       "status": "PASS",
-      "evidence": 964
+      "evidence": 410
     },
     {
       "check": "P1 sensitivity",
       "status": "PASS",
       "evidence": [
-        39,
-        44
+        38,
+        43
       ]
     },
     {
@@ -154,19 +154,47 @@
     {
       "check": "P2 metric length",
       "status": "PASS",
-      "evidence": 46.43
+      "evidence": 49.53
     },
     {
       "check": "P2 curve contains intermediate vertices",
       "status": "PASS",
-      "evidence": 466
+      "evidence": 314
     },
     {
       "check": "P2 sensitivity",
       "status": "PASS",
       "evidence": [
-        22,
-        24
+        26,
+        28
+      ]
+    },
+    {
+      "check": "L3 selected profile",
+      "status": "PASS",
+      "evidence": 25.0
+    },
+    {
+      "check": "L3 terrestrial geometry",
+      "status": "PASS",
+      "evidence": 0.0
+    },
+    {
+      "check": "L3 metric length",
+      "status": "PASS",
+      "evidence": 91.08
+    },
+    {
+      "check": "L3 curve contains intermediate vertices",
+      "status": "PASS",
+      "evidence": 767
+    },
+    {
+      "check": "L3 sensitivity",
+      "status": "PASS",
+      "evidence": [
+        40,
+        44
       ]
     },
     {
@@ -197,12 +225,21 @@
     {
       "check": "direct chronological calls",
       "status": "PASS",
-      "evidence": 844
+      "evidence": 908
     },
     {
       "check": "direct future geometry complete",
       "status": "PASS",
       "evidence": "Every future stop-to-stop section has geometry"
+    },
+    {
+      "check": "Coruña–Ferrol under 30 min objective",
+      "status": "NOT_MET",
+      "evidence": {
+        "coruna_ferrol_under_30": false,
+        "minutes": 35,
+        "status": "NOT_MET"
+      }
     },
     {
       "check": "Geotechnics and structures",
@@ -228,56 +265,125 @@
       "check": "Demand, costs and global network optimum",
       "status": "NOT_CHECKED",
       "evidence": "Preliminary study; not asserted as engineering feasibility"
+    },
+    {
+      "check": "Both directions of seven direct/retained services",
+      "status": "PASS",
+      "evidence": [
+        {
+          "line": "I1a",
+          "minutes": 105.0
+        },
+        {
+          "line": "I1b",
+          "minutes": 105.0
+        },
+        {
+          "line": "A4a",
+          "minutes": 35
+        },
+        {
+          "line": "A4b",
+          "minutes": 35
+        },
+        {
+          "line": "A1a",
+          "minutes": 41
+        },
+        {
+          "line": "A1b",
+          "minutes": 41
+        },
+        {
+          "line": "A5a",
+          "minutes": 43
+        },
+        {
+          "line": "A5b",
+          "minutes": 43
+        },
+        {
+          "line": "A2a",
+          "minutes": 65
+        },
+        {
+          "line": "A2b",
+          "minutes": 65
+        },
+        {
+          "line": "A3a",
+          "minutes": 72
+        },
+        {
+          "line": "A3b",
+          "minutes": 72
+        },
+        {
+          "line": "A6a",
+          "minutes": 40
+        },
+        {
+          "line": "A6b",
+          "minutes": 40
+        }
+      ]
     }
   ],
   "system": {
     "comparable_galicia_pairs": 42,
     "improved": 37,
     "worsened": 0,
-    "median_minutes_saved": 105.0,
+    "median_minutes_saved": 113.5,
     "ready": "08:00 Europe/Madrid",
     "selected_corridors": [
       {
         "id": "F1",
-        "minutes": 23,
-        "km": 50.21,
-        "below_ground_km": 12.88,
-        "above_ground_km": 10.38
+        "minutes": 35,
+        "km": 59.15,
+        "below_ground_km": 13.78,
+        "above_ground_km": 9.89
       },
       {
         "id": "L1",
-        "minutes": 35,
-        "km": 90.63,
-        "below_ground_km": 12.79,
-        "above_ground_km": 12.49
+        "minutes": 41,
+        "km": 90.97,
+        "below_ground_km": 10.1,
+        "above_ground_km": 8.7
       },
       {
         "id": "L2",
-        "minutes": 34,
-        "km": 85.39,
-        "below_ground_km": 14.0,
-        "above_ground_km": 12.3
+        "minutes": 43,
+        "km": 101.77,
+        "below_ground_km": 9.6,
+        "above_ground_km": 8.1
       },
       {
         "id": "V1",
-        "minutes": 29,
-        "km": 64.68,
-        "below_ground_km": 36.19,
-        "above_ground_km": 12.4
+        "minutes": 50,
+        "km": 98.95,
+        "below_ground_km": 21.17,
+        "above_ground_km": 19.38
       },
       {
         "id": "P1",
-        "minutes": 39,
-        "km": 96.21,
-        "below_ground_km": 19.48,
-        "above_ground_km": 16.19
+        "minutes": 38,
+        "km": 91.19,
+        "below_ground_km": 15.6,
+        "above_ground_km": 14.5
       },
       {
         "id": "P2",
-        "minutes": 22,
-        "km": 46.43,
-        "below_ground_km": 6.59,
-        "above_ground_km": 2.5
+        "minutes": 26,
+        "km": 49.53,
+        "below_ground_km": 3.3,
+        "above_ground_km": 1.7
+      },
+      {
+        "id": "L3",
+        "minutes": 40,
+        "km": 91.08,
+        "below_ground_km": 25.39,
+        "above_ground_km": 19.29
       }
     ]
   }

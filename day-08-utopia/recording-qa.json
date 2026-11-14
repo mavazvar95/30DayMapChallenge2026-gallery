@@ -1,0 +1,12 @@
+{
+  "file": "/workspace/TEST/days/day-08-utopia/v8/raw-video/page@7648d577e919c9ed32ae5ade9f509267.webm",
+  "errors": [],
+  "kind": "Actual V8 HTML interaction in Chromium; no address bar or Sites branding",
+  "export": {
+    "duration": 34.133333,
+    "width": 1440,
+    "height": 1100,
+    "codec": "h264",
+    "pixel_format": "yuv420p"
+  }
+}

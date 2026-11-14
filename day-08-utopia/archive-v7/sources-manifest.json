@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-13",
+  "crs": "EPSG:25829",
+  "input_v6_sha256": "ef28e18f9e68e7cef6284b5bda518844a39d67aa9c5dff74514cd2c46f038982",
+  "horizontal_review_sha256": "49d1a858828c1bf6a1d20146d2e193a55ad0d0515576ef4d020d72914238b646",
+  "dem_sources": "dem-sources-manifest.json",
+  "new_geometry_status": "Own conceptual horizontal alternatives, not official alignments",
+  "timetable_status": "V6 preserved separately; not recalculated for V7",
+  "braga": "Urban reference only; future station approach unresolved"
+}

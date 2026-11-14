@@ -1,0 +1,106 @@
+{
+  "edition": "2026-11-13-v7-horizontal-review",
+  "status": "CONCEPTUAL_HORIZONTAL_REVIEW_RUNNING_TIMES_PENDING",
+  "files": [
+    {
+      "file": "index.html",
+      "bytes": 10564,
+      "sha256": "e5e8fbc59f74f66e3d2b19681b134404f18ca2bbda7bf2f0c882e36138f6d133"
+    },
+    {
+      "file": "app.js",
+      "bytes": 31734,
+      "sha256": "20118cd5de30ddccc1ccde7cd5e021db589741bb576fe77a1660e94d5e939a5f"
+    },
+    {
+      "file": "style.css",
+      "bytes": 8860,
+      "sha256": "10c485d9bf594c35276ed4ca3bccb3b569e191eae11db589fdb9a44821453690"
+    },
+    {
+      "file": "data.json",
+      "bytes": 8179736,
+      "sha256": "259a356f7e9abdbeaf298ec59b9cb9a06315ad96b2929fe30c462c4a1d93ed31"
+    },
+    {
+      "file": "alignments.json",
+      "bytes": 506429,
+      "sha256": "49d1a858828c1bf6a1d20146d2e193a55ad0d0515576ef4d020d72914238b646"
+    },
+    {
+      "file": "alignments.geojson",
+      "bytes": 312603,
+      "sha256": "427379ecbfb6678b8dc64a140e925816b860c72d7bbb4c6391da5b2f00f96d37"
+    },
+    {
+      "file": "relief.png",
+      "bytes": 112026,
+      "sha256": "d3aaa52f42bc756ecd9f8ef2370c365838253214291f423340dc731e80ee7baa"
+    },
+    {
+      "file": "README.md",
+      "bytes": 577,
+      "sha256": "52911e77877f7c34da3548cb0562869badcf9a17928427322ffe6b41fb631b69"
+    },
+    {
+      "file": "methodology.md",
+      "bytes": 5749,
+      "sha256": "6e334ae24429e936a1ab793714f9ef0241c5f2cc8c10473d8399af9aabdc5265"
+    },
+    {
+      "file": "prior-methodology.md",
+      "bytes": 9829,
+      "sha256": "b2b2fa1dfdfa0ee370a28555987c59c9fc8ac5d1b6835b8f4cbad423ae8887d0"
+    },
+    {
+      "file": "path-repairs.json",
+      "bytes": 2344,
+      "sha256": "d5d797f3fee594d5f0f27846ea54723c4478a410d8c440f8ee9986d2091587c1"
+    },
+    {
+      "file": "sources-manifest.json",
+      "bytes": 520,
+      "sha256": "75a5dff65a42f01b4cc22304c4da6073c2e64078a257c0a5856ca58d97ac4160"
+    },
+    {
+      "file": "dem-sources-manifest.json",
+      "bytes": 1591,
+      "sha256": "5991937bc08723ad7346940e4f7d3ca920a39a6f501988a5ade97055d9e72d6f"
+    },
+    {
+      "file": "base-methodology.md",
+      "bytes": 10717,
+      "sha256": "fb19dc8e8ddfbdaf222b4055e71755089da134348b9b0f5ee36ad94da897ea8f"
+    },
+    {
+      "file": "base-sources-manifest.json",
+      "bytes": 3269,
+      "sha256": "0256e7bcb5d70c16fe0a63bae4e00d5345560d68f53feb5ac8bcb2eac53115b4"
+    },
+    {
+      "file": "v2-sources-manifest.json",
+      "bytes": 5541,
+      "sha256": "6a2b066df96d5e223a81ee2faadb0555e7b25d8556b6a775ee829d7685ce4d3d"
+    },
+    {
+      "file": "brand/compas.svg",
+      "bytes": 448,
+      "sha256": "0dc8459531ad9ccd131164b9fbcc92de554692907876c2791bf9ee806e67a6ab"
+    },
+    {
+      "file": "browser-qa.json",
+      "bytes": 398,
+      "sha256": "f177f8171c7c6fbb12b36bc61b38698cf2f2082988b7f6d35fd2dacb44fd9f28"
+    },
+    {
+      "file": "qa.json",
+      "bytes": 5069,
+      "sha256": "ff1fdaee5507d7d4c2688654640d8b2ba01b128b0e82d6f40c295028ab043e93"
+    },
+    {
+      "file": "visual-review.json",
+      "bytes": 815,
+      "sha256": "31c8070fd5b7db668ac1fe73e99dadf1726e366664ce12c5b566b6543ebf792d"
+    }
+  ]
+}

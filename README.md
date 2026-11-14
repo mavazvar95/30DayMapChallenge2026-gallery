@@ -138,10 +138,9 @@ Publicado en https://mavazvar95.github.io/30DayMapChallenge2026-gallery/ mediant
 
 ## Día 08 · Utopia — COMPÁS Atlántico
 
-[V7: revisión de trazados](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-08-utopia/) · [Método](day-08-utopia/methodology.md).
+[Interactivo](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-08-utopia/) · [Kit LinkedIn](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/publicaciones/#dia-08).
 
-Siete conexiones nuevas propuestas, accesos reutilizados, curvas locales y
-comparación de alternativas. Se conservan Lugo–Ourense sobre vía existente y las
-correcciones de topología y duración completa de viajes. Las nuevas rasantes y
-marchas siguen pendientes; el ensayo horario V6 se distingue de la revisión V7.
-No es un proyecto validado ni un paquete de LinkedIn actualizado.
+V8 integrada, 14/11/2026: siete conexiones nuevas propuestas, tiempos recalculados,
+horarios, animación, lámina y vídeo. Coruña–Ferrol resulta en 35 min y no alcanza
+el objetivo <30. Escenario exploratorio, no proyecto de ingeniería validado.
+Las ediciones anteriores se conservan en archivos separados.

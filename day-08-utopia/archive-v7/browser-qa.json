@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "checks": [
+    "seven proposed corridors visible",
+    "fourteen alternatives available",
+    "new and reused section rendering",
+    "V7 and V6 modes distinct",
+    "no inherited duration on reviewed AV line card",
+    "I1 105 min preserved",
+    "Madrid full journey duration",
+    "desktop/mobile no overflow"
+  ],
+  "date": "2026-11-13T13:57:04.785Z"
+}

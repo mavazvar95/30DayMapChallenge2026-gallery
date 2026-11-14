@@ -1,11 +1,5 @@
-# 08/30 · Utopia — COMPÁS Atlántico V7
+# 08/30 · Utopia — COMPÁS Atlántico
 
-Siete conexiones propuestas, con accesos existentes y tramos nuevos diferenciados.
-Dos alternativas por conexión; una descartada por retorno sobre el acceso.
+Edición integrada del 14/11/2026: siete conexiones propuestas, tiempos recalculados, animación, lámina y vídeo. Escenario exploratorio; Coruña–Ferrol 35 min, objetivo <30 no alcanzado.
 
-[Interactivo](index.html) · [Método](methodology.md) · [GeoJSON](alignments.geojson) ·
-[QA](qa.json) · [Navegador](browser-qa.json).
-
-Las nuevas marchas y rasantes están pendientes. El ensayo horario V6 se conserva
-en un modo explícito, sin atribuir sus tiempos a la geometría V7. No es una edición
-final de infraestructura ni un paquete de LinkedIn actualizado.
+[Interactivo](index.html) · [Método](methodology.md) · [Texto para LinkedIn](post-linkedin.md) · [Lámina](publication/08-utopia-linkedin.jpg) · [Vídeo](publication/08-utopia-demo.mp4)

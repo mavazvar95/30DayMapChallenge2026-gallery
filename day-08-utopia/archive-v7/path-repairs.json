@@ -1,0 +1,86 @@
+{
+  "crs": "EPSG:25829",
+  "method": "All candidates within 150 m of station, 250 m fallback; only documented line-800 node correction; adopt Sarria–Monforte only; other candidates retained for review",
+  "node_correction": {
+    "oid": 38627,
+    "line": "800",
+    "source_endpoint_offsets_m": [
+      0.7429876868869447,
+      0.7429128393397361
+    ],
+    "display_before": [
+      [
+        624143,
+        4722299
+      ],
+      [
+        624143,
+        4722310
+      ]
+    ],
+    "display_after": [
+      [
+        624142,
+        4722299
+      ],
+      [
+        624142,
+        4722310
+      ]
+    ],
+    "source": "sarria-detail.json",
+    "reason": "Join existing 11 m segment to adjoining same-line features; no new infrastructure"
+  },
+  "repairs": [
+    {
+      "key": "other:20305:20300",
+      "old_km": 343.687,
+      "new_km": 34.667,
+      "origin_snap_m": 147.72,
+      "destination_snap_m": 146.22,
+      "reason": "Broader station candidate search on exact source topology; no synthetic railway edge"
+    },
+    {
+      "key": "other:20300:20305",
+      "old_km": 343.687,
+      "new_km": 34.667,
+      "origin_snap_m": 146.22,
+      "destination_snap_m": 147.72,
+      "reason": "Broader station candidate search on exact source topology; no synthetic railway edge"
+    }
+  ],
+  "warnings": [],
+  "unadopted_candidates": [
+    {
+      "key": "other:23008:23005",
+      "old_km": 21.379,
+      "candidate_km": 14.657,
+      "status": "NOT_ADOPTED: different track assignment needs train itinerary evidence"
+    },
+    {
+      "key": "other:23005:23008",
+      "old_km": 21.379,
+      "candidate_km": 14.657,
+      "status": "NOT_ADOPTED: different track assignment needs train itinerary evidence"
+    },
+    {
+      "key": "other:31304:31400",
+      "old_km": 98.67,
+      "candidate_km": 78.659,
+      "status": "NOT_ADOPTED: different track assignment needs train itinerary evidence"
+    },
+    {
+      "key": "other:31400:31304",
+      "old_km": 98.67,
+      "candidate_km": 78.659,
+      "status": "NOT_ADOPTED: different track assignment needs train itinerary evidence"
+    },
+    {
+      "key": "other:08223:22201",
+      "old_km": 40.445,
+      "candidate_km": 28.792,
+      "status": "NOT_ADOPTED: different track assignment needs train itinerary evidence"
+    }
+  ],
+  "technical_itinerary_certified": false
+}

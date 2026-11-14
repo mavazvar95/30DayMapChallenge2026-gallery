@@ -1,5 +1,5 @@
 {
-  "method": "Two coordinate-descent sweeps on 16 directional lines; 15-minute phase grid plus incumbent; all queries equally weighted, no passenger demand",
+  "method": "Two coordinate-descent sweeps on 20 directional lines; 15-minute phase grid plus incumbent; all queries equally weighted, no passenger demand",
   "queries": [
     [
       "31412",
@@ -4482,10 +4482,10 @@
       1125
     ]
   ],
-  "before_minutes": 106626.0,
-  "after_minutes": 94503.0,
-  "optimized_queries_improved": 309,
-  "optimized_queries_worsened": 192,
+  "before_minutes": 116050.0,
+  "after_minutes": 101232.0,
+  "optimized_queries_improved": 365,
+  "optimized_queries_worsened": 151,
   "holdout_queries": [
     [
       "31412",
@@ -8968,10 +8968,10 @@
       1132
     ]
   ],
-  "holdout_before_minutes": 112777.0,
-  "holdout_after_minutes": 100956.0,
-  "holdout_improved": 296,
-  "holdout_worsened": 187,
+  "holdout_before_minutes": 122423.0,
+  "holdout_after_minutes": 107870.0,
+  "holdout_improved": 354,
+  "holdout_worsened": 152,
   "initial_phases": [
     0,
     0,
@@ -9014,11 +9014,15 @@
     0,
     30,
     0,
+    30,
+    0,
+    30,
+    0,
     30
   ],
   "phases": [
     0,
-    0,
+    15,
     30,
     50,
     50,
@@ -9049,212 +9053,264 @@
     0,
     105,
     0,
-    30,
+    0,
     45,
     30,
     45,
+    30,
+    30,
+    0,
+    0,
+    0,
     0,
     15,
     15,
-    45,
-    15,
-    30
+    30,
+    15
   ],
   "trace": [
     {
       "sweep": 0,
       "line": "C2a",
-      "phase": 0,
-      "objective_minutes": 106626.0
+      "phase": 15,
+      "objective_minutes": 116032.0
     },
     {
       "sweep": 0,
       "line": "C2b",
-      "phase": 0,
-      "objective_minutes": 106626.0
+      "phase": 15,
+      "objective_minutes": 115998.0
     },
     {
       "sweep": 0,
       "line": "C6a",
       "phase": 0,
-      "objective_minutes": 106626.0
+      "objective_minutes": 115998.0
     },
     {
       "sweep": 0,
       "line": "C6b",
       "phase": 0,
-      "objective_minutes": 106626.0
+      "objective_minutes": 115998.0
     },
     {
       "sweep": 0,
       "line": "R8a",
       "phase": 105,
-      "objective_minutes": 104183.0
+      "objective_minutes": 114951.0
     },
     {
       "sweep": 0,
       "line": "R8b",
       "phase": 0,
-      "objective_minutes": 104183.0
+      "objective_minutes": 114951.0
+    },
+    {
+      "sweep": 0,
+      "line": "I1a",
+      "phase": 0,
+      "objective_minutes": 114951.0
+    },
+    {
+      "sweep": 0,
+      "line": "I1b",
+      "phase": 45,
+      "objective_minutes": 113781.0
     },
     {
       "sweep": 0,
       "line": "A4a",
       "phase": 30,
-      "objective_minutes": 101618.0
+      "objective_minutes": 111585.0
     },
     {
       "sweep": 0,
       "line": "A4b",
       "phase": 15,
-      "objective_minutes": 101573.0
+      "objective_minutes": 110342.0
     },
     {
       "sweep": 0,
       "line": "A1a",
       "phase": 0,
-      "objective_minutes": 101573.0
+      "objective_minutes": 110342.0
     },
     {
       "sweep": 0,
       "line": "A1b",
-      "phase": 45,
-      "objective_minutes": 100715.0
+      "phase": 30,
+      "objective_minutes": 110342.0
     },
     {
       "sweep": 0,
       "line": "A5a",
       "phase": 0,
-      "objective_minutes": 100715.0
+      "objective_minutes": 110342.0
     },
     {
       "sweep": 0,
       "line": "A5b",
-      "phase": 45,
-      "objective_minutes": 99959.0
+      "phase": 30,
+      "objective_minutes": 110342.0
     },
     {
       "sweep": 0,
       "line": "A2a",
-      "phase": 0,
-      "objective_minutes": 99959.0
+      "phase": 45,
+      "objective_minutes": 109483.0
     },
     {
       "sweep": 0,
       "line": "A2b",
-      "phase": 45,
-      "objective_minutes": 99199.0
+      "phase": 0,
+      "objective_minutes": 107675.0
     },
     {
       "sweep": 0,
       "line": "A3a",
       "phase": 15,
-      "objective_minutes": 97966.0
+      "objective_minutes": 106795.0
     },
     {
       "sweep": 0,
       "line": "A3b",
-      "phase": 30,
-      "objective_minutes": 97966.0
+      "phase": 15,
+      "objective_minutes": 105230.0
+    },
+    {
+      "sweep": 0,
+      "line": "A6a",
+      "phase": 45,
+      "objective_minutes": 104303.0
+    },
+    {
+      "sweep": 0,
+      "line": "A6b",
+      "phase": 15,
+      "objective_minutes": 104189.0
     },
     {
       "sweep": 1,
       "line": "C2a",
       "phase": 0,
-      "objective_minutes": 97966.0
+      "objective_minutes": 104177.0
     },
     {
       "sweep": 1,
       "line": "C2b",
-      "phase": 0,
-      "objective_minutes": 97966.0
+      "phase": 15,
+      "objective_minutes": 104177.0
     },
     {
       "sweep": 1,
       "line": "C6a",
       "phase": 0,
-      "objective_minutes": 97966.0
+      "objective_minutes": 104177.0
     },
     {
       "sweep": 1,
       "line": "C6b",
       "phase": 0,
-      "objective_minutes": 97966.0
+      "objective_minutes": 104177.0
     },
     {
       "sweep": 1,
       "line": "R8a",
       "phase": 105,
-      "objective_minutes": 97966.0
+      "objective_minutes": 104177.0
     },
     {
       "sweep": 1,
       "line": "R8b",
       "phase": 0,
-      "objective_minutes": 97966.0
+      "objective_minutes": 104177.0
+    },
+    {
+      "sweep": 1,
+      "line": "I1a",
+      "phase": 0,
+      "objective_minutes": 104177.0
+    },
+    {
+      "sweep": 1,
+      "line": "I1b",
+      "phase": 45,
+      "objective_minutes": 104177.0
     },
     {
       "sweep": 1,
       "line": "A4a",
       "phase": 30,
-      "objective_minutes": 97966.0
+      "objective_minutes": 104177.0
     },
     {
       "sweep": 1,
       "line": "A4b",
       "phase": 45,
-      "objective_minutes": 96318.0
+      "objective_minutes": 102471.0
     },
     {
       "sweep": 1,
       "line": "A1a",
       "phase": 30,
-      "objective_minutes": 95838.0
+      "objective_minutes": 101931.0
     },
     {
       "sweep": 1,
       "line": "A1b",
-      "phase": 45,
-      "objective_minutes": 95838.0
+      "phase": 30,
+      "objective_minutes": 101931.0
     },
     {
       "sweep": 1,
       "line": "A5a",
       "phase": 0,
-      "objective_minutes": 95838.0
+      "objective_minutes": 101931.0
     },
     {
       "sweep": 1,
       "line": "A5b",
-      "phase": 15,
-      "objective_minutes": 94985.0
+      "phase": 0,
+      "objective_minutes": 101652.0
     },
     {
       "sweep": 1,
       "line": "A2a",
-      "phase": 15,
-      "objective_minutes": 94503.0
+      "phase": 0,
+      "objective_minutes": 101292.0
     },
     {
       "sweep": 1,
       "line": "A2b",
-      "phase": 45,
-      "objective_minutes": 94503.0
+      "phase": 0,
+      "objective_minutes": 101292.0
     },
     {
       "sweep": 1,
       "line": "A3a",
       "phase": 15,
-      "objective_minutes": 94503.0
+      "objective_minutes": 101292.0
     },
     {
       "sweep": 1,
       "line": "A3b",
+      "phase": 15,
+      "objective_minutes": 101292.0
+    },
+    {
+      "sweep": 1,
+      "line": "A6a",
       "phase": 30,
-      "objective_minutes": 94503.0
+      "objective_minutes": 101232.0
+    },
+    {
+      "sweep": 1,
+      "line": "A6b",
+      "phase": 15,
+      "objective_minutes": 101232.0
     }
   ],
-  "fixed_proposed_departures": 684,
+  "fixed_proposed_departures": 748,
   "capacity": "NOT_CHECKED",
   "global_optimum": "NOT_CLAIMED",
   "adopted": true,

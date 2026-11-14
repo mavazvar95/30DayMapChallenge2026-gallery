@@ -1,16 +1,17 @@
 {
-  "edition": "2026-11-13-v7-horizontal-review",
-  "status": "CONCEPTUAL_HORIZONTAL_REVIEW_RUNNING_TIMES_PENDING",
+  "edition": "2026-11-14-v8-integrated",
+  "status": "EXPLORATORY_SCENARIO_MEDIA_READY",
+  "coruna_ferrol_under_30": "NOT_MET",
   "files": [
     {
       "file": "index.html",
-      "bytes": 10564,
-      "sha256": "e5e8fbc59f74f66e3d2b19681b134404f18ca2bbda7bf2f0c882e36138f6d133"
+      "bytes": 10339,
+      "sha256": "30510b47fbc1e61102277889cafa1851d4abad644114660c6b188678088c5f81"
     },
     {
       "file": "app.js",
-      "bytes": 31734,
-      "sha256": "20118cd5de30ddccc1ccde7cd5e021db589741bb576fe77a1660e94d5e939a5f"
+      "bytes": 30081,
+      "sha256": "4c4310ca584ef45aefdde660839516ce157e1cc8c9a039938da2ef0398e4c5e0"
     },
     {
       "file": "style.css",
@@ -19,18 +20,18 @@
     },
     {
       "file": "data.json",
-      "bytes": 8179736,
-      "sha256": "259a356f7e9abdbeaf298ec59b9cb9a06315ad96b2929fe30c462c4a1d93ed31"
+      "bytes": 8479270,
+      "sha256": "e068468c1495a818deb62bde9a000a6f5db58b8c113ade151fb17ccfff9f2469"
     },
     {
       "file": "alignments.json",
-      "bytes": 506429,
-      "sha256": "49d1a858828c1bf6a1d20146d2e193a55ad0d0515576ef4d020d72914238b646"
+      "bytes": 565321,
+      "sha256": "fae0522f3fd3a623dd3f91edc5d724067d7982cb77ffbb103864242a5a4f284f"
     },
     {
       "file": "alignments.geojson",
-      "bytes": 312603,
-      "sha256": "427379ecbfb6678b8dc64a140e925816b860c72d7bbb4c6391da5b2f00f96d37"
+      "bytes": 226472,
+      "sha256": "88eb1e1c7b84cf9f12ddf1a89f32ed7cde7af66bcc1a0ba1bca688b97f09484a"
     },
     {
       "file": "relief.png",
@@ -39,18 +40,13 @@
     },
     {
       "file": "README.md",
-      "bytes": 577,
-      "sha256": "52911e77877f7c34da3548cb0562869badcf9a17928427322ffe6b41fb631b69"
+      "bytes": 426,
+      "sha256": "25ca7c4252163ddea2fd2e3614dcd0f140090142975d0be480d5786af3515aa1"
     },
     {
       "file": "methodology.md",
-      "bytes": 5749,
-      "sha256": "6e334ae24429e936a1ab793714f9ef0241c5f2cc8c10473d8399af9aabdc5265"
-    },
-    {
-      "file": "prior-methodology.md",
-      "bytes": 9829,
-      "sha256": "b2b2fa1dfdfa0ee370a28555987c59c9fc8ac5d1b6835b8f4cbad423ae8887d0"
+      "bytes": 6921,
+      "sha256": "562b6cc4c1c0f01207499eb5712a45c7bb17f21cdddc4375b6f1036b0bd3738f"
     },
     {
       "file": "path-repairs.json",
@@ -59,8 +55,8 @@
     },
     {
       "file": "sources-manifest.json",
-      "bytes": 520,
-      "sha256": "75a5dff65a42f01b4cc22304c4da6073c2e64078a257c0a5856ca58d97ac4160"
+      "bytes": 635,
+      "sha256": "0bbb16374e5aa530419d8b39d662941cbd1e3e6b9ea4ee6b2d148c6e75583b21"
     },
     {
       "file": "dem-sources-manifest.json",
@@ -89,18 +85,83 @@
     },
     {
       "file": "browser-qa.json",
-      "bytes": 398,
-      "sha256": "f177f8171c7c6fbb12b36bc61b38698cf2f2082988b7f6d35fd2dacb44fd9f28"
+      "bytes": 468,
+      "sha256": "84d620441c26b7226ad91e4a99562b069ecc50db0b2d5e3349cc4d9c33d3dbe7"
+    },
+    {
+      "file": "interaction-qa.json",
+      "bytes": 519,
+      "sha256": "947c0e832da99ce48668c86fce8e51d69b9691ea2d01d1decdfe952e3f20df11"
     },
     {
       "file": "qa.json",
-      "bytes": 5069,
-      "sha256": "ff1fdaee5507d7d4c2688654640d8b2ba01b128b0e82d6f40c295028ab043e93"
+      "bytes": 1149,
+      "sha256": "bf0cd54303a57ebd8cfa3e384bad355d519667530762d57fa5eb7c309ffe9ea8"
+    },
+    {
+      "file": "validation.json",
+      "bytes": 8183,
+      "sha256": "8ab82cff15adc1f90a3da038721448d38cec9a73e48f43a4058b595e1aba2d6a"
     },
     {
       "file": "visual-review.json",
-      "bytes": 815,
-      "sha256": "31c8070fd5b7db668ac1fe73e99dadf1726e366664ce12c5b566b6543ebf792d"
+      "bytes": 838,
+      "sha256": "619efd0959370810dd214f6cc3223937bcb4049541ea9c19b3552ef88547e94f"
+    },
+    {
+      "file": "running-times.json",
+      "bytes": 151083,
+      "sha256": "e4d0391c090626dcaccd12fef624a38f044a520d97d235697d22c284dad23aad"
+    },
+    {
+      "file": "coordination.json",
+      "bytes": 101141,
+      "sha256": "416d0cf93cd7aaaea9d4ec223887341eb6581f4ac19a6e2e6ba88f5d433ccd8c"
+    },
+    {
+      "file": "system.json",
+      "bytes": 6560,
+      "sha256": "81d1f006459eec0bff5a39eb119ac768ea81bb22b207b1c9adf2db7b48edbd8f"
+    },
+    {
+      "file": "post-linkedin.md",
+      "bytes": 1679,
+      "sha256": "3de485478713c5191a30bf6874ea8f75151c9f6269e6dd09105e920e72539fc4"
+    },
+    {
+      "file": "media-qa.json",
+      "bytes": 147,
+      "sha256": "0571ecc38fdefb77567283c13cc97217cf9705a7c43d0bf7802af3329bb31658"
+    },
+    {
+      "file": "recording-qa.json",
+      "bytes": 345,
+      "sha256": "71ef3a494d6f5f8dfe5bb4568ac90132a94b5cee524c053468227877b7a0f166"
+    },
+    {
+      "file": "publication/08-utopia-linkedin.jpg",
+      "bytes": 1201102,
+      "sha256": "9eb73daefa36af92f2eb91fbeffaaaa6afc6277375618562d62e9999336843ea"
+    },
+    {
+      "file": "publication/08-utopia.pdf",
+      "bytes": 5619671,
+      "sha256": "4544ce483000d88184ab94e744b32ea81d4f77b0593c7784a88d1e59ec5203ef"
+    },
+    {
+      "file": "publication/08-utopia-mapa.png",
+      "bytes": 453484,
+      "sha256": "2924998915d7dc7c797593405aa2f9c9f5dcb76706a9ff99548612d46a687337"
+    },
+    {
+      "file": "publication/08-utopia-viaje.png",
+      "bytes": 100258,
+      "sha256": "e850303f5980a9efa5dbbc030da1cd12e7f6c89f287ba14ef85a3af49a7d1105"
+    },
+    {
+      "file": "publication/08-utopia-demo.mp4",
+      "bytes": 5105660,
+      "sha256": "ada9f118a38511190f76c3b6c04d07e772e9b9fb54f34e24d3d98b320adad1c8"
     }
   ]
 }
