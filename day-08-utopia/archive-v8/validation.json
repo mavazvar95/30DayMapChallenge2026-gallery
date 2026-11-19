@@ -1,0 +1,390 @@
+{
+  "status": "PRELIMINARY_WITH_LIMITATIONS",
+  "checks": [
+    {
+      "check": "F1 selected profile",
+      "status": "PASS",
+      "evidence": 25.0
+    },
+    {
+      "check": "F1 terrestrial geometry",
+      "status": "PASS",
+      "evidence": 0.0
+    },
+    {
+      "check": "F1 metric length",
+      "status": "PASS",
+      "evidence": 59.15
+    },
+    {
+      "check": "F1 curve contains intermediate vertices",
+      "status": "PASS",
+      "evidence": 624
+    },
+    {
+      "check": "F1 sensitivity",
+      "status": "PASS",
+      "evidence": [
+        35,
+        36
+      ]
+    },
+    {
+      "check": "L1 selected profile",
+      "status": "PASS",
+      "evidence": 25.0
+    },
+    {
+      "check": "L1 terrestrial geometry",
+      "status": "PASS",
+      "evidence": 0.0
+    },
+    {
+      "check": "L1 metric length",
+      "status": "PASS",
+      "evidence": 90.97
+    },
+    {
+      "check": "L1 curve contains intermediate vertices",
+      "status": "PASS",
+      "evidence": 587
+    },
+    {
+      "check": "L1 sensitivity",
+      "status": "PASS",
+      "evidence": [
+        41,
+        46
+      ]
+    },
+    {
+      "check": "L2 selected profile",
+      "status": "PASS",
+      "evidence": 25.0
+    },
+    {
+      "check": "L2 terrestrial geometry",
+      "status": "PASS",
+      "evidence": 0.0
+    },
+    {
+      "check": "L2 metric length",
+      "status": "PASS",
+      "evidence": 101.77
+    },
+    {
+      "check": "L2 curve contains intermediate vertices",
+      "status": "PASS",
+      "evidence": 621
+    },
+    {
+      "check": "L2 sensitivity",
+      "status": "PASS",
+      "evidence": [
+        43,
+        48
+      ]
+    },
+    {
+      "check": "V1 selected profile",
+      "status": "PASS",
+      "evidence": 25.0
+    },
+    {
+      "check": "V1 terrestrial geometry",
+      "status": "PASS",
+      "evidence": 0.0
+    },
+    {
+      "check": "V1 metric length",
+      "status": "PASS",
+      "evidence": 98.95
+    },
+    {
+      "check": "V1 curve contains intermediate vertices",
+      "status": "PASS",
+      "evidence": 851
+    },
+    {
+      "check": "V1 sensitivity",
+      "status": "PASS",
+      "evidence": [
+        50,
+        54
+      ]
+    },
+    {
+      "check": "P1 selected profile",
+      "status": "PASS",
+      "evidence": 25.0
+    },
+    {
+      "check": "P1 terrestrial geometry",
+      "status": "PASS",
+      "evidence": 0.0
+    },
+    {
+      "check": "P1 metric length",
+      "status": "PASS",
+      "evidence": 91.19
+    },
+    {
+      "check": "P1 curve contains intermediate vertices",
+      "status": "PASS",
+      "evidence": 410
+    },
+    {
+      "check": "P1 sensitivity",
+      "status": "PASS",
+      "evidence": [
+        38,
+        43
+      ]
+    },
+    {
+      "check": "P2 selected profile",
+      "status": "PASS",
+      "evidence": 25.0
+    },
+    {
+      "check": "P2 terrestrial geometry",
+      "status": "PASS",
+      "evidence": 0.0
+    },
+    {
+      "check": "P2 metric length",
+      "status": "PASS",
+      "evidence": 49.53
+    },
+    {
+      "check": "P2 curve contains intermediate vertices",
+      "status": "PASS",
+      "evidence": 314
+    },
+    {
+      "check": "P2 sensitivity",
+      "status": "PASS",
+      "evidence": [
+        26,
+        28
+      ]
+    },
+    {
+      "check": "L3 selected profile",
+      "status": "PASS",
+      "evidence": 25.0
+    },
+    {
+      "check": "L3 terrestrial geometry",
+      "status": "PASS",
+      "evidence": 0.0
+    },
+    {
+      "check": "L3 metric length",
+      "status": "PASS",
+      "evidence": 91.08
+    },
+    {
+      "check": "L3 curve contains intermediate vertices",
+      "status": "PASS",
+      "evidence": 767
+    },
+    {
+      "check": "L3 sensitivity",
+      "status": "PASS",
+      "evidence": [
+        40,
+        44
+      ]
+    },
+    {
+      "check": "No future corridor in reference",
+      "status": "PASS",
+      "evidence": "GTFS reference preserved"
+    },
+    {
+      "check": "published chronological calls",
+      "status": "PASS",
+      "evidence": 160
+    },
+    {
+      "check": "published future geometry complete",
+      "status": "PASS",
+      "evidence": "Every future stop-to-stop section has geometry"
+    },
+    {
+      "check": "coordinated chronological calls",
+      "status": "PASS",
+      "evidence": 556
+    },
+    {
+      "check": "coordinated future geometry complete",
+      "status": "PASS",
+      "evidence": "Every future stop-to-stop section has geometry"
+    },
+    {
+      "check": "direct chronological calls",
+      "status": "PASS",
+      "evidence": 908
+    },
+    {
+      "check": "direct future geometry complete",
+      "status": "PASS",
+      "evidence": "Every future stop-to-stop section has geometry"
+    },
+    {
+      "check": "Coruña–Ferrol under 30 min objective",
+      "status": "NOT_MET",
+      "evidence": {
+        "coruna_ferrol_under_30": false,
+        "minutes": 35,
+        "status": "NOT_MET"
+      }
+    },
+    {
+      "check": "Geotechnics and structures",
+      "status": "NOT_CHECKED",
+      "evidence": "Preliminary study; not asserted as engineering feasibility"
+    },
+    {
+      "check": "Land use, urban property and protected areas",
+      "status": "NOT_CHECKED",
+      "evidence": "Preliminary study; not asserted as engineering feasibility"
+    },
+    {
+      "check": "Train power and detailed dynamics",
+      "status": "NOT_CHECKED",
+      "evidence": "Preliminary study; not asserted as engineering feasibility"
+    },
+    {
+      "check": "Capacity, traffic conflicts and rolling-stock diagrams",
+      "status": "NOT_CHECKED",
+      "evidence": "Preliminary study; not asserted as engineering feasibility"
+    },
+    {
+      "check": "Demand, costs and global network optimum",
+      "status": "NOT_CHECKED",
+      "evidence": "Preliminary study; not asserted as engineering feasibility"
+    },
+    {
+      "check": "Both directions of seven direct/retained services",
+      "status": "PASS",
+      "evidence": [
+        {
+          "line": "I1a",
+          "minutes": 105.0
+        },
+        {
+          "line": "I1b",
+          "minutes": 105.0
+        },
+        {
+          "line": "A4a",
+          "minutes": 35
+        },
+        {
+          "line": "A4b",
+          "minutes": 35
+        },
+        {
+          "line": "A1a",
+          "minutes": 41
+        },
+        {
+          "line": "A1b",
+          "minutes": 41
+        },
+        {
+          "line": "A5a",
+          "minutes": 43
+        },
+        {
+          "line": "A5b",
+          "minutes": 43
+        },
+        {
+          "line": "A2a",
+          "minutes": 65
+        },
+        {
+          "line": "A2b",
+          "minutes": 65
+        },
+        {
+          "line": "A3a",
+          "minutes": 72
+        },
+        {
+          "line": "A3b",
+          "minutes": 72
+        },
+        {
+          "line": "A6a",
+          "minutes": 40
+        },
+        {
+          "line": "A6b",
+          "minutes": 40
+        }
+      ]
+    }
+  ],
+  "system": {
+    "comparable_galicia_pairs": 42,
+    "improved": 37,
+    "worsened": 0,
+    "median_minutes_saved": 113.5,
+    "ready": "08:00 Europe/Madrid",
+    "selected_corridors": [
+      {
+        "id": "F1",
+        "minutes": 35,
+        "km": 59.15,
+        "below_ground_km": 13.78,
+        "above_ground_km": 9.89
+      },
+      {
+        "id": "L1",
+        "minutes": 41,
+        "km": 90.97,
+        "below_ground_km": 10.1,
+        "above_ground_km": 8.7
+      },
+      {
+        "id": "L2",
+        "minutes": 43,
+        "km": 101.77,
+        "below_ground_km": 9.6,
+        "above_ground_km": 8.1
+      },
+      {
+        "id": "V1",
+        "minutes": 50,
+        "km": 98.95,
+        "below_ground_km": 21.17,
+        "above_ground_km": 19.38
+      },
+      {
+        "id": "P1",
+        "minutes": 38,
+        "km": 91.19,
+        "below_ground_km": 15.6,
+        "above_ground_km": 14.5
+      },
+      {
+        "id": "P2",
+        "minutes": 26,
+        "km": 49.53,
+        "below_ground_km": 3.3,
+        "above_ground_km": 1.7
+      },
+      {
+        "id": "L3",
+        "minutes": 40,
+        "km": 91.08,
+        "below_ground_km": 25.39,
+        "above_ground_km": 19.29
+      }
+    ]
+  }
+}

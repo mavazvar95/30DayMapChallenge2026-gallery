@@ -1,0 +1,22 @@
+{
+  "inspected": true,
+  "date": "2026-11-14",
+  "artifacts": [
+    "plate-preview.png",
+    "ferrol-preview.png",
+    "design-preview.png",
+    "publication/08-utopia-viaje.png",
+    "video frames at 16 s and final 20 s"
+  ],
+  "observations": [
+    "Poster title, map, three duration callouts, legend and credits visible without clipping.",
+    "Seven proposals retained; existing accesses and new core distinguished.",
+    "Coruña–Ferrol objective failure explicitly labelled.",
+    "Video records actual HTML without address bar or Sites branding; Lugo–Ourense sidebar matches selected route."
+  ],
+  "limitations": [
+    "Conceptual railway proposals, not engineering approval.",
+    "Braga future station unresolved; access speeds assumed.",
+    "Review of exported stills and sampled video frames, not author approval."
+  ]
+}

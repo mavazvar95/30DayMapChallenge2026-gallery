@@ -4482,10 +4482,10 @@
       1125
     ]
   ],
-  "before_minutes": 116050.0,
-  "after_minutes": 101232.0,
-  "optimized_queries_improved": 365,
-  "optimized_queries_worsened": 151,
+  "before_minutes": 109165.0,
+  "after_minutes": 98015.0,
+  "optimized_queries_improved": 342,
+  "optimized_queries_worsened": 140,
   "holdout_queries": [
     [
       "31412",
@@ -8968,10 +8968,10 @@
       1132
     ]
   ],
-  "holdout_before_minutes": 122423.0,
-  "holdout_after_minutes": 107870.0,
-  "holdout_improved": 354,
-  "holdout_worsened": 152,
+  "holdout_before_minutes": 115508.0,
+  "holdout_after_minutes": 104203.0,
+  "holdout_improved": 334,
+  "holdout_worsened": 138,
   "initial_phases": [
     0,
     0,
@@ -9054,260 +9054,260 @@
     105,
     0,
     0,
+    30,
+    30,
     45,
     30,
+    30,
+    0,
+    0,
     45,
-    30,
-    30,
-    0,
-    0,
-    0,
-    0,
     15,
     15,
     30,
-    15
+    45,
+    30
   ],
   "trace": [
     {
       "sweep": 0,
       "line": "C2a",
       "phase": 15,
-      "objective_minutes": 116032.0
+      "objective_minutes": 109147.0
     },
     {
       "sweep": 0,
       "line": "C2b",
-      "phase": 15,
-      "objective_minutes": 115998.0
+      "phase": 0,
+      "objective_minutes": 109147.0
     },
     {
       "sweep": 0,
       "line": "C6a",
       "phase": 0,
-      "objective_minutes": 115998.0
+      "objective_minutes": 109147.0
     },
     {
       "sweep": 0,
       "line": "C6b",
       "phase": 0,
-      "objective_minutes": 115998.0
+      "objective_minutes": 109147.0
     },
     {
       "sweep": 0,
       "line": "R8a",
       "phase": 105,
-      "objective_minutes": 114951.0
+      "objective_minutes": 108100.0
     },
     {
       "sweep": 0,
       "line": "R8b",
       "phase": 0,
-      "objective_minutes": 114951.0
+      "objective_minutes": 108100.0
     },
     {
       "sweep": 0,
       "line": "I1a",
       "phase": 0,
-      "objective_minutes": 114951.0
+      "objective_minutes": 108100.0
     },
     {
       "sweep": 0,
       "line": "I1b",
-      "phase": 45,
-      "objective_minutes": 113781.0
+      "phase": 30,
+      "objective_minutes": 108100.0
     },
     {
       "sweep": 0,
       "line": "A4a",
       "phase": 30,
-      "objective_minutes": 111585.0
+      "objective_minutes": 105571.0
     },
     {
       "sweep": 0,
       "line": "A4b",
       "phase": 15,
-      "objective_minutes": 110342.0
+      "objective_minutes": 104304.0
     },
     {
       "sweep": 0,
       "line": "A1a",
       "phase": 0,
-      "objective_minutes": 110342.0
+      "objective_minutes": 104304.0
     },
     {
       "sweep": 0,
       "line": "A1b",
       "phase": 30,
-      "objective_minutes": 110342.0
+      "objective_minutes": 104304.0
     },
     {
       "sweep": 0,
       "line": "A5a",
       "phase": 0,
-      "objective_minutes": 110342.0
+      "objective_minutes": 104304.0
     },
     {
       "sweep": 0,
       "line": "A5b",
       "phase": 30,
-      "objective_minutes": 110342.0
+      "objective_minutes": 104304.0
     },
     {
       "sweep": 0,
       "line": "A2a",
       "phase": 45,
-      "objective_minutes": 109483.0
+      "objective_minutes": 103683.0
     },
     {
       "sweep": 0,
       "line": "A2b",
-      "phase": 0,
-      "objective_minutes": 107675.0
+      "phase": 15,
+      "objective_minutes": 102863.0
     },
     {
       "sweep": 0,
       "line": "A3a",
       "phase": 15,
-      "objective_minutes": 106795.0
+      "objective_minutes": 101668.0
     },
     {
       "sweep": 0,
       "line": "A3b",
-      "phase": 15,
-      "objective_minutes": 105230.0
+      "phase": 30,
+      "objective_minutes": 101668.0
     },
     {
       "sweep": 0,
       "line": "A6a",
       "phase": 45,
-      "objective_minutes": 104303.0
+      "objective_minutes": 100678.0
     },
     {
       "sweep": 0,
       "line": "A6b",
-      "phase": 15,
-      "objective_minutes": 104189.0
+      "phase": 30,
+      "objective_minutes": 100678.0
     },
     {
       "sweep": 1,
       "line": "C2a",
       "phase": 0,
-      "objective_minutes": 104177.0
+      "objective_minutes": 100666.0
     },
     {
       "sweep": 1,
       "line": "C2b",
       "phase": 15,
-      "objective_minutes": 104177.0
+      "objective_minutes": 100656.0
     },
     {
       "sweep": 1,
       "line": "C6a",
       "phase": 0,
-      "objective_minutes": 104177.0
+      "objective_minutes": 100656.0
     },
     {
       "sweep": 1,
       "line": "C6b",
       "phase": 0,
-      "objective_minutes": 104177.0
+      "objective_minutes": 100656.0
     },
     {
       "sweep": 1,
       "line": "R8a",
       "phase": 105,
-      "objective_minutes": 104177.0
+      "objective_minutes": 100656.0
     },
     {
       "sweep": 1,
       "line": "R8b",
       "phase": 0,
-      "objective_minutes": 104177.0
+      "objective_minutes": 100656.0
     },
     {
       "sweep": 1,
       "line": "I1a",
       "phase": 0,
-      "objective_minutes": 104177.0
+      "objective_minutes": 100656.0
     },
     {
       "sweep": 1,
       "line": "I1b",
-      "phase": 45,
-      "objective_minutes": 104177.0
+      "phase": 30,
+      "objective_minutes": 100656.0
     },
     {
       "sweep": 1,
       "line": "A4a",
       "phase": 30,
-      "objective_minutes": 104177.0
+      "objective_minutes": 100656.0
     },
     {
       "sweep": 1,
       "line": "A4b",
       "phase": 45,
-      "objective_minutes": 102471.0
+      "objective_minutes": 98952.0
     },
     {
       "sweep": 1,
       "line": "A1a",
       "phase": 30,
-      "objective_minutes": 101931.0
+      "objective_minutes": 98404.0
     },
     {
       "sweep": 1,
       "line": "A1b",
       "phase": 30,
-      "objective_minutes": 101931.0
+      "objective_minutes": 98404.0
     },
     {
       "sweep": 1,
       "line": "A5a",
       "phase": 0,
-      "objective_minutes": 101931.0
+      "objective_minutes": 98404.0
     },
     {
       "sweep": 1,
       "line": "A5b",
       "phase": 0,
-      "objective_minutes": 101652.0
+      "objective_minutes": 98015.0
     },
     {
       "sweep": 1,
       "line": "A2a",
-      "phase": 0,
-      "objective_minutes": 101292.0
+      "phase": 45,
+      "objective_minutes": 98015.0
     },
     {
       "sweep": 1,
       "line": "A2b",
-      "phase": 0,
-      "objective_minutes": 101292.0
+      "phase": 15,
+      "objective_minutes": 98015.0
     },
     {
       "sweep": 1,
       "line": "A3a",
       "phase": 15,
-      "objective_minutes": 101292.0
+      "objective_minutes": 98015.0
     },
     {
       "sweep": 1,
       "line": "A3b",
-      "phase": 15,
-      "objective_minutes": 101292.0
+      "phase": 30,
+      "objective_minutes": 98015.0
     },
     {
       "sweep": 1,
       "line": "A6a",
-      "phase": 30,
-      "objective_minutes": 101232.0
+      "phase": 45,
+      "objective_minutes": 98015.0
     },
     {
       "sweep": 1,
       "line": "A6b",
-      "phase": 15,
-      "objective_minutes": 101232.0
+      "phase": 30,
+      "objective_minutes": 98015.0
     }
   ],
   "fixed_proposed_departures": 748,

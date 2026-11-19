@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "timetable_reference": "2026-11-12",
   "inputs": [
     {
@@ -7,15 +7,15 @@
       "sha256": "ef28e18f9e68e7cef6284b5bda518844a39d67aa9c5dff74514cd2c46f038982"
     },
     {
-      "file": "v8/alignments-input.json",
-      "sha256": "fd64c556fb120699989a579a5bf09a8c332eea309ad12f3ff85e92b0e5240422"
+      "file": "v9/alignments-input.json",
+      "sha256": "dee2110960bbb438247ee467278bd8033603e6848b78b04877cbc4293cd07e0b"
     },
     {
-      "file": "v8/running-times.json",
-      "sha256": "e4d0391c090626dcaccd12fef624a38f044a520d97d235697d22c284dad23aad"
+      "file": "v9/running-times.json",
+      "sha256": "ac77260aee09c211e8467de7ffac5e68bf5358f84bf8103bc4b65c79ac95697b"
     }
   ],
   "dem_sources": "dem-sources-manifest.json",
   "base_sources": "base-sources-manifest.json",
-  "new_geometry": "Own proposals, not official projects"
+  "new_geometry": "Own proposals; five constrained core designs, not official projects"
 }

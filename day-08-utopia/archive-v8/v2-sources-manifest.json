@@ -1,0 +1,197 @@
+[
+  {
+    "file": ".gitignore",
+    "sha256": "aae815b9313ef60fb99d51bec324f3de1cea5256d6bbf58a660578b3e2d5815c",
+    "bytes": 25
+  },
+  {
+    "file": "README.md",
+    "sha256": "6f69a1f9ef0cb5e508a6fc8d0f05d76b0ba954de70e3d4f519f55d0216bc2db1",
+    "bytes": 460
+  },
+  {
+    "file": "admin1.geojson",
+    "sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "bytes": 40726851
+  },
+  {
+    "file": "betanzos-detail.json",
+    "sha256": "02aeb189050839af7ea8ef5133f2a7342b37a77c5531643b447a8ab86a2289af",
+    "bytes": 11170
+  },
+  {
+    "file": "cercanias.zip",
+    "sha256": "bee6260a922efe21b109e3fcc57caabab148532a33b4d0379b33a0cb25710ff2",
+    "bytes": 15572659
+  },
+  {
+    "file": "ign-count.json",
+    "sha256": "5e407255da5585b41d0f87b43187248732c9a403eeebdefe7f0afe04afcea14b",
+    "bytes": 14
+  },
+  {
+    "file": "ign-small.txt",
+    "sha256": "cd7ccf354e0a181d72cbcf96131d19f9fad633cc5724ea15684c51169af7454f",
+    "bytes": 760309
+  },
+  {
+    "file": "osm.txt",
+    "sha256": "7cd905d731bc5983f218aa91824747ef52e7b2cef4a2bf4aa2adba91dc3e61e6",
+    "bytes": 156
+  },
+  {
+    "file": "probe-catalog.txt",
+    "sha256": "e4b3a8aae1ef9ca353ad080c6bba5131c2b1aa5c9177bfd172ea9c78feef8df3",
+    "bytes": 11632
+  },
+  {
+    "file": "probe-cercanias.txt",
+    "sha256": "98453583e64f5b6ee637b48e2b22bcf76f2f312e9c4e506309b8d01936d38252",
+    "bytes": 4415
+  },
+  {
+    "file": "probe-feve.txt",
+    "sha256": "0d35385da607524567eae891cd8e2309de8ffa28296268d6bcb78d367e4d53b1",
+    "bytes": 262
+  },
+  {
+    "file": "probe-ram.txt",
+    "sha256": "ce09331afc3f1726ba41f5ed15c50ac243a56f4a14805b25c5bc60448ce769d8",
+    "bytes": 68605
+  },
+  {
+    "file": "rail-1.txt",
+    "sha256": "5da8236ea1581113489e321d02c2431bf9cbe15667cf7a45bf9d863e08817003",
+    "bytes": 321973
+  },
+  {
+    "file": "rail-10001.txt",
+    "sha256": "8b76523b4ed990cb565b584f475878a086c73c77586c0ad6cb0165365168cdb3",
+    "bytes": 274938
+  },
+  {
+    "file": "rail-20001.txt",
+    "sha256": "0e8c07bb816a3b407f891fd7e7a5d51656076db108e298fba7992d2474a857bb",
+    "bytes": 273657
+  },
+  {
+    "file": "rail-30001.txt",
+    "sha256": "36f37ef85201929c20808f3b515c49dee5ce4889c72afc94c03a6c1c39335c6f",
+    "bytes": 320594
+  },
+  {
+    "file": "rail-40001.txt",
+    "sha256": "1e08c2a72caed40a334e87872d884261d4595d9054cb52d275c044bce480de66",
+    "bytes": 354160
+  },
+  {
+    "file": "rail-50001.txt",
+    "sha256": "289cda559d23b3e62ee66455bb2079eeee8934a9354255cac2a78a07374ee4c3",
+    "bytes": 273745
+  },
+  {
+    "file": "rail-60001.txt",
+    "sha256": "ccab6991eb0f4c8486194c7cdac685cd30f762c6bbb787877f55362a8d135aae",
+    "bytes": 781
+  },
+  {
+    "file": "ram-GetEstacionesLinea.txt",
+    "sha256": "1492aa01fbac97c4c950ce10b4ed2053b44dff0bf11dd047e9225a1679327e5b",
+    "bytes": 43198
+  },
+  {
+    "file": "ram-GetTrenesLinea.txt",
+    "sha256": "85239da9e0114451e982983cb9a06af46f5d784f32313d127a29ed71230441f7",
+    "bytes": 6663
+  },
+  {
+    "file": "ram-horarios-12.txt",
+    "sha256": "0728ed40c9482df903812f65dd689d7e2ece2e78f087c90e3cc067dae2d9fcfa",
+    "bytes": 5176
+  },
+  {
+    "file": "ram-horarios-back-12.txt",
+    "sha256": "9130f9318ffb491a8a6ae6d37a8c8a58dedde4c21c9dc0d2803e4c865218dd32",
+    "bytes": 5176
+  },
+  {
+    "file": "ram-lines.txt",
+    "sha256": "f7511902456e82fe06d1d8ae81ec7a3360706dd3c4f8e76ce8f6402994683b5e",
+    "bytes": 5175
+  },
+  {
+    "file": "ram-provinces.txt",
+    "sha256": "83e3ea57b4483ab0483899f2c227b45000ae325209dbf81b7deba6d2789b5fd8",
+    "bytes": 2867
+  },
+  {
+    "file": "ram-stations-15.txt",
+    "sha256": "e1efc06d4df8d061aa7629135573a33d3d0dae8e2bf71455ceaac6e93ee4745c",
+    "bytes": 11700
+  },
+  {
+    "file": "ram-stations-27.txt",
+    "sha256": "36bf4fb1788dd293fbd84d10b11d7aff746970cdca1c69ecd6c1a81cb40022ec",
+    "bytes": 10982
+  },
+  {
+    "file": "ram-stations-33.txt",
+    "sha256": "70d38310ee448b585884a74f6a62b3d5fd5c23521d5186635727b4f5d23fc8ac",
+    "bytes": 61967
+  },
+  {
+    "file": "ram-stations.txt",
+    "sha256": "bbe98709f89dd52144f85b8eb1e9801283e2a5cfcd726600c9629cb6abf84837",
+    "bytes": 2494
+  },
+  {
+    "file": "ram-stops-6899.xml",
+    "sha256": "67aee0529f394067d44ade14eda410d3caed14305ca79eb305cb7179d6252cbc",
+    "bytes": 33598
+  },
+  {
+    "file": "ram-stops-6900.xml",
+    "sha256": "4971c3a5d092cb9b14826fa786277162728a26864d1969f37a1a963e1d9db3bd",
+    "bytes": 38600
+  },
+  {
+    "file": "ram-stops-6901.xml",
+    "sha256": "89dd9d5c5e0123ac5cfa87903fa75e3401e3d6b13f1f99acacfd49e2eef5fb18",
+    "bytes": 19946
+  },
+  {
+    "file": "ram-stops-6902.xml",
+    "sha256": "a0ffd8475393c59a00d3f70dbc0ab3e67733e518f5a5ddf377b392e520cd3af5",
+    "bytes": 19946
+  },
+  {
+    "file": "ram-stops-6903.xml",
+    "sha256": "ecf2d551034d5dd6b9d0edcfa66f0e1fbbb76837b98be49763d1b82a995dcbfa",
+    "bytes": 33598
+  },
+  {
+    "file": "ram-stops-6904.xml",
+    "sha256": "23fa01a2cbf5c2ba75769e1b8033413c2baf874b560a2444d64e431a2603faba",
+    "bytes": 19946
+  },
+  {
+    "file": "ram-stops-6905.xml",
+    "sha256": "a74dea30be3b8c35b79bfe6e0e53e9c4833a635209ac347a451ddde45fa5775c",
+    "bytes": 37516
+  },
+  {
+    "file": "ram-stops-6906.xml",
+    "sha256": "31f7c8f1f34bea827f9dbc3ea3bd2f6c850749c3eac8841a23848ef684744791",
+    "bytes": 19946
+  },
+  {
+    "file": "ram-trains-12.txt",
+    "sha256": "4589aacbbeddb5267e40beaedac090402016f3b5569a1867d8c7b171550b782e",
+    "bytes": 4664
+  },
+  {
+    "file": "ram-trains-back-12.xml",
+    "sha256": "60735a5dc7fadd06aac46f9fab5d70cc97fefbc064164c2dae970ac7b2446e2f",
+    "bytes": 4664
+  }
+]

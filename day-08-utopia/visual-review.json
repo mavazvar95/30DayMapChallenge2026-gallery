@@ -1,22 +1,21 @@
 {
   "inspected": true,
-  "date": "2026-11-14",
+  "date": "2026-11-19",
   "artifacts": [
     "plate-preview.png",
-    "ferrol-preview.png",
     "design-preview.png",
-    "publication/08-utopia-viaje.png",
-    "video frames at 16 s and final 20 s"
+    "video frame at 18 s"
   ],
   "observations": [
-    "Poster title, map, three duration callouts, legend and credits visible without clipping.",
-    "Seven proposals retained; existing accesses and new core distinguished.",
-    "Coruña–Ferrol objective failure explicitly labelled.",
-    "Video records actual HTML without address bar or Sites branding; Lugo–Ourense sidebar matches selected route."
+    "Poster map, legend, key times and credits visible at export size.",
+    "Ourense–Pontevedra shown as shorter continuous corridor.",
+    "New proposed trains distinguished from existing AV.",
+    "Video records actual V9 HTML without browser address bar."
   ],
   "limitations": [
-    "Conceptual railway proposals, not engineering approval.",
-    "Braga future station unresolved; access speeds assumed.",
-    "Review of exported stills and sampled video frames, not author approval."
+    "No geotechnical or engineering feasibility review.",
+    "Coruña–Ferrol remains 35 min and inherited narrow curves.",
+    "Braga future station unresolved.",
+    "Visual inspection is not author approval."
   ]
 }

@@ -20,38 +20,38 @@
     },
     {
       "id": "L2",
-      "minutes": 43,
-      "km": 101.77,
-      "below_ground_km": 9.6,
-      "above_ground_km": 8.1
+      "minutes": 41,
+      "km": 96.21,
+      "below_ground_km": 11.79,
+      "above_ground_km": 7.09
     },
     {
       "id": "V1",
-      "minutes": 50,
-      "km": 98.95,
-      "below_ground_km": 21.17,
-      "above_ground_km": 19.38
+      "minutes": 39,
+      "km": 72.38,
+      "below_ground_km": 22.58,
+      "above_ground_km": 16.18
     },
     {
       "id": "P1",
-      "minutes": 38,
-      "km": 91.19,
-      "below_ground_km": 15.6,
-      "above_ground_km": 14.5
+      "minutes": 36,
+      "km": 87.42,
+      "below_ground_km": 20.58,
+      "above_ground_km": 18.08
     },
     {
       "id": "P2",
-      "minutes": 26,
-      "km": 49.53,
-      "below_ground_km": 3.3,
-      "above_ground_km": 1.7
+      "minutes": 25,
+      "km": 46.8,
+      "below_ground_km": 8.58,
+      "above_ground_km": 4.89
     },
     {
       "id": "L3",
-      "minutes": 40,
-      "km": 91.08,
-      "below_ground_km": 25.39,
-      "above_ground_km": 19.29
+      "minutes": 38,
+      "km": 86.05,
+      "below_ground_km": 26.58,
+      "above_ground_km": 21.99
     }
   ],
   "reports": [

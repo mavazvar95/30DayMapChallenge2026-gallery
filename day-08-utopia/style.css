@@ -6,3 +6,5 @@
 .geometry-switch{display:flex;align-items:center;gap:24px;padding:15px 0;border-bottom:1px solid #ccd6cf;margin-bottom:18px}.geometry-switch label{min-width:260px}.geometry-switch select{width:100%}@media(max-width:850px){.geometry-switch{display:block}.geometry-switch label{min-width:0}}
 
 .relief-toggle{display:flex!important;align-items:center;gap:6px}.relief-toggle input{width:auto}
+
+.design-callout{border-left:4px solid #b88328;padding:12px;background:#eee8d9;margin-bottom:20px}.design-callout p{margin:8px 0}

@@ -70,20 +70,33 @@
     {
       "check": "L2 metric length",
       "status": "PASS",
-      "evidence": 101.77
+      "evidence": 96.21
     },
     {
       "check": "L2 curve contains intermediate vertices",
       "status": "PASS",
-      "evidence": 621
+      "evidence": 3608
     },
     {
       "check": "L2 sensitivity",
       "status": "PASS",
       "evidence": [
-        43,
-        48
+        41,
+        46
       ]
+    },
+    {
+      "check": "L2 constrained radius",
+      "status": "PASS",
+      "evidence": {
+        "analytic_dense_m": 1515.0,
+        "resampled_100m_m": 1514.2
+      }
+    },
+    {
+      "check": "L2 no full-route loop",
+      "status": "PASS",
+      "evidence": true
     },
     {
       "check": "V1 selected profile",
@@ -98,20 +111,33 @@
     {
       "check": "V1 metric length",
       "status": "PASS",
-      "evidence": 98.95
+      "evidence": 72.38
     },
     {
       "check": "V1 curve contains intermediate vertices",
       "status": "PASS",
-      "evidence": 851
+      "evidence": 2378
     },
     {
       "check": "V1 sensitivity",
       "status": "PASS",
       "evidence": [
-        50,
-        54
+        39,
+        42
       ]
+    },
+    {
+      "check": "V1 constrained radius",
+      "status": "PASS",
+      "evidence": {
+        "analytic_dense_m": 1515.0,
+        "resampled_100m_m": 1515.1
+      }
+    },
+    {
+      "check": "V1 no full-route loop",
+      "status": "PASS",
+      "evidence": true
     },
     {
       "check": "P1 selected profile",
@@ -126,20 +152,33 @@
     {
       "check": "P1 metric length",
       "status": "PASS",
-      "evidence": 91.19
+      "evidence": 87.42
     },
     {
       "check": "P1 curve contains intermediate vertices",
       "status": "PASS",
-      "evidence": 410
+      "evidence": 3382
     },
     {
       "check": "P1 sensitivity",
       "status": "PASS",
       "evidence": [
-        38,
-        43
+        36,
+        42
       ]
+    },
+    {
+      "check": "P1 constrained radius",
+      "status": "PASS",
+      "evidence": {
+        "analytic_dense_m": 1514.74,
+        "resampled_100m_m": 1518.1
+      }
+    },
+    {
+      "check": "P1 no full-route loop",
+      "status": "PASS",
+      "evidence": true
     },
     {
       "check": "P2 selected profile",
@@ -154,20 +193,33 @@
     {
       "check": "P2 metric length",
       "status": "PASS",
-      "evidence": 49.53
+      "evidence": 46.8
     },
     {
       "check": "P2 curve contains intermediate vertices",
       "status": "PASS",
-      "evidence": 314
+      "evidence": 1785
     },
     {
       "check": "P2 sensitivity",
       "status": "PASS",
       "evidence": [
-        26,
-        28
+        25,
+        27
       ]
+    },
+    {
+      "check": "P2 constrained radius",
+      "status": "PASS",
+      "evidence": {
+        "analytic_dense_m": 1515.0,
+        "resampled_100m_m": 1815.4
+      }
+    },
+    {
+      "check": "P2 no full-route loop",
+      "status": "PASS",
+      "evidence": true
     },
     {
       "check": "L3 selected profile",
@@ -182,20 +234,33 @@
     {
       "check": "L3 metric length",
       "status": "PASS",
-      "evidence": 91.08
+      "evidence": 86.05
     },
     {
       "check": "L3 curve contains intermediate vertices",
       "status": "PASS",
-      "evidence": 767
+      "evidence": 3227
     },
     {
       "check": "L3 sensitivity",
       "status": "PASS",
       "evidence": [
-        40,
-        44
+        38,
+        43
       ]
+    },
+    {
+      "check": "L3 constrained radius",
+      "status": "PASS",
+      "evidence": {
+        "analytic_dense_m": 1515.0,
+        "resampled_100m_m": 1516.6
+      }
+    },
+    {
+      "check": "L3 no full-route loop",
+      "status": "PASS",
+      "evidence": true
     },
     {
       "check": "No future corridor in reference",
@@ -296,44 +361,44 @@
         },
         {
           "line": "A5a",
-          "minutes": 43
+          "minutes": 41
         },
         {
           "line": "A5b",
-          "minutes": 43
+          "minutes": 41
         },
         {
           "line": "A2a",
-          "minutes": 65
+          "minutes": 54
         },
         {
           "line": "A2b",
-          "minutes": 65
+          "minutes": 54
         },
         {
           "line": "A3a",
-          "minutes": 72
+          "minutes": 69
         },
         {
           "line": "A3b",
-          "minutes": 72
+          "minutes": 69
         },
         {
           "line": "A6a",
-          "minutes": 40
+          "minutes": 38
         },
         {
           "line": "A6b",
-          "minutes": 40
+          "minutes": 38
         }
       ]
     }
   ],
   "system": {
     "comparable_galicia_pairs": 42,
-    "improved": 37,
+    "improved": 38,
     "worsened": 0,
-    "median_minutes_saved": 113.5,
+    "median_minutes_saved": 112.0,
     "ready": "08:00 Europe/Madrid",
     "selected_corridors": [
       {
@@ -352,38 +417,38 @@
       },
       {
         "id": "L2",
-        "minutes": 43,
-        "km": 101.77,
-        "below_ground_km": 9.6,
-        "above_ground_km": 8.1
+        "minutes": 41,
+        "km": 96.21,
+        "below_ground_km": 11.79,
+        "above_ground_km": 7.09
       },
       {
         "id": "V1",
-        "minutes": 50,
-        "km": 98.95,
-        "below_ground_km": 21.17,
-        "above_ground_km": 19.38
+        "minutes": 39,
+        "km": 72.38,
+        "below_ground_km": 22.58,
+        "above_ground_km": 16.18
       },
       {
         "id": "P1",
-        "minutes": 38,
-        "km": 91.19,
-        "below_ground_km": 15.6,
-        "above_ground_km": 14.5
+        "minutes": 36,
+        "km": 87.42,
+        "below_ground_km": 20.58,
+        "above_ground_km": 18.08
       },
       {
         "id": "P2",
-        "minutes": 26,
-        "km": 49.53,
-        "below_ground_km": 3.3,
-        "above_ground_km": 1.7
+        "minutes": 25,
+        "km": 46.8,
+        "below_ground_km": 8.58,
+        "above_ground_km": 4.89
       },
       {
         "id": "L3",
-        "minutes": 40,
-        "km": 91.08,
-        "below_ground_km": 25.39,
-        "above_ground_km": 19.29
+        "minutes": 38,
+        "km": 86.05,
+        "below_ground_km": 26.58,
+        "above_ground_km": 21.99
       }
     ]
   }

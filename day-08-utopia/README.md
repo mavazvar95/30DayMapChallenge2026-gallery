@@ -1,5 +1,3 @@
-# 08/30 · Utopia — COMPÁS Atlántico
+# 08/30 · Utopia — COMPÁS Atlántico V9
 
-Edición integrada del 14/11/2026: siete conexiones propuestas, tiempos recalculados, animación, lámina y vídeo. Escenario exploratorio; Coruña–Ferrol 35 min, objetivo <30 no alcanzado.
-
-[Interactivo](index.html) · [Método](methodology.md) · [Texto para LinkedIn](post-linkedin.md) · [Lámina](publication/08-utopia-linkedin.jpg) · [Vídeo](publication/08-utopia-demo.mp4)
+Edición revisada: cinco corredores con radio mínimo de 1.500 m en el núcleo nuevo y siete conexiones conservadas. [Interactivo](index.html) · [Método](methodology.md) · [Lámina](publication/08-utopia-linkedin.jpg) · [Vídeo](publication/08-utopia-demo.mp4) · [Post](post-linkedin.md).

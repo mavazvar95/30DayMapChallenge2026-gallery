@@ -140,7 +140,7 @@ Publicado en https://mavazvar95.github.io/30DayMapChallenge2026-gallery/ mediant
 
 [Interactivo](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-08-utopia/) · [Kit LinkedIn](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/publicaciones/#dia-08).
 
-V8 integrada, 14/11/2026: siete conexiones nuevas propuestas, tiempos recalculados,
+V9 revisada, 19/11/2026: siete conexiones propuestas, cinco núcleos rediseñados con restricciones de curvatura, tiempos recalculados,
 horarios, animación, lámina y vídeo. Coruña–Ferrol resulta en 35 min y no alcanza
 el objetivo <30. Escenario exploratorio, no proyecto de ingeniería validado.
 Las ediciones anteriores se conservan en archivos separados.

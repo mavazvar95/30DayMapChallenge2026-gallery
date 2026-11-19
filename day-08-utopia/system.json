@@ -1,9 +1,9 @@
 {
   "summary": {
     "comparable_galicia_pairs": 42,
-    "improved": 37,
+    "improved": 38,
     "worsened": 0,
-    "median_minutes_saved": 113.5,
+    "median_minutes_saved": 112.0,
     "ready": "08:00 Europe/Madrid",
     "selected_corridors": [
       {
@@ -22,38 +22,38 @@
       },
       {
         "id": "L2",
-        "minutes": 43,
-        "km": 101.77,
-        "below_ground_km": 9.6,
-        "above_ground_km": 8.1
+        "minutes": 41,
+        "km": 96.21,
+        "below_ground_km": 11.79,
+        "above_ground_km": 7.09
       },
       {
         "id": "V1",
-        "minutes": 50,
-        "km": 98.95,
-        "below_ground_km": 21.17,
-        "above_ground_km": 19.38
+        "minutes": 39,
+        "km": 72.38,
+        "below_ground_km": 22.58,
+        "above_ground_km": 16.18
       },
       {
         "id": "P1",
-        "minutes": 38,
-        "km": 91.19,
-        "below_ground_km": 15.6,
-        "above_ground_km": 14.5
+        "minutes": 36,
+        "km": 87.42,
+        "below_ground_km": 20.58,
+        "above_ground_km": 18.08
       },
       {
         "id": "P2",
-        "minutes": 26,
-        "km": 49.53,
-        "below_ground_km": 3.3,
-        "above_ground_km": 1.7
+        "minutes": 25,
+        "km": 46.8,
+        "below_ground_km": 8.58,
+        "above_ground_km": 4.89
       },
       {
         "id": "L3",
-        "minutes": 40,
-        "km": 91.08,
-        "below_ground_km": 25.39,
-        "above_ground_km": 19.29
+        "minutes": 38,
+        "km": 86.05,
+        "below_ground_km": 26.58,
+        "above_ground_km": 21.99
       }
     ]
   },
@@ -98,7 +98,7 @@
       "o": "31412",
       "d": "94346",
       "before": null,
-      "after": 207
+      "after": 204
     },
     {
       "o": "21010",
@@ -122,7 +122,7 @@
       "o": "21010",
       "d": "22100",
       "before": 262.0,
-      "after": 190
+      "after": 193.0
     },
     {
       "o": "21010",
@@ -140,7 +140,7 @@
       "o": "21010",
       "d": "94346",
       "before": null,
-      "after": 267
+      "after": 264
     },
     {
       "o": "31400",
@@ -158,7 +158,7 @@
       "o": "31400",
       "d": "20309",
       "before": 372.0,
-      "after": 43
+      "after": 41
     },
     {
       "o": "31400",
@@ -182,7 +182,7 @@
       "o": "31400",
       "d": "94346",
       "before": null,
-      "after": 147
+      "after": 144
     },
     {
       "o": "20309",
@@ -200,13 +200,13 @@
       "o": "20309",
       "d": "31400",
       "before": 185.0,
-      "after": 43
+      "after": 41
     },
     {
       "o": "20309",
       "d": "22100",
       "before": 169.0,
-      "after": 70
+      "after": 83
     },
     {
       "o": "20309",
@@ -224,7 +224,7 @@
       "o": "20309",
       "d": "94346",
       "before": null,
-      "after": 207
+      "after": 204
     },
     {
       "o": "22100",
@@ -248,25 +248,25 @@
       "o": "22100",
       "d": "20309",
       "before": 372.0,
-      "after": 55
+      "after": 68
     },
     {
       "o": "22100",
       "d": "23004",
       "before": 202.0,
-      "after": 50
+      "after": 84
     },
     {
       "o": "22100",
       "d": "08223",
       "before": 244.0,
-      "after": 65
+      "after": 99
     },
     {
       "o": "22100",
       "d": "94346",
       "before": null,
-      "after": 147
+      "after": 204
     },
     {
       "o": "23004",
@@ -290,25 +290,25 @@
       "o": "23004",
       "d": "20309",
       "before": 372.0,
-      "after": 103
+      "after": 101
     },
     {
       "o": "23004",
       "d": "22100",
       "before": 193.0,
-      "after": 65
+      "after": 69
     },
     {
       "o": "23004",
       "d": "08223",
       "before": 45.0,
-      "after": 45.0
+      "after": 39
     },
     {
       "o": "23004",
       "d": "94346",
       "before": null,
-      "after": 147
+      "after": 144
     },
     {
       "o": "08223",
@@ -332,25 +332,25 @@
       "o": "08223",
       "d": "20309",
       "before": 372.0,
-      "after": 115
+      "after": 128
     },
     {
       "o": "08223",
       "d": "22100",
       "before": 193.0,
-      "after": 65
+      "after": 69
     },
     {
       "o": "08223",
       "d": "23004",
       "before": 14.0,
-      "after": 14
+      "after": 14.0
     },
     {
       "o": "08223",
       "d": "94346",
       "before": null,
-      "after": 87
+      "after": 84
     },
     {
       "o": "94346",
@@ -374,25 +374,25 @@
       "o": "94346",
       "d": "20309",
       "before": null,
-      "after": 223
+      "after": 221
     },
     {
       "o": "94346",
       "d": "22100",
       "before": null,
-      "after": 185
+      "after": 189
     },
     {
       "o": "94346",
       "d": "23004",
       "before": null,
-      "after": 119.0
+      "after": 124.0
     },
     {
       "o": "94346",
       "d": "08223",
       "before": null,
-      "after": 87
+      "after": 99
     }
   ]
 }
