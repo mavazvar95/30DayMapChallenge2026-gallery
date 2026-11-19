@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "dimensions": [
+    3200,
+    4000
+  ],
+  "poster": {
+    "width": 1600,
+    "height": 2000,
+    "creditsBottom": 1923.5625,
+    "title": "Fewer detours.\nMore connections."
+  },
+  "cover": {
+    "width": 1600,
+    "height": 2000,
+    "footerBottom": 1869.828125,
+    "title": "39 MINUTES?\nAT WHAT COST?"
+  }
+}

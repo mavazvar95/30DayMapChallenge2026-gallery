@@ -50,8 +50,8 @@
     },
     {
       "file": "README.md",
-      "bytes": 463,
-      "sha256": "8b61cd83eeb3b2598c633c5232e4008f12b7ffb74e5589790df2b4be672d66c5"
+      "bytes": 857,
+      "sha256": "f9aa52b84a3cc44f8fc7164648362d866d5daceef0d2ff4669513f763098da9c"
     },
     {
       "file": "methodology.md",
@@ -140,8 +140,8 @@
     },
     {
       "file": "post-linkedin.md",
-      "bytes": 1884,
-      "sha256": "a7af2a517be13a298860664749f9abde7d18ab85993f0b0cf58732f694eb36bc"
+      "bytes": 1714,
+      "sha256": "1ee8fdbf2416ad8c829ad6a3edf59737f25e5df35bf50ba19d063517f8925eca"
     },
     {
       "file": "post-linkedin-es.md",
@@ -152,6 +152,11 @@
       "file": "media-qa.json",
       "bytes": 147,
       "sha256": "1bbe518056e2740761a7212be882f8291335ce81779887156d0dc80d60db8af8"
+    },
+    {
+      "file": "media-en-qa.json",
+      "bytes": 336,
+      "sha256": "4d2b6523783f47276adecbdc0538e2c9963f31c19a48fc35a7542854d4f153ed"
     },
     {
       "file": "recording-qa.json",
@@ -172,6 +177,16 @@
       "file": "publication/08-utopia-linkedin.jpg",
       "bytes": 1227283,
       "sha256": "0cb9187408d3371acbf042c184193a6eec120f3017c2d0450ac12fb938446249"
+    },
+    {
+      "file": "publication/08-utopia-linkedin-en.jpg",
+      "bytes": 1234424,
+      "sha256": "707c7a1ab475abb63d672df4349d85c3181650a126252851a276e0f3c4fb9b04"
+    },
+    {
+      "file": "publication/08-utopia-cover-en.jpg",
+      "bytes": 1021505,
+      "sha256": "93a8dcbac74fe8379a839b3b6fca1bea07b80639fb8ac2f504de4fae22227375"
     },
     {
       "file": "publication/08-utopia.pdf",
