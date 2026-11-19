@@ -125,8 +125,8 @@
     },
     {
       "file": "post-linkedin.md",
-      "bytes": 1983,
-      "sha256": "8f5e21e0e00372e99e2d15cb7130ba597f56510d4d2b6b6e9546b9a368ae55ba"
+      "bytes": 1985,
+      "sha256": "4ca267b1a98ba7b49b2bfd3a8ff473fdf59f099e175ab0e83f046ff1d02c7cf8"
     },
     {
       "file": "media-qa.json",
@@ -150,13 +150,13 @@
     },
     {
       "file": "publication/08-utopia-linkedin.jpg",
-      "bytes": 1228518,
-      "sha256": "608aba61b166d3d0589413b903149399c629dd600b5c6f6a518adc044845293c"
+      "bytes": 1227283,
+      "sha256": "0cb9187408d3371acbf042c184193a6eec120f3017c2d0450ac12fb938446249"
     },
     {
       "file": "publication/08-utopia.pdf",
-      "bytes": 5857842,
-      "sha256": "2ac3bbf74b087a79b6a78525543bd942a2d13a60ab5789deacf984adcd3ed7e1"
+      "bytes": 5857855,
+      "sha256": "bb92241d700559367b0bbb8fa42aab4766c1a2eb0f04722482e159e60bf4beba"
     },
     {
       "file": "publication/08-utopia-mapa.png",

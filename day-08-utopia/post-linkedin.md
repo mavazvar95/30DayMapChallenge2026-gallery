@@ -8,7 +8,7 @@ Así nace COMPÁS Atlántico. Una propuesta propia para explorar qué podría ca
 
 Hay siete conexiones estudiadas. Después de revisar los rodeos, Ourense–Pontevedra pasa de 99 a 72 km sobre una alternativa conceptual con curvas controladas. También hay continuidad hacia Asturias, la Meseta y Porto. Las vías existentes y las propuestas aparecen diferenciadas; puedes seguir los trenes, ampliar el mapa y comparar viajes. 🔎
 
-¿Y los tiempos? El modelo da 39 minutos para Ourense–Pontevedra y unos 38 para Lugo–Ourense. Pero el perfil de Ourense–Pontevedra necesitaría obras enormes: en algunos sectores la rasante teórica queda hasta 600 m por debajo del terreno. No lo tomaría como promesa de viaje. Coruña–Ferrol queda en 35 minutos. Quería bajar de media hora rodeando las rías por tierra, pero las alternativas que he probado no llegan: prefiero mostrar ese límite que poner una cifra bonita.
+¿Y los tiempos? El modelo da 39 minutos para Ourense–Pontevedra y unos 38 para Lugo–Ourense. Pero el perfil de Ourense–Pontevedra necesitaría obras enormes: en algunos sectores la rasante teórica queda más de 300 m por debajo del terreno. No lo tomaría como promesa de viaje. Coruña–Ferrol queda en 35 minutos. Quería bajar de media hora rodeando las rías por tierra, pero las alternativas que he probado no llegan: prefiero mostrar ese límite que poner una cifra bonita.
 
 Son estimaciones con grandes obras y supuestos que necesitarían estudios de ingeniería. Lo interesante para mí es mirar el sistema completo: cuánto tardas, cuánto esperas y qué conexiones puedes hacer. Una vía rápida ayuda; una red que conecta bien, también.
 
