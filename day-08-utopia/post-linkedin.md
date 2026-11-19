@@ -1,20 +1,20 @@
-🚆 27 km menos entre Ourense y Pontevedra. ¿A qué precio?
+🚆 I shortened the proposed Ourense–Pontevedra route by 27 km. Then I looked at what building it might actually involve.
 
-Para el día 8 del #30DayMapChallenge2026 me hice una pregunta que llevo tiempo dándole vueltas: si pudiéramos redibujar el ferrocarril de Galicia, ¿qué conexiones cambiarían de verdad la forma de viajar?
+For day 8 of #30DayMapChallenge2026, I asked myself: if we could redesign Galicia’s rail network, which links would really change the way people travel?
 
-Así nació COMPÁS Atlántico. Partí de las vías existentes y de una captura de horarios de Renfe del 12 de noviembre, y planteé siete conexiones nuevas, servicios de Cercanías para las ciudades gallegas y enlaces hacia Asturias y Porto. En el mapa puedes seguir los trenes, cambiar de línea y comparar viajes completos, con sus esperas y transbordos. 🗺️
+That question became COMPÁS Atlántico. I explored seven new connections, suburban rail services around Galicia’s cities, and links towards Asturias and Porto. In the interactive atlas you can follow the trains, switch lines and compare whole journeys, including waiting time and transfers. 🗺️
 
-La conexión que más me hizo volver al dibujo fue Ourense–Pontevedra. Mi primera propuesta recorría 99 km y daba un rodeo difícil de justificar. Tras revisar accesos, terreno y curvas, la alternativa quedó en unos 72 km. El modelo calcula 39 minutos.
+Ourense–Pontevedra made me go back to the drawing board. My first alignment ran for about 99 km and took a detour I couldn’t really justify. After revisiting the approaches, terrain and curves, the alternative came down to about 72 km. The preliminary model gives it a 39-minute journey time.
 
-Pero ese número tiene una factura enorme: en algunos sectores, la rasante teórica pasa más de 300 m por debajo del terreno. Harían falta estudios de geotecnia, costes e impacto antes de llamar viable a esa línea. Y A Coruña–Ferrol se queda en 35 minutos: no he conseguido bajar de la media hora rodeando las rías por tierra.
+But that number comes with a huge engineering question. In some sections, the theoretical vertical alignment would run more than 300 m below ground. I’d need proper geotechnical, cost and environmental studies before calling that line feasible. And A Coruña–Ferrol still takes 35 minutes in the model: I couldn’t get below 30 while staying on land around the estuaries.
 
-Eso es lo que quería enseñar con esta utopía: las posibilidades de una red que conecte mejor y las decisiones difíciles que aparecen cuando dejas de mirar solo el tiempo de viaje. 🔎
+That is the part of this utopia I find most interesting: every shorter journey raises a harder question about what it would take to deliver it. 🔎
 
-Una precisión: la referencia del 12 de noviembre coincidió con cambios temporales por obras en A Coruña. Los trenes que propongo son un escenario para explorar la red, no horarios vigentes de Renfe.
+The reference timetable is a Renfe GTFS snapshot from 12 November 2026, when temporary works affected A Coruña. The proposed trains are an exploratory scenario, not current Renfe services or bookable timetables.
 
-He dejado el atlas interactivo aquí:
-https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-08-utopia/
+Explore the atlas in English:
+https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-08-utopia/?lang=en
 
-Si pudieras priorizar una sola conexión ferroviaria en Galicia, ¿cuál elegirías y por qué?
+If you could prioritise one rail connection in Galicia, which would you choose, and why?
 
-#Galicia #Ferrocarril #TransportePublico #Cartografia
+#Galicia #RailPlanning #TransportModelling #Cartography
