@@ -1,20 +1,18 @@
-Desafío de cartografía de noviembre, día 8: Utopia. 🚆🗺️
+🚆 27 km menos entre Ourense y Pontevedra. ¿A qué precio?
 
-Vives en Galicia y quieres ir a otra ciudad en tren. La primera pregunta debería ser a qué hora sales. Demasiadas veces acabas preguntándote por dónde tienes que dar la vuelta.
+Para el día 8 del #30DayMapChallenge2026 me hice una pregunta que llevo tiempo dándole vueltas: si pudiéramos redibujar el ferrocarril de Galicia, ¿qué conexiones cambiarían de verdad la forma de viajar?
 
-Para este mapa me he permitido pensar con un presupuesto que ya me gustaría tener: nuevas conexiones, Cercanías alrededor de las siete ciudades y horarios pensados para que cambiar de tren no signifique perder la mañana.
+Así nació COMPÁS Atlántico. Partí de las vías y los horarios existentes y planteé siete conexiones nuevas, servicios de Cercanías para las ciudades gallegas y enlaces hacia Asturias y Porto. En el mapa puedes seguir los trenes, cambiar de línea y comparar viajes completos, con sus esperas y transbordos. 🗺️
 
-Así nace COMPÁS Atlántico. Una propuesta propia para explorar qué podría cambiar en la red ferroviaria gallega.
+La conexión que más me hizo volver al dibujo fue Ourense–Pontevedra. Mi primera propuesta recorría 99 km y daba un rodeo difícil de justificar. Tras revisar accesos, terreno y curvas, la alternativa quedó en unos 72 km. El modelo calcula 39 minutos.
 
-Hay siete conexiones estudiadas. Después de revisar los rodeos, Ourense–Pontevedra pasa de 99 a 72 km sobre una alternativa conceptual con curvas controladas. También hay continuidad hacia Asturias, la Meseta y Porto. Las vías existentes y las propuestas aparecen diferenciadas; puedes seguir los trenes, ampliar el mapa y comparar viajes. 🔎
+Pero ese número tiene una factura enorme: en algunos sectores, la rasante teórica pasa más de 300 m por debajo del terreno. Harían falta estudios de geotecnia, costes e impacto antes de llamar viable a esa línea. Y A Coruña–Ferrol se queda en 35 minutos: no he conseguido bajar de la media hora rodeando las rías por tierra.
 
-¿Y los tiempos? El modelo da 39 minutos para Ourense–Pontevedra y unos 38 para Lugo–Ourense. Pero el perfil de Ourense–Pontevedra necesitaría obras enormes: en algunos sectores la rasante teórica queda más de 300 m por debajo del terreno. No lo tomaría como promesa de viaje. Coruña–Ferrol queda en 35 minutos. Quería bajar de media hora rodeando las rías por tierra, pero las alternativas que he probado no llegan: prefiero mostrar ese límite que poner una cifra bonita.
+Eso es lo que quería enseñar con esta utopía: las posibilidades de una red que conecte mejor y las decisiones difíciles que aparecen cuando dejas de mirar solo el tiempo de viaje. 🔎
 
-Son estimaciones con grandes obras y supuestos que necesitarían estudios de ingeniería. Lo interesante para mí es mirar el sistema completo: cuánto tardas, cuánto esperas y qué conexiones puedes hacer. Una vía rápida ayuda; una red que conecta bien, también.
-
-▶️ En el vídeo se ve el interactivo. Aquí puedes explorarlo:
+He dejado el atlas interactivo aquí:
 https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-08-utopia/
 
-¿Qué conexión cambiaría más tu forma de moverte por Galicia?
+Si pudieras priorizar una sola conexión ferroviaria en Galicia, ¿cuál elegirías y por qué?
 
-#30DayMapChallenge #Galicia #Ferrocarril #TransportePublico #Cartografia
+#Galicia #Ferrocarril #TransportePublico #Cartografia
