@@ -164,6 +164,11 @@
       "sha256": "ab70909308636fb0a952483aa0740411c8727d456726440041360e95be8e8527"
     },
     {
+      "file": "recording-en-qa.json",
+      "bytes": 342,
+      "sha256": "2085d5fcbc3093450ab4ee59e094e4cdb936f201b196208d00086be60286a4fd"
+    },
+    {
       "file": "design-report.json",
       "bytes": 2790580,
       "sha256": "710cb952e2a6d1dc3b553373c39ad9e75dbddf7c50e0f8c4809ffdaa889c1690"
@@ -207,6 +212,11 @@
       "file": "publication/08-utopia-demo.mp4",
       "bytes": 5702942,
       "sha256": "a26c718a46656b86a6afaff399396bffcb223d1fd67dd7a97eb29faa1c90e0e6"
+    },
+    {
+      "file": "publication/08-utopia-demo-en.mp4",
+      "bytes": 5113163,
+      "sha256": "86dca6fba5b340e390d25cd278f3e3198ce48ab2768b7518c7077dbd1cb0b761"
     }
   ]
 }

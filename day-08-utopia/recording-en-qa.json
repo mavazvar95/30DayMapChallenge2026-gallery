@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "source": "Actual V9 HTML with ?lang=en in Chromium; no address bar",
+  "source_file": "raw-video-en/capture.webm",
+  "errors": [],
+  "export": {
+    "file": "publication/08-utopia-demo-en.mp4",
+    "duration": 29.333333,
+    "width": 1440,
+    "height": 1100,
+    "codec": "h264",
+    "pixel_format": "yuv420p"
+  }
+}
