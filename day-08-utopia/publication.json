@@ -5,23 +5,23 @@
   "files": [
     {
       "file": "index.html",
-      "bytes": 10823,
-      "sha256": "5a13be193ddf1bf18d41856c9bf4f875c60adc825de31f4baef708c8cda2eb9c"
+      "bytes": 10824,
+      "sha256": "7c0543d56fb27876a6d0cd57e62de196db8645c5efda1d6925a4b4ead5b0c249"
     },
     {
       "file": "app.js",
-      "bytes": 30979,
-      "sha256": "be9e3a44d175aa0eabbe08aefdc94d575be9275283d67d47a66737a8ba3cfd48"
+      "bytes": 31005,
+      "sha256": "0f006cce5792d836fcd562ccb3e7e26db1bc8e5f577f2a1025c0fb78e7ec7ae7"
     },
     {
       "file": "i18n.js",
-      "bytes": 8292,
-      "sha256": "55f5050361cbd49f9b95989de67c5a41b9ddb9dda7ffe661736578500f4a3c45"
+      "bytes": 8351,
+      "sha256": "c0c424874459234c092e3e7aa0bb076d40b0525d39bab0339f9821f46cd7a80a"
     },
     {
       "file": "translations.json",
-      "bytes": 34096,
-      "sha256": "59e2485a7c8e03d4ee7abb140355054a395fdf423f06131b79cb8d4fa9cfe11d"
+      "bytes": 34723,
+      "sha256": "fc0d3278020f3912d233c2e77743d5b4e45f4bb85bd2307016ca81816d6039f9"
     },
     {
       "file": "style.css",
@@ -105,8 +105,8 @@
     },
     {
       "file": "language-qa.json",
-      "bytes": 298,
-      "sha256": "73612760e3f3fe2593b72da11878b93f6fe561d76c4f41ad6eeb9b9f2d07b3b0"
+      "bytes": 350,
+      "sha256": "09958976ad83f46d74bd0a969af4c9f4f25b3871cccfb781710a95c90d455961"
     },
     {
       "file": "qa.json",

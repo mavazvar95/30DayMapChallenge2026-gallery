@@ -61,7 +61,7 @@
   },
   "Cargando fuentes…": {
     "en": "Loading sources…",
-    "gl": "Cargando fontes…"
+    "gl": "Cargando as fontes…"
   },
   "Un escenario ferroviario para Galicia.": {
     "en": "A rail scenario for Galicia.",
@@ -145,7 +145,7 @@
   },
   "Encuadrar recorrido": {
     "en": "Fit route",
-    "gl": "Enmarcar percorrido"
+    "gl": "Ver o percorrido completo"
   },
   "Cercanías propuestas": {
     "en": "Proposed suburban rail",
@@ -408,8 +408,8 @@
     "gl": "Que require:"
   },
   "Rango:": {
-    "en": "Range:",
-    "gl": "Rango:"
+    "en": "Sensitivity:",
+    "gl": "Sensibilidade:"
   },
   "Referencia oficial del corredor ↗": {
     "en": "Official corridor reference ↗",
@@ -489,7 +489,7 @@
   },
   "Propuesta propia · estimación preliminar, no proyecto aprobado": {
     "en": "Original proposal · preliminary estimate, not an approved project",
-    "gl": "Proposta propia · estimación preliminar, non proxecto aprobado"
+    "gl": "Proposta propia · estimación preliminar, non é un proxecto aprobado"
   },
   "Nueva infraestructura, accesos, electrificación, señalización y estructuras. Demanda, costes, geotecnia y capacidad sin validar.": {
     "en": "New infrastructure, approaches, electrification, signalling and structures. Demand, costs, ground conditions and capacity are unverified.",
@@ -586,5 +586,21 @@
   "Horarios: Renfe GTFS · aviso de obras: CP · vías: IGN / © OpenStreetMap contributors, Geofabrik · contexto: IGN BDDAE y Natural Earth · relieve: Mapzen Terrain Tiles, Copernicus EU-DEM / USGS / NOAA. Proyección ETRS89 / UTM 29N. Horarios de referencia: 12 noviembre 2026. Edición: 19 noviembre 2026.": {
     "en": "Timetables: Renfe GTFS · works notice: CP · tracks: IGN / © OpenStreetMap contributors, Geofabrik · context: IGN BDDAE and Natural Earth · relief: Mapzen Terrain Tiles, Copernicus EU-DEM / USGS / NOAA. Projection: ETRS89 / UTM 29N. Reference timetables: 12 November 2026. Edition: 19 November 2026.",
     "gl": "Horarios: Renfe GTFS · aviso de obras: CP · vías: IGN / © OpenStreetMap contributors, Geofabrik · contexto: IGN BDDAE e Natural Earth · relevo: Mapzen Terrain Tiles, Copernicus EU-DEM / USGS / NOAA. Proxección: ETRS89 / UTM 29N. Horarios de referencia: 12 novembro 2026. Edición: 19 novembro 2026."
+  },
+  "A Coruña–Ferrol: nuevo directo terrestre": {
+    "en": "A Coruña–Ferrol: new land-based direct link",
+    "gl": "A Coruña–Ferrol: nova conexión directa por terra"
+  },
+  "A Coruña–Lugo: nueva conexión": {
+    "en": "A Coruña–Lugo: new link",
+    "gl": "A Coruña–Lugo: nova conexión"
+  },
+  "Santiago–Lugo: enlace nuevo": {
+    "en": "Santiago–Lugo: new link",
+    "gl": "Santiago–Lugo: novo enlace"
+  },
+  "Lugo–Ourense: alternativa interior directa": {
+    "en": "Lugo–Ourense: direct inland option",
+    "gl": "Lugo–Ourense: alternativa interior directa"
   }
 }

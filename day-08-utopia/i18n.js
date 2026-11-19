@@ -3,7 +3,7 @@
   const languages = ['es', 'gl', 'en'];
   const query = new URLSearchParams(location.search);
   let language = languages.includes(query.get('lang')) ? query.get('lang') : 'es';
-  const dictionary = await (await fetch('translations.json?v=1')).json();
+  const dictionary = await (await fetch('translations.json?v=2')).json();
   const entries = Object.entries(dictionary).sort((a,b) => b[0].length-a[0].length);
   const remembered = new WeakMap();
   const attributes = new WeakMap();
@@ -13,7 +13,7 @@
       [/\bEspera\b/g,'Wait'],[/\bTren\b/g,'Train'],[/\bEnlaces\b/g,'Transfers'],
       [/\bAntes\b/g,'Before'],[/\bAhora\b/g,'Now'],[/\bLlegas\b/g,'You arrive'],[/\bsales\b/g,'leave'],
       [/\bmin para cambiar de tren\b/g,'min to change trains'],[/\bmin mínimos\b/g,'min minimum'],
-      [/\bmin de holgura\b/g,'min buffer'],[/\bCon 10 min de retraso:\b/g,'With a 10 min delay:'],
+      [/\bmin de holgura\b/g,'min buffer'],[/Con 10 min de retraso:/g,'With a 10 min delay:'],
       [/\bse conserva el margen mínimo\b/g,'the minimum buffer remains'],[/\bse pierde el margen mínimo\b/g,'the minimum buffer is lost'],
       [/\bSin cálculo ferroviario\b/g,'No rail calculation'],[/\bsin cálculo ferroviario\b/g,'no rail calculation'],
       [/\bestimación\b/g,'estimate'],[/\bEstación\b/g,'Station'],[/\bkm en este tramo\b/g,'km on this section'],
@@ -32,10 +32,11 @@
     ],
     'gl': [
       [/\bLlegada\b/g,'Chegada'],[/\btransbordos\b/g,'transbordos'],[/\bEspera\b/g,'Espera'],
+      [/\bRango:/g,'Sensibilidade:'],
       [/\bTren\b/g,'Tren'],[/\bEnlaces\b/g,'Enlaces'],[/\bAntes\b/g,'Antes'],
       [/\bLlegas\b/g,'Chegas'],[/\bsales\b/g,'saes'],[/\bmin para cambiar de tren\b/g,'min para cambiar de tren'],
       [/\bmin mínimos\b/g,'min mínimos'],[/\bmin de holgura\b/g,'min de marxe'],
-      [/\bCon 10 min de retraso:\b/g,'Cun atraso de 10 min:'],[/\bse conserva el margen mínimo\b/g,'mantense a marxe mínima'],
+      [/Con 10 min de retraso:/g,'Cun atraso de 10 min:'],[/\bse conserva el margen mínimo\b/g,'mantense a marxe mínima'],
       [/\bse pierde el margen mínimo\b/g,'pérdese a marxe mínima'],[/\bsin cálculo ferroviario\b/g,'sen cálculo ferroviario'],
       [/\bestimación\b/g,'estimación'],[/\bkm en este tramo\b/g,'km neste treito'],
       [/\bmin con límite 200 km\/h\b/g,'min cun límite de 200 km/h'],[/\bmin a 200 km\/h\b/g,'min a 200 km/h'],
@@ -48,7 +49,7 @@
       [/\bSe usaron\b/g,'Usáronse'],[/\bconsultas para ajustar\b/g,'consultas para axustar'],
       [/\bcon otras horas para comprobar\b/g,'con outras horas para comprobar'],[/\bmejoran y\b/g,'melloran e'],
       [/\bempeoran; cambio de la suma:\b/g,'empeoran; cambio da suma:'],[/\bminutos menos\b/g,'minutos menos'],
-      [/\b(\d+) min estimados en el escenario\b/g,'$1 min estimados no escenario'],[/\bpor el Miño\b/g,'polo Miño'],[/\bsin transbordo\b/g,'sen transbordo'],[/\bNo demuestra un óptimo global\b/g,'Non demostra un óptimo global']
+      [/\b(\d+) min estimados en el escenario\b/g,'$1 min estimados no escenario'],[/\bpor el Miño\b/g,'polo Miño'],[/\bpor Lugo\b/g,'por Lugo'],[/\bsin transbordo\b/g,'sen transbordo'],[/\bNo demuestra un óptimo global\b/g,'Non demostra un óptimo global']
     ]
   };
   function translate(source) {
