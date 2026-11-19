@@ -8,3 +8,5 @@
 .relief-toggle{display:flex!important;align-items:center;gap:6px}.relief-toggle input{width:auto}
 
 .design-callout{border-left:4px solid #b88328;padding:12px;background:#eee8d9;margin-bottom:20px}.design-callout p{margin:8px 0}
+
+.language-picker{display:flex;align-items:center;gap:8px;color:#073b64;font-size:13px}.language-picker span{font-size:11px;max-width:72px;line-height:1.2}.language-picker select{border:1px solid #cdd7d1;background:#f7f5ee;color:#073b64;padding:7px;border-radius:4px;max-width:150px}@media(max-width:700px){header{flex-wrap:wrap}.language-picker{margin-top:8px;width:100%;justify-content:flex-end}}

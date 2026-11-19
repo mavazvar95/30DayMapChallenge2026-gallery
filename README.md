@@ -138,7 +138,7 @@ Publicado en https://mavazvar95.github.io/30DayMapChallenge2026-gallery/ mediant
 
 ## Día 08 · Utopia — COMPÁS Atlántico
 
-[Interactivo](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-08-utopia/) · [Kit LinkedIn](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/publicaciones/#dia-08).
+[Interactivo ES](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-08-utopia/) · [GL](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-08-utopia/?lang=gl) · [EN](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/day-08-utopia/?lang=en) · [Kit LinkedIn](https://mavazvar95.github.io/30DayMapChallenge2026-gallery/publicaciones/#dia-08).
 
 V9 revisada, 19/11/2026: siete conexiones propuestas, cinco núcleos rediseñados con restricciones de curvatura, tiempos recalculados,
 horarios, animación, lámina y vídeo. Coruña–Ferrol resulta en 35 min y no alcanza

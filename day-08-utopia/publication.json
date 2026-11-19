@@ -5,8 +5,8 @@
   "files": [
     {
       "file": "index.html",
-      "bytes": 10499,
-      "sha256": "4ffdb0d624666438b2abe9763bd22bbf3bc1197fabbb2ddcb2a75508a39b2f71"
+      "bytes": 10823,
+      "sha256": "5a13be193ddf1bf18d41856c9bf4f875c60adc825de31f4baef708c8cda2eb9c"
     },
     {
       "file": "app.js",
@@ -14,9 +14,19 @@
       "sha256": "be9e3a44d175aa0eabbe08aefdc94d575be9275283d67d47a66737a8ba3cfd48"
     },
     {
+      "file": "i18n.js",
+      "bytes": 8292,
+      "sha256": "55f5050361cbd49f9b95989de67c5a41b9ddb9dda7ffe661736578500f4a3c45"
+    },
+    {
+      "file": "translations.json",
+      "bytes": 34096,
+      "sha256": "59e2485a7c8e03d4ee7abb140355054a395fdf423f06131b79cb8d4fa9cfe11d"
+    },
+    {
       "file": "style.css",
-      "bytes": 8990,
-      "sha256": "836b6c4379fd0d57df30fb521eb3098963643ecc392f8766dc28ab02a9f92d75"
+      "bytes": 9389,
+      "sha256": "f650362753f99573ae4998a8a3f95efd6f322207f082a17855d1d7dcd40ea66e"
     },
     {
       "file": "data.json",
@@ -40,13 +50,13 @@
     },
     {
       "file": "README.md",
-      "bytes": 339,
-      "sha256": "2622462579de7d4fdc36bc4cfc22e6acd865816ec8b036fa8ca890308d0000bc"
+      "bytes": 463,
+      "sha256": "8b61cd83eeb3b2598c633c5232e4008f12b7ffb74e5589790df2b4be672d66c5"
     },
     {
       "file": "methodology.md",
-      "bytes": 4506,
-      "sha256": "256021c47b8846aa2f8c694cd16f7a7305cb8f3a5783ec1e3ae373d5602c69a0"
+      "bytes": 4944,
+      "sha256": "3d2887622ed9808577d59ee678b9c01c08cdda6a0726bf3107ab148ecce7ee33"
     },
     {
       "file": "path-repairs.json",
@@ -92,6 +102,11 @@
       "file": "interaction-qa.json",
       "bytes": 519,
       "sha256": "ae9f37262ccb997463a194d52e8f4f14a41cca6d86b94cd3f32002d519d00693"
+    },
+    {
+      "file": "language-qa.json",
+      "bytes": 298,
+      "sha256": "73612760e3f3fe2593b72da11878b93f6fe561d76c4f41ad6eeb9b9f2d07b3b0"
     },
     {
       "file": "qa.json",

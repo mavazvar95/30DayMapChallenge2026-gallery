@@ -1,0 +1,590 @@
+{
+  "Un escenario ferroviario para Galicia": {
+    "en": "A rail scenario for Galicia",
+    "gl": "Un escenario ferroviario para Galicia"
+  },
+  "Menos rodeos.": {
+    "en": "Fewer detours.",
+    "gl": "Menos rodeos."
+  },
+  "Más conexiones.": {
+    "en": "Better connections.",
+    "gl": "Máis conexións."
+  },
+  "Trazados nuevos donde la red obliga a dar rodeos. Vías existentes donde ya funcionan las conexiones. Una propuesta para acercar las ciudades de Galicia y medir qué cambia en el conjunto.": {
+    "en": "New alignments where the network forces detours. Existing tracks where connections already work. A proposal to bring Galicia's cities closer and measure its effects across the network.",
+    "gl": "Trazados novos onde a rede obriga a dar rodeos. Vías existentes onde as conexións xa funcionan. Unha proposta para achegar as cidades galegas e medir o que cambia no conxunto."
+  },
+  "Del recorrido a la mejora del sistema": {
+    "en": "From routes to network-wide change",
+    "gl": "Do percorrido á mellora da rede"
+  },
+  "Estimación · alternativa terrestre": {
+    "en": "Estimate · land-based option",
+    "gl": "Estimación · alternativa terrestre"
+  },
+  "Nueva conexión interior · propuesta propia": {
+    "en": "New inland link · original proposal",
+    "gl": "Nova conexión interior · proposta propia"
+  },
+  "Dos tramos nuevos · 8 min en Braga": {
+    "en": "Two new sections · 8 min in Braga",
+    "gl": "Dous tramos novos · 8 min en Braga"
+  },
+  "Estimaciones preliminares sobre las nuevas alternativas. Coruña–Ferrol no alcanza todavía el objetivo de menos de 30 min. Infraestructura, material, capacidad y costes requieren estudio.": {
+    "en": "Preliminary estimates for the new options. A Coruña–Ferrol does not meet the under-30-minute target. Infrastructure, rolling stock, capacity and costs need further study.",
+    "gl": "Estimacións preliminares das novas alternativas. A Coruña–Ferrol non acada o obxectivo de menos de 30 min. Cómpre estudar a infraestrutura, o material, a capacidade e os custos."
+  },
+  "01 / Explorar la red": {
+    "en": "01 / Explore the network",
+    "gl": "01 / Explorar a rede"
+  },
+  "Las vías y los servicios": {
+    "en": "Tracks and services",
+    "gl": "As vías e os servizos"
+  },
+  "cuentan cosas distintas.": {
+    "en": "tell different stories.",
+    "gl": "contan cousas distintas."
+  },
+  "Horario de referencia": {
+    "en": "Reference timetable",
+    "gl": "Horario de referencia"
+  },
+  "Más servicios": {
+    "en": "More services",
+    "gl": "Máis servizos"
+  },
+  "Obras + servicios futuros": {
+    "en": "New works + future services",
+    "gl": "Obras + servizos futuros"
+  },
+  "Cargando fuentes…": {
+    "en": "Loading sources…",
+    "gl": "Cargando fontes…"
+  },
+  "Un escenario ferroviario para Galicia.": {
+    "en": "A rail scenario for Galicia.",
+    "gl": "Un escenario ferroviario para Galicia."
+  },
+  "Cinco corredores rediseñados con restricciones de curvatura. Se mantienen las siete propuestas, con servicios y tiempos sobre la misma red. Coruña–Ferrol resulta en 35 min: el objetivo de menos de 30 min no se alcanza con las alternativas ensayadas.": {
+    "en": "Five corridors redesigned with curvature constraints. All seven proposed connections remain, with services and times on the same network. A Coruña–Ferrol takes 35 min in the model: none of the tested options meets the under-30-minute goal.",
+    "gl": "Cinco corredores redeseñados con restricións de curvatura. Mantéñense as sete conexións propostas, cos servizos e tempos na mesma rede. A Coruña–Ferrol dá 35 min no modelo: ningunha das alternativas probadas acada o obxectivo de menos de 30 min."
+  },
+  "Relieve": {
+    "en": "Relief",
+    "gl": "Relevo"
+  },
+  "Vista completa": {
+    "en": "Full extent",
+    "gl": "Vista completa"
+  },
+  "Mostrar": {
+    "en": "Show",
+    "gl": "Mostrar"
+  },
+  "Servicios": {
+    "en": "Services",
+    "gl": "Servizos"
+  },
+  "Infraestructura": {
+    "en": "Infrastructure",
+    "gl": "Infraestrutura"
+  },
+  "Reproducir": {
+    "en": "Play",
+    "gl": "Reproducir"
+  },
+  "Pausar": {
+    "en": "Pause",
+    "gl": "Pausar"
+  },
+  "Hora común de Madrid; en Portugal, una hora menos el 12/11/2026. Movimiento ilustrativo entre paradas, no simulación de circulación. Las líneas nuevas son alternativas preliminares trazadas sobre costa y relieve, pendientes de estudios de ingeniería.": {
+    "en": "Times shown in Madrid time; Portugal was one hour behind on 12 Nov 2026. Movement between stops is illustrative, not a railway operations simulation. New alignments are preliminary and require engineering studies.",
+    "gl": "Horas expresadas en hora de Madrid; en Portugal era unha hora menos o 12/11/2026. O movemento entre paradas é ilustrativo, non unha simulación da circulación. Os novos trazados son preliminares e precisan estudos de enxeñaría."
+  },
+  "Elige una línea": {
+    "en": "Choose a line",
+    "gl": "Escolle unha liña"
+  },
+  "Tipo de servicio": {
+    "en": "Service type",
+    "gl": "Tipo de servizo"
+  },
+  "Todos los servicios": {
+    "en": "All services",
+    "gl": "Todos os servizos"
+  },
+  "Cercanías": {
+    "en": "Suburban rail",
+    "gl": "Proximidade"
+  },
+  "Regional": {
+    "en": "Regional",
+    "gl": "Rexional"
+  },
+  "Media distancia": {
+    "en": "Medium-distance",
+    "gl": "Media distancia"
+  },
+  "Larga distancia": {
+    "en": "Long-distance",
+    "gl": "Longa distancia"
+  },
+  "Alta velocidad": {
+    "en": "High-speed rail",
+    "gl": "Alta velocidade"
+  },
+  "Rápido propuesto": {
+    "en": "Proposed fast service",
+    "gl": "Rápido proposto"
+  },
+  "Línea o expedición": {
+    "en": "Line or train",
+    "gl": "Liña ou tren"
+  },
+  "Encuadrar recorrido": {
+    "en": "Fit route",
+    "gl": "Enmarcar percorrido"
+  },
+  "Cercanías propuestas": {
+    "en": "Proposed suburban rail",
+    "gl": "Proximidade proposta"
+  },
+  "02 / Comparar las alternativas": {
+    "en": "02 / Compare the options",
+    "gl": "02 / Comparar as alternativas"
+  },
+  "De la estación al corredor.": {
+    "en": "From station to corridor.",
+    "gl": "Da estación ao corredor."
+  },
+  "Accesos que se pueden leer.": {
+    "en": "Readable approaches.",
+    "gl": "Accesos que se poden ler."
+  },
+  "Relación estudiada": {
+    "en": "Corridor studied",
+    "gl": "Relación estudada"
+  },
+  "Ver trazado y alternativas en el mapa": {
+    "en": "Show route and options on the map",
+    "gl": "Ver trazado e alternativas no mapa"
+  },
+  "Ourense–Pontevedra, los dos tramos portugueses, Santiago–Lugo y Lugo–Ourense se buscan con un radio mínimo de 1.500 m en el núcleo nuevo y direcciones de enlace fijadas. Se comparan prioridades de distancia y relieve. Las curvas de transición y la ingeniería de detalle siguen pendientes. A Coruña–Ferrol y A Coruña–Lugo conservan sus alternativas anteriores.": {
+    "en": "For Ourense–Pontevedra, both Portuguese sections, Santiago–Lugo and Lugo–Ourense, the proposed new cores use a minimum 1,500 m radius and fixed approach directions. Distance and relief priorities are compared. Transition curves and detailed engineering remain unresolved. A Coruña–Ferrol and A Coruña–Lugo keep their earlier options.",
+    "gl": "Ourense–Pontevedra, os dous treitos portugueses, Santiago–Lugo e Lugo–Ourense búscanse cun radio mínimo de 1.500 m no núcleo novo e direccións de enlace fixadas. Compáranse prioridades de distancia e relevo. Faltan as curvas de transición e a enxeñaría de detalle. A Coruña–Ferrol e A Coruña–Lugo conservan as alternativas anteriores."
+  },
+  "Alternativa": {
+    "en": "Option",
+    "gl": "Alternativa"
+  },
+  "Longitud": {
+    "en": "Length",
+    "gl": "Lonxitude"
+  },
+  "Accesos existentes": {
+    "en": "Existing approaches",
+    "gl": "Accesos existentes"
+  },
+  "Tramo nuevo": {
+    "en": "New section",
+    "gl": "Treito novo"
+  },
+  "Tiempo estimado": {
+    "en": "Estimated time",
+    "gl": "Tempo estimado"
+  },
+  "Descargar la revisión de trazados (EPSG:25829)": {
+    "en": "Download alignments (EPSG:25829)",
+    "gl": "Descargar a revisión de trazados (EPSG:25829)"
+  },
+  "Marcha preliminar del tramo nuevo: límite de ensayo de 250 km/h —no velocidad garantizada—, curvatura y rasante hasta 25‰; sensibilidad a 200 km/h. Accesos reutilizados: media supuesta de 80 km/h, pendiente de validación. Braga conserva una referencia urbana: futura estación sin resolver y parada supuesta de 8 min. No son tiempos comerciales acreditados.": {
+    "en": "Preliminary running time for the new section: a 250 km/h test cap, not a guaranteed speed, curvature and gradient up to 25‰; sensitivity at 200 km/h. Reused approaches assume an 80 km/h average, still to be checked. Braga is an urban reference point: the future station is undefined and an 8 min stop is assumed. These are not verified commercial times.",
+    "gl": "Marcha preliminar do treito novo: límite de ensaio de 250 km/h, non unha velocidade garantida, curvatura e pendente ata 25‰; sensibilidade a 200 km/h. Nos accesos reutilizados supóñense 80 km/h de media, pendentes de validar. Braga é unha referencia urbana: a futura estación está por definir e supóñense 8 min de parada. Non son tempos comerciais acreditados."
+  },
+  "03 / Efecto sobre los viajes": {
+    "en": "03 / Effects on journeys",
+    "gl": "03 / Efecto nas viaxes"
+  },
+  "La mejora se mide": {
+    "en": "Measure the improvement",
+    "gl": "A mellora mídese"
+  },
+  "entre todas las ciudades.": {
+    "en": "across all the cities.",
+    "gl": "entre todas as cidades."
+  },
+  "Escenario conjunto de nuevas infraestructuras y mayor oferta, calculado con los recorridos y marchas de esta edición. Disponibilidad a las 08:00 del 12/11/2026. Cada celda muestra el tiempo total del escenario futuro y debajo la referencia, incluyendo espera y transbordos. Vigo se representa por Urzaiz. Pulsa una relación para ver el viaje.": {
+    "en": "Combined scenario of new infrastructure and more services, using this edition's routes and running times. Available from 08:00 on 12 Nov 2026. Each cell shows total future journey time above the reference, including waiting and transfers. Vigo is represented by Urzaiz. Select a city pair to inspect the journey.",
+    "gl": "Escenario conxunto de novas infraestruturas e máis servizos, calculado cos percorridos e tempos desta edición. Dispoñibilidade ás 08:00 do 12/11/2026. Cada cela mostra o tempo total futuro e debaixo a referencia, con esperas e transbordos. Vigo represéntase por Urzaiz. Escolle unha relación para ver a viaxe."
+  },
+  "04 / Qué exige cada conexión": {
+    "en": "04 / What each link requires",
+    "gl": "04 / Que require cada conexión"
+  },
+  "El tren rápido necesita": {
+    "en": "A fast train needs",
+    "gl": "O tren rápido precisa"
+  },
+  "una vía que lo permita.": {
+    "en": "a suitable track.",
+    "gl": "unha vía que o permita."
+  },
+  "Un servicio AV puede utilizar tramos convencionales compatibles a su velocidad autorizada. Cada ficha explica la conexión, su tiempo estimado y las obras que requiere. El supuesto de velocidad en los accesos necesita contrastarse con cada línea.": {
+    "en": "A high-speed service may use compatible conventional sections at their authorised speed. Each card explains a link, its estimated time and required works. Assumed approach speeds need checking against each line.",
+    "gl": "Un servizo de alta velocidade pode usar treitos convencionais compatibles á súa velocidade autorizada. Cada ficha explica a conexión, o tempo estimado e as obras necesarias. A velocidade suposta nos accesos debe contrastarse en cada liña."
+  },
+  "05 / Planificar un viaje": {
+    "en": "05 / Plan a journey",
+    "gl": "05 / Planificar unha viaxe"
+  },
+  "Menos tiempo en el trayecto.": {
+    "en": "Less time on the train.",
+    "gl": "Menos tempo no traxecto."
+  },
+  "También en el transbordo.": {
+    "en": "And at the transfer.",
+    "gl": "Tamén no transbordo."
+  },
+  "Origen": {
+    "en": "Origin",
+    "gl": "Orixe"
+  },
+  "Destino": {
+    "en": "Destination",
+    "gl": "Destino"
+  },
+  "Disponible desde": {
+    "en": "Ready to leave from",
+    "gl": "Dispoñible desde"
+  },
+  "¿Cuánto margen tiene el enlace?": {
+    "en": "How much transfer time is there?",
+    "gl": "Canta marxe ten o enlace?"
+  },
+  "El comparador incluye espera inicial, viaje y transbordos. Mínimo de enlace: 10 minutos; máximo: dos transbordos. No enlaza Vigo-Urzaiz con Vigo-Guixar sin un desplazamiento explícito. El Celta con autobús sustitutorio queda fuera de la referencia ferroviaria.": {
+    "en": "The comparison includes initial wait, travel and transfers. Minimum transfer time: 10 minutes; at most two transfers. It does not connect Vigo-Urzaiz and Vigo-Guixar without an explicit transfer. The Celta replacement bus is excluded from the rail reference.",
+    "gl": "O comparador inclúe espera inicial, viaxe e transbordos. Mínimo para cambiar: 10 minutos; máximo: dous transbordos. Non enlaza Vigo-Urzaiz con Vigo-Guixar sen un desprazamento explícito. O autobús substitutorio do Celta queda fóra da referencia ferroviaria."
+  },
+  "06 / Leer los horarios propuestos": {
+    "en": "06 / Read proposed timetables",
+    "gl": "06 / Ler os horarios propostos"
+  },
+  "Cada línea es un tren.": {
+    "en": "Each line represents a train.",
+    "gl": "Cada liña é un tren."
+  },
+  "Cada cruce, una comprobación pendiente.": {
+    "en": "Each crossing needs checking.",
+    "gl": "Cada cruzamento, unha comprobación pendente."
+  },
+  "Corredor de la malla": {
+    "en": "Timetable corridor",
+    "gl": "Corredor da malla"
+  },
+  "Eixo Atlántico": {
+    "en": "Atlantic axis",
+    "gl": "Eixo Atlántico"
+  },
+  "Ferrol–Asturias · vía métrica": {
+    "en": "Ferrol–Asturias · metre gauge",
+    "gl": "Ferrol–Asturias · vía métrica"
+  },
+  "Representación hora–estación. Los directos pueden utilizar un trazado distinto entre cabeceras; el eje de estaciones es esquemático. Un cruce dibujado no acredita que exista apartadero ni capacidad. La malla permite inspeccionar la propuesta; no equivale a un horario de explotación validado.": {
+    "en": "Time–station diagram. Direct trains may follow different tracks between terminals; the station axis is schematic. A drawn crossing does not prove that a passing loop or capacity exists. This diagram helps inspect the proposal; it is not a validated working timetable.",
+    "gl": "Diagrama hora–estación. Os directos poden usar un trazado distinto entre cabeceiras; o eixe de estacións é esquemático. Un cruzamento debuxado non acredita apartadeiro nin capacidade. A malla axuda a inspeccionar a proposta; non é un horario de explotación validado."
+  },
+  "Galicia no termina en sus límites": {
+    "en": "Galicia extends beyond its borders",
+    "gl": "Galicia vai máis alá dos seus límites"
+  },
+  "Servicios que siguen más allá.": {
+    "en": "Services that continue farther.",
+    "gl": "Servizos que continúan máis alá."
+  },
+  "El mapa detalla Galicia, la costa asturiana y el norte de Portugal. La duración principal de estas expediciones cubre el viaje completo, aunque parte quede fuera del encuadre. La ficha indica aparte la duración del segmento visible. Se conserva la referencia GTFS del 12/11/2026.": {
+    "en": "The map covers Galicia, the Asturian coast and northern Portugal. The main journey time shown for these trains covers the whole trip, even when part lies outside the map. The card separately gives the time for the visible section. The GTFS reference is dated 12 Nov 2026.",
+    "gl": "O mapa detalla Galicia, a costa asturiana e o norte de Portugal. A duración principal destas expedicións abrangue a viaxe completa, aínda que unha parte quede fóra do mapa. A ficha indica por separado o tempo do treito visible. Consérvase a referencia GTFS do 12/11/2026."
+  },
+  "Propuesta exploratoria de transporte. No se ha demostrado un óptimo: faltan demanda, costes, capacidad, material rodante, pendientes y velocidades autorizadas por tramo.": {
+    "en": "Exploratory transport proposal. No optimum has been demonstrated: demand, costs, capacity, rolling stock, gradients and authorised speeds by section remain untested.",
+    "gl": "Proposta exploratoria de transporte. Non se demostrou un óptimo: faltan demanda, custos, capacidade, material rodante, pendentes e velocidades autorizadas por treito."
+  },
+  "Fuentes, método y límites": {
+    "en": "Sources, methods and limitations",
+    "gl": "Fontes, método e límites"
+  },
+  "Control de datos": {
+    "en": "Data checks",
+    "gl": "Control de datos"
+  },
+  "Convencional": {
+    "en": "Conventional",
+    "gl": "Convencional"
+  },
+  "Vía métrica": {
+    "en": "Metre gauge",
+    "gl": "Vía métrica"
+  },
+  "Eixo Atlántico / altas prestaciones": {
+    "en": "Atlantic axis / upgraded line",
+    "gl": "Eixo Atlántico / altas prestacións"
+  },
+  "Corredores AV existentes": {
+    "en": "Existing high-speed corridors",
+    "gl": "Corredores de alta velocidade existentes"
+  },
+  "┄┄ Tramo nuevo propuesto · gris: vía existente": {
+    "en": "┄┄ Proposed new section · grey: existing track",
+    "gl": "┄┄ Treito novo proposto · gris: vía existente"
+  },
+  "No hay líneas de este tipo en el catálogo.": {
+    "en": "No lines of this type in the catalogue.",
+    "gl": "Non hai liñas deste tipo no catálogo."
+  },
+  "tiempo estimado del escenario": {
+    "en": "estimated scenario time",
+    "gl": "tempo estimado do escenario"
+  },
+  "viaje completo · origen a destino": {
+    "en": "full journey · origin to destination",
+    "gl": "viaxe completa · orixe a destino"
+  },
+  "intervalo por sentido": {
+    "en": "headway in each direction",
+    "gl": "intervalo por sentido"
+  },
+  "salida de esta expedición": {
+    "en": "departure of this train",
+    "gl": "saída desta expedición"
+  },
+  "Paradas seleccionadas del modelo; no inventario exhaustivo de apeaderos.": {
+    "en": "Selected model stops; not an exhaustive station list.",
+    "gl": "Paradas seleccionadas do modelo; non é un inventario completo de apeadoiros."
+  },
+  "Horas expresadas en Madrid, incluida la parte portuguesa.": {
+    "en": "Times shown in Madrid time, including the Portuguese section.",
+    "gl": "Horas expresadas na hora de Madrid, incluído o treito portugués."
+  },
+  "El trazado es una alternativa preliminar propia, no una obra aprobada.": {
+    "en": "This alignment is an original preliminary option, not an approved project.",
+    "gl": "O trazado é unha alternativa preliminar propia, non unha obra aprobada."
+  },
+  "Marcha estimada · obras necesarias": {
+    "en": "Estimated running time · works needed",
+    "gl": "Marcha estimada · obras necesarias"
+  },
+  "Sin itinerario calculable.": {
+    "en": "No route could be calculated.",
+    "gl": "Non se puido calcular unha ruta."
+  },
+  "Elige dos estaciones distintas.": {
+    "en": "Choose two different stations.",
+    "gl": "Escolle dúas estacións distintas."
+  },
+  "Sin itinerario ferroviario calculable en el ámbito y fecha del modelo.": {
+    "en": "No rail route can be calculated for the model area and date.",
+    "gl": "Non se pode calcular unha ruta ferroviaria no ámbito e na data do modelo."
+  },
+  "Este resultado no necesita transbordos, o no tiene itinerario calculable. La puntualidad no se predice con este modelo.": {
+    "en": "This result needs no transfer, or no route could be calculated. This model does not predict punctuality.",
+    "gl": "Este resultado non precisa transbordos, ou non se puido calcular unha ruta. Este modelo non predí a puntualidade."
+  },
+  "Comprobación de los enlaces a igual número de trenes": {
+    "en": "Checking connections with the same number of trains",
+    "gl": "Comprobación dos enlaces co mesmo número de trens"
+  },
+  "No se presenta como proyecto oficial.": {
+    "en": "This is not presented as an official project.",
+    "gl": "Non se presenta como proxecto oficial."
+  },
+  "Para qué:": {
+    "en": "Purpose:",
+    "gl": "Para que:"
+  },
+  "Qué exige:": {
+    "en": "Requirements:",
+    "gl": "Que require:"
+  },
+  "Rango:": {
+    "en": "Range:",
+    "gl": "Rango:"
+  },
+  "Referencia oficial del corredor ↗": {
+    "en": "Official corridor reference ↗",
+    "gl": "Referencia oficial do corredor ↗"
+  },
+  "recorrido conceptual completo": {
+    "en": "full conceptual route",
+    "gl": "percorrido conceptual completo"
+  },
+  "accesos sobre vías existentes": {
+    "en": "approaches on existing tracks",
+    "gl": "accesos sobre vías existentes"
+  },
+  "tramo nuevo por estudiar": {
+    "en": "new section to study",
+    "gl": "treito novo por estudar"
+  },
+  "Descartada en los controles": {
+    "en": "Rejected by the checks",
+    "gl": "Descartada nos controis"
+  },
+  "Alternativa utilizada en el escenario. Debajo: servicio completo.": {
+    "en": "Option used in the scenario. Full service shown below.",
+    "gl": "Alternativa usada no escenario. Debaixo: servizo completo."
+  },
+  "Alternativa de comparación; no cambia los horarios. Animación oculta. Debajo: servicio del escenario activo.": {
+    "en": "Comparison option; timetables are unchanged. Animation hidden. The active scenario service is shown below.",
+    "gl": "Alternativa de comparación; non cambia os horarios. Animación oculta. Debaixo: servizo do escenario activo."
+  },
+  "relación gallega comparable mejora a esta hora; sentidos diferenciados.": {
+    "en": "comparable Galician city pair improves at this time; directions counted separately.",
+    "gl": "relación galega comparable mellora a esta hora; sentidos diferenciados."
+  },
+  "relaciones gallegas comparables mejoran a esta hora; sentidos diferenciados.": {
+    "en": "comparable Galician city pairs improve at this time; directions counted separately.",
+    "gl": "relacións galegas comparables melloran a esta hora; sentidos diferenciados."
+  },
+  "mediana de reducción del tiempo total entre esas relaciones, sin ponderar por viajeros.": {
+    "en": "median reduction in total journey time for those city pairs, not weighted by passengers.",
+    "gl": "mediana de redución do tempo total nesas relacións, sen ponderar por viaxeiros."
+  },
+  "suma de recorridos estudiados, incluidos accesos existentes; sin deduplicar posibles tramos comunes. No es longitud de obra presupuestada.": {
+    "en": "sum of studied routes, including existing approaches; shared sections are not deduplicated. This is not a budgeted construction length.",
+    "gl": "suma de percorridos estudados, incluídos accesos existentes; non se eliminan posibles treitos compartidos. Non é lonxitude de obra orzada."
+  },
+  "El GTFS puede contener productos comerciales que comparten tren físico; no se deduce una flota de su recuento.": {
+    "en": "GTFS may list commercial services that share the same physical train; the number of trains cannot be inferred from this count.",
+    "gl": "O GTFS pode incluír servizos comerciais que comparten tren físico; non se pode deducir unha frota do seu reconto."
+  },
+  "Expediciones propuestas al día, ambos sentidos. Se conserva aparte la oferta de referencia.": {
+    "en": "Proposed daily departures, both directions. Reference services are shown separately.",
+    "gl": "Expedicións propostas por día, nos dous sentidos. A oferta de referencia consérvase á parte."
+  },
+  "Horas-tren propuestas dentro del modelo, sin vacíos ni reservas.": {
+    "en": "Proposed train-hours in the model, excluding dead running and spare units.",
+    "gl": "Horas-tren propostas no modelo, sen baleiros nin reservas."
+  },
+  "Unidades teóricas con flotas separadas por línea y 15 min por cabecera. Sin reserva ni comprobación de gráficos de material.": {
+    "en": "Theoretical trainsets with separate fleets by line and 15 min at each terminus. No spare units or rolling-stock diagrams checked.",
+    "gl": "Unidades teóricas con frotas separadas por liña e 15 min en cada cabeceira. Sen reservas nin comprobación dos gráficos de material."
+  },
+  "Frecuencia regular significa salir a intervalos repetidos. No implica que la red esté optimizada: ajustar salidas no valida la demanda, la capacidad ni los gráficos de material.": {
+    "en": "Regular frequency means repeating departure intervals. It does not mean the network is optimal: adjusting departures does not validate demand, capacity or rolling-stock diagrams.",
+    "gl": "Frecuencia regular significa saír a intervalos repetidos. Non implica unha rede óptima: axustar saídas non valida a demanda, a capacidade nin os gráficos de material."
+  },
+  "12/11/2026: expediciones del GTFS, no circulación observada. Celta excluido del cálculo ferroviario por sustitución con autobús Vigo–Valença.": {
+    "en": "12 Nov 2026: GTFS trips, not observed operations. Celta is excluded from the rail calculation because a replacement bus runs Vigo–Valença.",
+    "gl": "12/11/2026: expedicións do GTFS, non circulación observada. O Celta exclúese do cálculo ferroviario polo autobús substitutorio Vigo–Valença."
+  },
+  "Refuerzos con tiempos de perfiles publicados e intervalos regulares. Requieren capacidad, material y restauración del servicio ferroviario Vigo–Valença.": {
+    "en": "Additional services use published running-time profiles and regular intervals. They require capacity, rolling stock and restoration of the Vigo–Valença rail service.",
+    "gl": "Os reforzos usan tempos de perfís publicados e intervalos regulares. Precisan capacidade, material e restaurar o servizo ferroviario Vigo–Valença."
+  },
+  "Escenario exploratorio con trazados y tiempos coherentes entre sí. Tramos nuevos con marcha preliminar; accesos con media supuesta de 80 km/h. No es un proyecto aprobado ni un horario comercial.": {
+    "en": "Exploratory scenario with matching alignments and running times. New sections have preliminary times; reused approaches assume an 80 km/h average. This is not an approved project or a commercial timetable.",
+    "gl": "Escenario exploratorio con trazados e tempos coherentes. Os treitos novos teñen marchas preliminares; os accesos supoñen unha media de 80 km/h. Non é un proxecto aprobado nin un horario comercial."
+  },
+  "Propuesta propia · estimación preliminar, no proyecto aprobado": {
+    "en": "Original proposal · preliminary estimate, not an approved project",
+    "gl": "Proposta propia · estimación preliminar, non proxecto aprobado"
+  },
+  "Nueva infraestructura, accesos, electrificación, señalización y estructuras. Demanda, costes, geotecnia y capacidad sin validar.": {
+    "en": "New infrastructure, approaches, electrification, signalling and structures. Demand, costs, ground conditions and capacity are unverified.",
+    "gl": "Nova infraestrutura, accesos, electrificación, sinalización e estruturas. Demanda, custos, xeotecnia e capacidade sen validar."
+  },
+  "Tramo nuevo: envolvente cinemática hasta 250 km/h, radio y rasante condicionantes. Accesos: media supuesta de 80 km/h. No son velocidades autorizadas ni simulación validada de material.": {
+    "en": "New section: simplified speed model capped at 250 km/h, constrained by curves and gradients. Approaches assume an 80 km/h average. These are neither authorised speeds nor validated rolling-stock simulations.",
+    "gl": "Treito novo: modelo simplificado cun límite de 250 km/h, condicionado por curvas e pendentes. Os accesos supoñen 80 km/h de media. Non son velocidades autorizadas nin unha simulación validada do material."
+  },
+  "Sensibilidad a 200 km/h en el comparador de alternativas": {
+    "en": "Sensitivity at 200 km/h in the options comparison",
+    "gl": "Sensibilidade a 200 km/h no comparador de alternativas"
+  },
+  "Separar la conexión rápida entre ciudades del Cercanías que atiende las poblaciones intermedias.": {
+    "en": "Separate the fast intercity link from the suburban service to intermediate towns.",
+    "gl": "Separar a conexión rápida entre cidades do servizo de proximidade ás vilas intermedias."
+  },
+  "Acercar Lugo a A Coruña mediante una alternativa interior, manteniendo los regionales sobre la red actual.": {
+    "en": "Bring Lugo closer to A Coruña through an inland option, while keeping regional services on the current network.",
+    "gl": "Achegar Lugo á Coruña mediante unha alternativa interior, mantendo os rexionais na rede actual."
+  },
+  "Conectar Lugo con Santiago y, por la red existente, con Ourense y el Eixo Atlántico.": {
+    "en": "Link Lugo with Santiago and, through existing lines, with Ourense and the Atlantic axis.",
+    "gl": "Conectar Lugo con Santiago e, pola rede existente, con Ourense e o Eixo Atlántico."
+  },
+  "Nueva conexión hacia Pontevedra y aprovechamiento del Eixo Atlántico hasta Vigo; se mantiene el regional del Miño.": {
+    "en": "New link towards Pontevedra, continuing on the Atlantic axis to Vigo; the Miño regional service remains.",
+    "gl": "Nova conexión cara a Pontevedra e continuidade polo Eixo Atlántico ata Vigo; mantense o rexional do Miño."
+  },
+  "Continuidad internacional rápida, complementaria al regional por Viana do Castelo.": {
+    "en": "Fast international connection alongside the regional service via Viana do Castelo.",
+    "gl": "Conexión internacional rápida complementaria ao rexional por Viana do Castelo."
+  },
+  "Dar al eje interior una conexión propia; se conserva el regional por Sarria y Monforte.": {
+    "en": "Give the inland axis a direct link while retaining the regional service via Sarria and Monforte.",
+    "gl": "Darlle ao eixe interior unha conexión propia; consérvase o rexional por Sarria e Monforte."
+  },
+  "Accesos existentes de A Coruña y Ferrol; variante terrestre entre ellos.": {
+    "en": "Existing approaches at A Coruña and Ferrol; a land-based alternative between them.",
+    "gl": "Accesos existentes na Coruña e Ferrol; variante terrestre entre eles."
+  },
+  "Acceso de A Coruña compartido con Ferrol; entrada de Lugo por su corredor norte.": {
+    "en": "A Coruña approach shared with Ferrol; entry to Lugo through its northern corridor.",
+    "gl": "Acceso da Coruña compartido con Ferrol; entrada a Lugo polo corredor norte."
+  },
+  "Búsqueda con radio mínimo de 1.500 m y tangentes de acceso. Propuesta propia, no proyecto oficial.": {
+    "en": "Search with a 1,500 m minimum radius and approach tangents. Original proposal, not an official project.",
+    "gl": "Busca cun radio mínimo de 1.500 m e tanxentes de acceso. Proposta propia, non proxecto oficial."
+  },
+  "Búsqueda con radio mínimo de 1.500 m y tangentes de acceso. Acceso norte de Pontevedra reducido a 3 km; afección urbana por estudiar. Propuesta propia, no proyecto oficial.": {
+    "en": "Search with a 1,500 m minimum radius and approach tangents. The north Pontevedra approach is shortened to 3 km; urban effects need study. Original proposal, not an official project.",
+    "gl": "Busca cun radio mínimo de 1.500 m e tanxentes de acceso. O acceso norte de Pontevedra redúcese a 3 km; falta estudar a afección urbana. Proposta propia, non proxecto oficial."
+  },
+  "Búsqueda con radio mínimo de 1.500 m y tangentes de acceso. Braga: referencia de estación futura y tangente compartida entre ambos tramos; no estación existente acreditada.": {
+    "en": "Search with a 1,500 m minimum radius and approach tangents. Braga is a future-station reference point with a shared tangent between sections; no existing station is verified.",
+    "gl": "Busca cun radio mínimo de 1.500 m e tanxentes de acceso. Braga é unha referencia da futura estación cunha tanxente compartida; non se acredita unha estación existente."
+  },
+  "Corredor de relieve equilibrado": {
+    "en": "Balanced terrain corridor",
+    "gl": "Corredor de relevo equilibrado"
+  },
+  "Corredor con mayor penalización del relieve": {
+    "en": "Corridor with stronger relief penalty",
+    "gl": "Corredor con maior penalización do relevo"
+  },
+  "Variante con prioridad a distancia y mayor exigencia de obra": {
+    "en": "Distance-first option with greater construction demands",
+    "gl": "Variante con prioridade á distancia e maior esixencia de obra"
+  },
+  "Radio mínimo 1.5 km · peso de relieve 0.3": {
+    "en": "Minimum radius 1.5 km · relief weight 0.3",
+    "gl": "Radio mínimo 1,5 km · peso do relevo 0,3"
+  },
+  "Radio mínimo 1.5 km · peso de relieve 1.5": {
+    "en": "Minimum radius 1.5 km · relief weight 1.5",
+    "gl": "Radio mínimo 1,5 km · peso do relevo 1,5"
+  },
+  "COMPÁS Atlántico · Menos rodeos, más conexiones": {
+    "en": "COMPÁS Atlántico · Fewer detours, better connections",
+    "gl": "COMPÁS Atlántico · Menos rodeos, máis conexións"
+  },
+  "Origen ↓": {
+    "en": "Origin ↓",
+    "gl": "Orixe ↓"
+  },
+  "Destino →": {
+    "en": "Destination →",
+    "gl": "Destino →"
+  },
+  "Braga · referencia urbana": {
+    "en": "Braga · urban reference point",
+    "gl": "Braga · referencia urbana"
+  },
+  "Horarios: Renfe GTFS · aviso de obras: CP · vías: IGN / © OpenStreetMap contributors, Geofabrik · contexto: IGN BDDAE y Natural Earth · relieve: Mapzen Terrain Tiles, Copernicus EU-DEM / USGS / NOAA. Proyección ETRS89 / UTM 29N. Horarios de referencia: 12 noviembre 2026. Edición: 19 noviembre 2026.": {
+    "en": "Timetables: Renfe GTFS · works notice: CP · tracks: IGN / © OpenStreetMap contributors, Geofabrik · context: IGN BDDAE and Natural Earth · relief: Mapzen Terrain Tiles, Copernicus EU-DEM / USGS / NOAA. Projection: ETRS89 / UTM 29N. Reference timetables: 12 November 2026. Edition: 19 November 2026.",
+    "gl": "Horarios: Renfe GTFS · aviso de obras: CP · vías: IGN / © OpenStreetMap contributors, Geofabrik · contexto: IGN BDDAE e Natural Earth · relevo: Mapzen Terrain Tiles, Copernicus EU-DEM / USGS / NOAA. Proxección: ETRS89 / UTM 29N. Horarios de referencia: 12 novembro 2026. Edición: 19 novembro 2026."
+  }
+}

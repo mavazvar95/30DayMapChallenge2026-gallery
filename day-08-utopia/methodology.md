@@ -33,3 +33,7 @@ Faltan geotecnia, coste, demanda, impacto territorial y ambiental, capacidad, ap
 ## Reproducción y QA
 
 Ejecutar con el entorno GIS del proyecto: `python design.py`, `python model.py`, `python build.py`, `python coordinate.py`, `python validate.py`. Para comprobación visual, servir la raíz del repositorio por HTTP en el puerto 8094 y ejecutar `node check.cjs`, `node check_interactions.cjs`, `node media.cjs`, `node record.cjs`, `python export_video.py`. Archivos de control: `design-report.json`, `validation.json`, `browser-qa.json`, `interaction-qa.json` y `visual-review.json`.
+
+## Idiomas del atlas
+
+El HTML comparte el mismo dataset y cálculo en ES, GL y EN. El selector cambia el texto de la interfaz y conserva la elección en la URL (`?lang=gl` o `?lang=en`). La traducción no altera rutas, tiempos ni fuentes. `translations.json` contiene las traducciones editoriales y `language-qa.json` documenta las pruebas de cambio de idioma, comparador y enlaces directos. Los informes técnicos siguen en castellano.

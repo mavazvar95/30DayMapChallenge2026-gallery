@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "languages": [
+    "es",
+    "gl",
+    "en"
+  ],
+  "checks": [
+    "deep link and refresh",
+    "static copy",
+    "dynamic scenario note",
+    "dynamic route comparison",
+    "journey updates",
+    "round trip and URL",
+    "seven corridor selectors"
+  ],
+  "errors": []
+}
